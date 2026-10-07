@@ -468,7 +468,7 @@ function logSVG(i){
   });
   g += `<text x="${x0+cw+8}" y="${top+dep*sc+3}" font-size="10" fill="#7B8794">${dep.toFixed(2).replace('.',',')}</text>`;
   // apă
-  if (i.NH!=null){ const y=top+i.NH*sc; g += `<polygon points="${x0+cw+30},${y-9} ${x0+cw+38},${y} ${x0+cw+22},${y}" fill="#1F8FD8"/><line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1.5" stroke-dasharray="4 3"/><text x="${x0+cw+44}" y="${y+4}" font-size="11" fill="#1F8FD8" font-weight="600">NH ${n2(i.NH)} m</text>`; }
+  if (i.NH!=null){ const y=top+i.NH*sc, ty = i.NH>=dep-0.2 ? y-8 : y+4; g += `<polygon points="${x0+cw+30},${y-9} ${x0+cw+38},${y} ${x0+cw+22},${y}" fill="#1F8FD8"/><line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1.5" stroke-dasharray="4 3"/><text x="${x0+cw+44}" y="${ty}" font-size="11" fill="#1F8FD8" font-weight="600">NH ${n2(i.NH)} m</text>`; }
   if (i.IN!=null){ const y=top+i.IN*sc; g += `<line x1="${x0-4}" y1="${y}" x2="${x0+cw+40}" y2="${y}" stroke="#1F8FD8" stroke-width="1" stroke-dasharray="2 3"/><text x="${x0+cw+44}" y="${y+4}" font-size="10.5" fill="#1F8FD8">infiltrație ${n2(i.IN)} m</text>`; }
   // probe
   i.probe.forEach(p => { const y=top+p.adancime*sc; g += `<rect x="${x0-6}" y="${y-5}" width="10" height="10" fill="#F28C00" stroke="#fff" stroke-width="1.2" transform="rotate(45 ${x0-1} ${y})"/>`; });
