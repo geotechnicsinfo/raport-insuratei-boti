@@ -1,0 +1,8675 @@
+{
+ "proiect": {
+  "titlu": "Investigații geotehnice Faza I – UAT Însurăței",
+  "beneficiar_lucrare": "Parc eolian – UAT Însurăței, jud. Brăila",
+  "amplasament": "Însurăței, județul Brăila",
+  "executant": "SC BBCGEOTECHNIC SRL",
+  "tip_lucrari": "Foraje drumuri de acces/exploatare (Fr) și sondaje deschise – dezveliri drumuri (D), adâncime 4,00 m",
+  "perioada": {
+   "de_la": "2026-09-23",
+   "pana_la": "2026-09-30"
+  },
+  "generat": "2026-10-07"
+ },
+ "investigatii": [
+  {
+   "id": "D67",
+   "tip": "dezvelire",
+   "nr": 67,
+   "eticheta": "Sondaj deschis (dezvelire) D67",
+   "data": "2026-09-29",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'43.5\"",
+    "E 027°34'08.4\""
+   ],
+   "lat": 44.862083,
+   "lon": 27.569,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D67",
+    "lat": 44.86201058,
+    "lon": 27.56901583,
+    "stereo70": {
+     "E": 703116.068,
+     "N": 376825.009
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt34)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt34",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1,
+     "la": 2.2,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 2.2,
+     "la": 2.8,
+     "descriere": "praf argilos gălbui, slab nisipos, consistent"
+    },
+    {
+     "de": 2.8,
+     "la": 3.4,
+     "descriere": "praf nisipos gălbui, consistent, slab umed"
+    },
+    {
+     "de": 3.4,
+     "la": 3.7,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D67/fisa.jpg",
+    "thumb": "photos/D67/t_fisa.jpg",
+    "original": "fisa D67.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D67/01.jpg",
+     "thumb": "photos/D67/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.48.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:50"
+    },
+    {
+     "src": "photos/D67/02.jpg",
+     "thumb": "photos/D67/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.481.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:50"
+    },
+    {
+     "src": "photos/D67/03.jpg",
+     "thumb": "photos/D67/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.492.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:50"
+    },
+    {
+     "src": "photos/D67/04.jpg",
+     "thumb": "photos/D67/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.493.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:50"
+    },
+    {
+     "src": "photos/D67/05.jpg",
+     "thumb": "photos/D67/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.494.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 19:50"
+    },
+    {
+     "src": "photos/D67/06.jpg",
+     "thumb": "photos/D67/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.50.495.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:50"
+    }
+   ]
+  },
+  {
+   "id": "D68",
+   "tip": "dezvelire",
+   "nr": 68,
+   "eticheta": "Sondaj deschis (dezvelire) D68",
+   "data": "2026-09-29",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'35.7\"",
+    "E 027°34'16.6\""
+   ],
+   "lat": 44.859917,
+   "lon": 27.571278,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D68",
+    "lat": 44.85987532,
+    "lon": 27.57129082,
+    "stereo70": {
+     "E": 703303.386,
+     "N": 376593.563
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1,
+     "la": 2.5,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2.5,
+     "la": 3.6,
+     "descriere": "praf argilos slab nisipos, cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D68/fisa.jpg",
+    "thumb": "photos/D68/t_fisa.jpg",
+    "original": "fisa D68.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D68/01.jpg",
+     "thumb": "photos/D68/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.52.53.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:52"
+    },
+    {
+     "src": "photos/D68/02.jpg",
+     "thumb": "photos/D68/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.52.54.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:52"
+    },
+    {
+     "src": "photos/D68/03.jpg",
+     "thumb": "photos/D68/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.52.58.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:52"
+    },
+    {
+     "src": "photos/D68/04.jpg",
+     "thumb": "photos/D68/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.52.581.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:52"
+    }
+   ]
+  },
+  {
+   "id": "D69",
+   "tip": "dezvelire",
+   "nr": 69,
+   "eticheta": "Sondaj deschis (dezvelire) D69",
+   "data": "2026-09-29",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'31.3\"",
+    "E 027°34'33.7\""
+   ],
+   "lat": 44.858694,
+   "lon": 27.576028,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D69",
+    "lat": 44.85867252,
+    "lon": 27.57606013,
+    "stereo70": {
+     "E": 703684.471,
+     "N": 376472.016
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt35)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt35",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1,
+     "la": 2.3,
+     "descriere": "praf argilos cafeniu-gălbui, tare-vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2.3,
+     "la": 3.7,
+     "descriere": "praf argilos nisipos slab, gălbui, consistent"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D69/fisa.jpg",
+    "thumb": "photos/D69/t_fisa.jpg",
+    "original": "fisa D69.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D69/01.jpg",
+     "thumb": "photos/D69/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.55.48.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:55"
+    },
+    {
+     "src": "photos/D69/02.jpg",
+     "thumb": "photos/D69/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.55.49.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:55"
+    },
+    {
+     "src": "photos/D69/03.jpg",
+     "thumb": "photos/D69/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.55.491.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:55"
+    },
+    {
+     "src": "photos/D69/04.jpg",
+     "thumb": "photos/D69/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.55.492.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:55"
+    },
+    {
+     "src": "photos/D69/05.jpg",
+     "thumb": "photos/D69/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.55.493.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:55"
+    }
+   ]
+  },
+  {
+   "id": "D70",
+   "tip": "dezvelire",
+   "nr": 70,
+   "eticheta": "Sondaj deschis (dezvelire) D70",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'26.8\"",
+    "E 027°34'50.7\""
+   ],
+   "lat": 44.857444,
+   "lon": 27.58075,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D70",
+    "lat": 44.85743557,
+    "lon": 27.58081183,
+    "stereo70": {
+     "E": 704064.302,
+     "N": 376346.653
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.9,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 1.9,
+     "la": 3.1,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    },
+    {
+     "de": 3.1,
+     "la": 3.3,
+     "descriere": "nisip fin gălbui, slab umezit"
+    },
+    {
+     "de": 3.3,
+     "la": 4,
+     "descriere": "nisip gălbui, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D70/fisa.jpg",
+    "thumb": "photos/D70/t_fisa.jpg",
+    "original": "fisa D70.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D70/01.jpg",
+     "thumb": "photos/D70/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.10.18.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:10"
+    },
+    {
+     "src": "photos/D70/02.jpg",
+     "thumb": "photos/D70/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.10.19.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:10"
+    },
+    {
+     "src": "photos/D70/03.jpg",
+     "thumb": "photos/D70/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.10.24.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:10"
+    },
+    {
+     "src": "photos/D70/04.jpg",
+     "thumb": "photos/D70/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.10.25.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 19:10"
+    },
+    {
+     "src": "photos/D70/05.jpg",
+     "thumb": "photos/D70/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.10.251.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 19:10"
+    }
+   ]
+  },
+  {
+   "id": "D72",
+   "tip": "dezvelire",
+   "nr": 72,
+   "eticheta": "Sondaj deschis (dezvelire) D72",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'20.44\"",
+    "E 027°35'16.5\""
+   ],
+   "lat": 44.855678,
+   "lon": 27.587917,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D72",
+    "lat": 44.85560023,
+    "lon": 27.58794976,
+    "stereo70": {
+     "E": 704634.827,
+     "N": 376160.908
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 2,
+     "descriere": "praf argilos negru, tare"
+    },
+    {
+     "de": 2,
+     "la": 2.6,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 2.6,
+     "la": 3.7,
+     "descriere": "praf argilos gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "praf argilos nisipos gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D72/fisa.jpg",
+    "thumb": "photos/D72/t_fisa.jpg",
+    "original": "fisa D72.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/D72/01.jpg",
+     "thumb": "photos/D72/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.15.10.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:15"
+    },
+    {
+     "src": "photos/D72/02.jpg",
+     "thumb": "photos/D72/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.15.11.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:15"
+    },
+    {
+     "src": "photos/D72/03.jpg",
+     "thumb": "photos/D72/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.15.111.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:15"
+    },
+    {
+     "src": "photos/D72/04.jpg",
+     "thumb": "photos/D72/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.15.112.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:15"
+    },
+    {
+     "src": "photos/D72/05.jpg",
+     "thumb": "photos/D72/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.15.123.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:15"
+    }
+   ]
+  },
+  {
+   "id": "D86",
+   "tip": "dezvelire",
+   "nr": 86,
+   "eticheta": "Sondaj deschis (dezvelire) D86",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "NH=4.0m",
+   "NH": 4.0,
+   "IN": 3.2,
+   "gps_dms": [
+    "N 44°51'56.4\"",
+    "E 027°33'39.2\""
+   ],
+   "lat": 44.865667,
+   "lon": 27.560889,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D86",
+    "lat": 44.86554064,
+    "lon": 27.59425676,
+    "stereo70": {
+     "E": 705097.52,
+     "N": 377281.175
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.7,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1.7,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 2,
+     "la": 3,
+     "descriere": "praf argilos gălbui, consistent-moale, umed"
+    },
+    {
+     "de": 3,
+     "la": 3.2,
+     "descriere": "praf argilos gălbui, umed, slab nisipos"
+    },
+    {
+     "de": 3.2,
+     "la": 3.6,
+     "descriere": "praf nisipos gălbui, umed"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "nisip fin gălbui, umed"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D86/fisa.jpg",
+    "thumb": "photos/D86/t_fisa.jpg",
+    "original": "FISA D86.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D86/01.jpg",
+     "thumb": "photos/D86/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.30.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:51"
+    },
+    {
+     "src": "photos/D86/02.jpg",
+     "thumb": "photos/D86/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.301.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:51"
+    },
+    {
+     "src": "photos/D86/03.jpg",
+     "thumb": "photos/D86/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.302.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:51"
+    },
+    {
+     "src": "photos/D86/04.jpg",
+     "thumb": "photos/D86/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.303.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:51"
+    },
+    {
+     "src": "photos/D86/05.jpg",
+     "thumb": "photos/D86/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.304.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:51"
+    },
+    {
+     "src": "photos/D86/06.jpg",
+     "thumb": "photos/D86/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.51.305.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:51"
+    }
+   ]
+  },
+  {
+   "id": "D87",
+   "tip": "dezvelire",
+   "nr": 87,
+   "eticheta": "Sondaj deschis (dezvelire) D87",
+   "data": "2026-09-26",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'00.0\"",
+    "E 027°35'22.1\""
+   ],
+   "lat": 44.866667,
+   "lon": 27.589472,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D87",
+    "lat": 44.86669185,
+    "lon": 27.58946179,
+    "stereo70": {
+     "E": 704714.609,
+     "N": 377396.842
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt44)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt44",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 2,
+     "la": 2.3,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 2.3,
+     "la": 2.7,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 2.7,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D87/fisa.jpg",
+    "thumb": "photos/D87/t_fisa.jpg",
+    "original": "FISA D87.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D87/01.jpg",
+     "thumb": "photos/D87/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.32.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 20:21"
+    },
+    {
+     "src": "photos/D87/02.jpg",
+     "thumb": "photos/D87/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.33.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:21"
+    },
+    {
+     "src": "photos/D87/03.jpg",
+     "thumb": "photos/D87/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.331.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:21"
+    },
+    {
+     "src": "photos/D87/04.jpg",
+     "thumb": "photos/D87/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.332.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:21"
+    },
+    {
+     "src": "photos/D87/05.jpg",
+     "thumb": "photos/D87/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.34.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:21"
+    },
+    {
+     "src": "photos/D87/06.jpg",
+     "thumb": "photos/D87/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.21.341.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 20:21"
+    }
+   ]
+  },
+  {
+   "id": "D88",
+   "tip": "dezvelire",
+   "nr": 88,
+   "eticheta": "Sondaj deschis (dezvelire) D88",
+   "data": "2026-09-26",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'04.3\"",
+    "E 027°35'04.7\""
+   ],
+   "lat": 44.867861,
+   "lon": 27.584639,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D88",
+    "lat": 44.86784307,
+    "lon": 27.58466672,
+    "stereo70": {
+     "E": 704331.704,
+     "N": 377512.531
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1,
+     "la": 1.5,
+     "descriere": "praf argilos gălbui, vârtos"
+    },
+    {
+     "de": 1.5,
+     "la": 1.8,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 1.8,
+     "la": 3.5,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 3.5,
+     "la": 4,
+     "descriere": "nisip fin cafeniu-gălbui, umed"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D88/fisa.jpg",
+    "thumb": "photos/D88/t_fisa.jpg",
+    "original": "fisa D88.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D88/01.jpg",
+     "thumb": "photos/D88/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.02.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    },
+    {
+     "src": "photos/D88/02.jpg",
+     "thumb": "photos/D88/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.021.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    },
+    {
+     "src": "photos/D88/03.jpg",
+     "thumb": "photos/D88/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.022.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    },
+    {
+     "src": "photos/D88/04.jpg",
+     "thumb": "photos/D88/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.023.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    },
+    {
+     "src": "photos/D88/05.jpg",
+     "thumb": "photos/D88/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.044.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    },
+    {
+     "src": "photos/D88/06.jpg",
+     "thumb": "photos/D88/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.02.045.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:02"
+    }
+   ]
+  },
+  {
+   "id": "D89",
+   "tip": "dezvelire",
+   "nr": 89,
+   "eticheta": "Sondaj deschis (dezvelire) D89",
+   "data": "2026-09-26",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'09.5\"",
+    "E 027°34'47.6\""
+   ],
+   "lat": 44.869306,
+   "lon": 27.579889,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D89",
+    "lat": 44.86901517,
+    "lon": 27.57988627,
+    "stereo70": {
+     "E": 703949.894,
+     "N": 377630.6
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt45)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt45",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1.15,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1.15,
+     "la": 2.1,
+     "descriere": "praf argilos cafeniu-gălbui, cu concrețiuni calcaroase, moale"
+    },
+    {
+     "de": 2.1,
+     "la": 3.3,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    },
+    {
+     "de": 3.3,
+     "la": 4,
+     "descriere": "nisip fin gălbui, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D89/fisa.jpg",
+    "thumb": "photos/D89/t_fisa.jpg",
+    "original": "FISA D89.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D89/01.jpg",
+     "thumb": "photos/D89/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.54.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/D89/02.jpg",
+     "thumb": "photos/D89/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.541.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/D89/03.jpg",
+     "thumb": "photos/D89/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.55.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/D89/04.jpg",
+     "thumb": "photos/D89/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.56.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/D89/05.jpg",
+     "thumb": "photos/D89/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.561.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/D89/06.jpg",
+     "thumb": "photos/D89/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.572.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    }
+   ]
+  },
+  {
+   "id": "D91",
+   "tip": "dezvelire",
+   "nr": 91,
+   "eticheta": "Sondaj deschis (dezvelire) D91",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'30.6\"",
+    "E 027°34'49.0\""
+   ],
+   "lat": 44.875167,
+   "lon": 27.580278,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D91",
+    "lat": 44.87514689,
+    "lon": 27.57806164,
+    "stereo70": {
+     "E": 703783.915,
+     "N": 378307.106
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt46)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt46",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.2,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos-tare"
+    },
+    {
+     "de": 1.2,
+     "la": 2.1,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 2.1,
+     "la": 2.9,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 2.9,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D91/fisa.jpg",
+    "thumb": "photos/D91/t_fisa.jpg",
+    "original": "FISA D91.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D91/01.jpg",
+     "thumb": "photos/D91/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.07.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/02.jpg",
+     "thumb": "photos/D91/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.071.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/03.jpg",
+     "thumb": "photos/D91/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.072.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/04.jpg",
+     "thumb": "photos/D91/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.08.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/05.jpg",
+     "thumb": "photos/D91/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.081.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/06.jpg",
+     "thumb": "photos/D91/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.082.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    },
+    {
+     "src": "photos/D91/07.jpg",
+     "thumb": "photos/D91/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.39.083.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:39"
+    }
+   ]
+  },
+  {
+   "id": "D92",
+   "tip": "dezvelire",
+   "nr": 92,
+   "eticheta": "Sondaj deschis (dezvelire) D92",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'26.8\"",
+    "E 027°34'58.3\""
+   ],
+   "lat": 44.874111,
+   "lon": 27.582861,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D92",
+    "lat": 44.87409755,
+    "lon": 27.58290333,
+    "stereo70": {
+     "E": 704170.081,
+     "N": 378202.819
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.2,
+     "la": 0.6,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 0.6,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos-tare"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "(stat - macroporic) praf argilos gălbui (loess), vârtos"
+    },
+    {
+     "de": 2,
+     "la": 2.1,
+     "descriere": "praf argilos gălbui (loess), slab nisipos"
+    },
+    {
+     "de": 2.1,
+     "la": 3.2,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 3.2,
+     "la": 4,
+     "descriere": "nisip gălbui-roșiatic"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/D92/fisa.jpg",
+    "thumb": "photos/D92/t_fisa.jpg",
+    "original": "fisa F92.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D92/01.jpg",
+     "thumb": "photos/D92/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.01.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:56"
+    },
+    {
+     "src": "photos/D92/02.jpg",
+     "thumb": "photos/D92/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.011.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:56"
+    },
+    {
+     "src": "photos/D92/03.jpg",
+     "thumb": "photos/D92/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.02.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:56"
+    },
+    {
+     "src": "photos/D92/04.jpg",
+     "thumb": "photos/D92/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.021.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:56"
+    },
+    {
+     "src": "photos/D92/05.jpg",
+     "thumb": "photos/D92/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.022.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:56"
+    },
+    {
+     "src": "photos/D92/06.jpg",
+     "thumb": "photos/D92/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.56.023.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:56"
+    }
+   ]
+  },
+  {
+   "id": "D93",
+   "tip": "dezvelire",
+   "nr": 93,
+   "eticheta": "Sondaj deschis (dezvelire) D93",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [],
+   "lat": 44.87295601,
+   "lon": 27.58770445,
+   "coord_sursa": "punct proiectat (fără GPS în fișă)",
+   "proiectat": {
+    "id": "D93",
+    "lat": 44.87295601,
+    "lon": 27.58770445,
+    "stereo70": {
+     "E": 704553.385,
+     "N": 378088.211
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt47)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt47",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.15,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1.15,
+     "la": 3,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 3,
+     "la": 3.2,
+     "descriere": "praf argilos gălbui, vârtos, cu praf calcaros"
+    },
+    {
+     "de": 3.2,
+     "la": 4,
+     "descriere": "praf argilos gălbui, slab nisipos, cu nuanțe cenușii și cărămizii"
+    },
+    {
+     "de": 4,
+     "la": null,
+     "descriere": "praf nisipos cu nuanțe cărămizii-cenușii"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D93/fisa.jpg",
+    "thumb": "photos/D93/t_fisa.jpg",
+    "original": "FISA D93.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D93/01.jpg",
+     "thumb": "photos/D93/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.21.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/02.jpg",
+     "thumb": "photos/D93/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.211.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/03.jpg",
+     "thumb": "photos/D93/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.222.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/04.jpg",
+     "thumb": "photos/D93/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.223.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/05.jpg",
+     "thumb": "photos/D93/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.224.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/06.jpg",
+     "thumb": "photos/D93/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.225.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:49"
+    },
+    {
+     "src": "photos/D93/07.jpg",
+     "thumb": "photos/D93/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.49.236.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:49"
+    }
+   ]
+  },
+  {
+   "id": "D94",
+   "tip": "dezvelire",
+   "nr": 94,
+   "eticheta": "Sondaj deschis (dezvelire) D94",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'18.4\"",
+    "E 027°35'32.7\""
+   ],
+   "lat": 44.871778,
+   "lon": 27.592417,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D94",
+    "lat": 44.87178834,
+    "lon": 27.59248204,
+    "stereo70": {
+     "E": 704934.939,
+     "N": 377970.663
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 0.6,
+     "descriere": "praf argilos cafeniu, tare-vârtos, (stat) macroporic"
+    },
+    {
+     "de": 0.6,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 1,
+     "la": 1.9,
+     "descriere": "praf argilos gălbui, vârtos"
+    },
+    {
+     "de": 1.9,
+     "la": 2.2,
+     "descriere": "praf argilos gălbui, slab nisipos, vârtos"
+    },
+    {
+     "de": 2.2,
+     "la": 2.6,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 2.6,
+     "la": 3,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 0.3,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/D94/fisa.jpg",
+    "thumb": "photos/D94/t_fisa.jpg",
+    "original": "FISA D94.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D94/01.jpg",
+     "thumb": "photos/D94/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.40.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/02.jpg",
+     "thumb": "photos/D94/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.401.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/03.jpg",
+     "thumb": "photos/D94/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.402.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/04.jpg",
+     "thumb": "photos/D94/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.41.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/05.jpg",
+     "thumb": "photos/D94/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.411.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/06.jpg",
+     "thumb": "photos/D94/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.412.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    },
+    {
+     "src": "photos/D94/07.jpg",
+     "thumb": "photos/D94/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.40.413.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:40"
+    }
+   ]
+  },
+  {
+   "id": "D95",
+   "tip": "dezvelire",
+   "nr": 95,
+   "eticheta": "Sondaj deschis (dezvelire) D95",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'14.2\"",
+    "E 027°35'50.0\""
+   ],
+   "lat": 44.870611,
+   "lon": 27.597222,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D95",
+    "lat": 44.87060232,
+    "lon": 27.59726169,
+    "stereo70": {
+     "E": 705316.737,
+     "N": 377851.104
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt48)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt48",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.2,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1.2,
+     "la": 2.7,
+     "descriere": "praf argilos gălbui (loess), consistent"
+    },
+    {
+     "de": 2.7,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, cu nuanțe cărămizii și cenușii, consistent-moale"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D95/fisa.jpg",
+    "thumb": "photos/D95/t_fisa.jpg",
+    "original": "FISA D95.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D95/01.jpg",
+     "thumb": "photos/D95/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    },
+    {
+     "src": "photos/D95/02.jpg",
+     "thumb": "photos/D95/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.141.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    },
+    {
+     "src": "photos/D95/03.jpg",
+     "thumb": "photos/D95/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.15.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    },
+    {
+     "src": "photos/D95/04.jpg",
+     "thumb": "photos/D95/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.151.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    },
+    {
+     "src": "photos/D95/05.jpg",
+     "thumb": "photos/D95/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.152.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    },
+    {
+     "src": "photos/D95/06.jpg",
+     "thumb": "photos/D95/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.48.153.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:48"
+    }
+   ]
+  },
+  {
+   "id": "F67",
+   "tip": "foraj",
+   "nr": 67,
+   "eticheta": "Foraj F67",
+   "data": "2026-09-29",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'37.8\"",
+    "E 027°34'08.0\""
+   ],
+   "lat": 44.8605,
+   "lon": 27.568889,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr67",
+    "lat": 44.8604851,
+    "lon": 27.56890871,
+    "stereo70": {
+     "E": 703113.02,
+     "N": 376655.283
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu negricios"
+    },
+    {
+     "de": 1,
+     "la": 2.1,
+     "descriere": "praf argilos cafeniu-gălbui, tare-vârtos"
+    },
+    {
+     "de": 2.1,
+     "la": 3.1,
+     "descriere": "praf argilos gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 3.1,
+     "la": 3.2,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 3.2,
+     "la": 4,
+     "descriere": "nisip fin gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F67/fisa.jpg",
+    "thumb": "photos/F67/t_fisa.jpg",
+    "original": "fisa F67.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F67/01.jpg",
+     "thumb": "photos/F67/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.49.48.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:49"
+    },
+    {
+     "src": "photos/F67/02.jpg",
+     "thumb": "photos/F67/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.49.49.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 19:49"
+    },
+    {
+     "src": "photos/F67/03.jpg",
+     "thumb": "photos/F67/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.49.491.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 19:49"
+    },
+    {
+     "src": "photos/F67/04.jpg",
+     "thumb": "photos/F67/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.49.50.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:49"
+    },
+    {
+     "src": "photos/F67/05.jpg",
+     "thumb": "photos/F67/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.49.501.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:49"
+    }
+   ]
+  },
+  {
+   "id": "F68",
+   "tip": "foraj",
+   "nr": 68,
+   "eticheta": "Foraj F68",
+   "data": "2026-09-29",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'33.3\"",
+    "E 027°34'25.3\""
+   ],
+   "lat": 44.85925,
+   "lon": 27.573694,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr68",
+    "lat": 44.85927397,
+    "lon": 27.5736739,
+    "stereo70": {
+     "E": 703493.802,
+     "N": 376532.788
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1,
+     "la": 2.1,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2.1,
+     "la": 3.15,
+     "descriere": "praf argilos gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 3.15,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent (la 3,60 m: slab umezit)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F68/fisa.jpg",
+    "thumb": "photos/F68/t_fisa.jpg",
+    "original": "fisa F68.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F68/01.jpg",
+     "thumb": "photos/F68/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.05.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    },
+    {
+     "src": "photos/F68/02.jpg",
+     "thumb": "photos/F68/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.10.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    },
+    {
+     "src": "photos/F68/03.jpg",
+     "thumb": "photos/F68/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.13.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    },
+    {
+     "src": "photos/F68/04.jpg",
+     "thumb": "photos/F68/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.131.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    },
+    {
+     "src": "photos/F68/05.jpg",
+     "thumb": "photos/F68/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    },
+    {
+     "src": "photos/F68/06.jpg",
+     "thumb": "photos/F68/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.54.141.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:54"
+    }
+   ]
+  },
+  {
+   "id": "F69",
+   "tip": "foraj",
+   "nr": 69,
+   "eticheta": "Foraj F69",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'29.1\"",
+    "E 027°34'42.3\""
+   ],
+   "lat": 44.858083,
+   "lon": 27.578417,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr69",
+    "lat": 44.85804581,
+    "lon": 27.57843038,
+    "stereo70": {
+     "E": 703873.972,
+     "N": 376408.403
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.4,
+     "descriere": "sol vegetal vârtos"
+    },
+    {
+     "de": 0.4,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 1,
+     "la": 1.5,
+     "descriere": "praf argilos gălbui, slab nisipos, consistent"
+    },
+    {
+     "de": 1.5,
+     "la": 1.8,
+     "descriere": "nisip prăfos gălbui, consistent"
+    },
+    {
+     "de": 1.8,
+     "la": 2,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 2,
+     "la": 4,
+     "descriere": "nisip gălbui, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F69/fisa.jpg",
+    "thumb": "photos/F69/t_fisa.jpg",
+    "original": "fisa F69.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F69/01.jpg",
+     "thumb": "photos/F69/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.53.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/02.jpg",
+     "thumb": "photos/F69/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.54.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/03.jpg",
+     "thumb": "photos/F69/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.55.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/04.jpg",
+     "thumb": "photos/F69/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.56.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/05.jpg",
+     "thumb": "photos/F69/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.561.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/06.jpg",
+     "thumb": "photos/F69/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.562.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    },
+    {
+     "src": "photos/F69/07.jpg",
+     "thumb": "photos/F69/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.08.563.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:08"
+    }
+   ]
+  },
+  {
+   "id": "F70",
+   "tip": "foraj",
+   "nr": 70,
+   "eticheta": "Foraj F70",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'24.7\"",
+    "E 027°34'59.3\""
+   ],
+   "lat": 44.856861,
+   "lon": 27.583139,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr70",
+    "lat": 44.85682587,
+    "lon": 27.58319091,
+    "stereo70": {
+     "E": 704254.448,
+     "N": 376284.963
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.4,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.4,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.8,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 1.8,
+     "la": 2.2,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent, slab umezit"
+    },
+    {
+     "de": 2.2,
+     "la": 2.5,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 2.5,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F70/fisa.jpg",
+    "thumb": "photos/F70/t_fisa.jpg",
+    "original": "fisa F70.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F70/01.jpg",
+     "thumb": "photos/F70/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.25.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    },
+    {
+     "src": "photos/F70/02.jpg",
+     "thumb": "photos/F70/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.29.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    },
+    {
+     "src": "photos/F70/03.jpg",
+     "thumb": "photos/F70/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.291.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    },
+    {
+     "src": "photos/F70/04.jpg",
+     "thumb": "photos/F70/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.30.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    },
+    {
+     "src": "photos/F70/05.jpg",
+     "thumb": "photos/F70/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.301.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    },
+    {
+     "src": "photos/F70/06.jpg",
+     "thumb": "photos/F70/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.11.302.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:11"
+    }
+   ]
+  },
+  {
+   "id": "F71",
+   "tip": "foraj",
+   "nr": 71,
+   "eticheta": "Foraj F71",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'22.6\"",
+    "E 027°35'07.9\""
+   ],
+   "lat": 44.856278,
+   "lon": 27.585528,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr71",
+    "lat": 44.85622992,
+    "lon": 27.58557816,
+    "stereo70": {
+     "E": 704445.193,
+     "N": 376224.827
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.5,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.5,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.9,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.9,
+     "la": 2.8,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 2.8,
+     "la": 4,
+     "descriere": "nisip fin cafeniu-gălbui (la 3,60 m: nisip fin slab umezit)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F71/fisa.jpg",
+    "thumb": "photos/F71/t_fisa.jpg",
+    "original": "fisa F71.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F71/01.jpg",
+     "thumb": "photos/F71/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.20.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    },
+    {
+     "src": "photos/F71/02.jpg",
+     "thumb": "photos/F71/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.21.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    },
+    {
+     "src": "photos/F71/03.jpg",
+     "thumb": "photos/F71/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.24.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    },
+    {
+     "src": "photos/F71/04.jpg",
+     "thumb": "photos/F71/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.25.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    },
+    {
+     "src": "photos/F71/05.jpg",
+     "thumb": "photos/F71/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.251.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    },
+    {
+     "src": "photos/F71/06.jpg",
+     "thumb": "photos/F71/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.13.26.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:13"
+    }
+   ]
+  },
+  {
+   "id": "F72",
+   "tip": "foraj",
+   "nr": 72,
+   "eticheta": "Foraj F72",
+   "data": "2026-09-30",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "IN=3.80m",
+   "NH": null,
+   "IN": 3.8,
+   "gps_dms": [
+    "N 44°51'18.2\"",
+    "E 027°35'25.0\""
+   ],
+   "lat": 44.855056,
+   "lon": 27.590278,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr72",
+    "lat": 44.85498184,
+    "lon": 27.59032409,
+    "stereo70": {
+     "E": 704824.641,
+     "N": 376098.258
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.9,
+     "la": 2,
+     "descriere": "praf argilos slab nisipos, consistent"
+    },
+    {
+     "de": 2,
+     "la": 3.4,
+     "descriere": "praf nisipos gălbui, consistent spre moale, slab umezit"
+    },
+    {
+     "de": 3.4,
+     "la": 4,
+     "descriere": "nisip fin umed gălbui (la 3,80 m: infiltrație apă)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F72/fisa.jpg",
+    "thumb": "photos/F72/t_fisa.jpg",
+    "original": "fisa F72.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/F72/01.jpg",
+     "thumb": "photos/F72/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.44.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    },
+    {
+     "src": "photos/F72/02.jpg",
+     "thumb": "photos/F72/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.45.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    },
+    {
+     "src": "photos/F72/03.jpg",
+     "thumb": "photos/F72/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.46.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    },
+    {
+     "src": "photos/F72/04.jpg",
+     "thumb": "photos/F72/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.47.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    },
+    {
+     "src": "photos/F72/05.jpg",
+     "thumb": "photos/F72/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.471.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    },
+    {
+     "src": "photos/F72/06.jpg",
+     "thumb": "photos/F72/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 19.16.48.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 19:16"
+    }
+   ]
+  },
+  {
+   "id": "F86",
+   "tip": "foraj",
+   "nr": 86,
+   "eticheta": "Foraj F86",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "NH=4.00m",
+   "NH": 4.0,
+   "IN": 2.2,
+   "gps_dms": [
+    "N 44°51'53.9\"",
+    "E 027°35'47.8\""
+   ],
+   "lat": 44.864972,
+   "lon": 27.596611,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr86",
+    "lat": 44.86495965,
+    "lon": 27.59665657,
+    "stereo70": {
+     "E": 705289.185,
+     "N": 377222.758
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.6,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1.6,
+     "la": 1.9,
+     "descriere": "praf argilos gălbui, consistent-moale"
+    },
+    {
+     "de": 1.9,
+     "la": 2.2,
+     "descriere": "praf nisipos gălbui, umed"
+    },
+    {
+     "de": 2.2,
+     "la": 2.5,
+     "descriere": "nisip fin gălbui (infiltrație apă)"
+    },
+    {
+     "de": 2.5,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F86/fisa.jpg",
+    "thumb": "photos/F86/t_fisa.jpg",
+    "original": "fisa f86.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F86/01.jpg",
+     "thumb": "photos/F86/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.41.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:50"
+    },
+    {
+     "src": "photos/F86/02.jpg",
+     "thumb": "photos/F86/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.411.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:50"
+    },
+    {
+     "src": "photos/F86/03.jpg",
+     "thumb": "photos/F86/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.412.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:50"
+    },
+    {
+     "src": "photos/F86/04.jpg",
+     "thumb": "photos/F86/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.413.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:50"
+    },
+    {
+     "src": "photos/F86/05.jpg",
+     "thumb": "photos/F86/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.414.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:50"
+    },
+    {
+     "src": "photos/F86/06.jpg",
+     "thumb": "photos/F86/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.50.425.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:50"
+    }
+   ]
+  },
+  {
+   "id": "F87",
+   "tip": "foraj",
+   "nr": 87,
+   "eticheta": "Foraj F87",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'58.0\"",
+    "E 027°35'30.8\""
+   ],
+   "lat": 44.866111,
+   "lon": 27.591889,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr87",
+    "lat": 44.86611508,
+    "lon": 27.59186379,
+    "stereo70": {
+     "E": 704906.424,
+     "N": 377338.887
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos gălbui, vârtos, cu calcar mărunt"
+    },
+    {
+     "de": 2,
+     "la": 2.5,
+     "descriere": "praf argilos gălbui, slab nisipos, umed"
+    },
+    {
+     "de": 2.5,
+     "la": 3.7,
+     "descriere": "praf nisipos cafeniu-gălbui, umed"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "nisip fin gălbui, umed"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F87/fisa.jpg",
+    "thumb": "photos/F87/t_fisa.jpg",
+    "original": "FISA F87.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F87/01.jpg",
+     "thumb": "photos/F87/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 21.00.39.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 21:00"
+    },
+    {
+     "src": "photos/F87/02.jpg",
+     "thumb": "photos/F87/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 21.00.391.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 21:00"
+    },
+    {
+     "src": "photos/F87/03.jpg",
+     "thumb": "photos/F87/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 21.00.392.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 21:00"
+    },
+    {
+     "src": "photos/F87/04.jpg",
+     "thumb": "photos/F87/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 21.00.393.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 21:00"
+    },
+    {
+     "src": "photos/F87/05.jpg",
+     "thumb": "photos/F87/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 14.53.16.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 14:53"
+    },
+    {
+     "src": "photos/F87/06.jpg",
+     "thumb": "photos/F87/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 14.53.161.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 14:53"
+    }
+   ]
+  },
+  {
+   "id": "F88",
+   "tip": "foraj",
+   "nr": 88,
+   "eticheta": "Foraj F88",
+   "data": "2026-09-26",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "NH=4.00m",
+   "NH": 4.0,
+   "IN": 3.0,
+   "gps_dms": [
+    "N 44°52'22.1\"",
+    "E 027°35'13.4\""
+   ],
+   "lat": 44.872806,
+   "lon": 27.587056,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr88",
+    "lat": 44.86726616,
+    "lon": 27.58706884,
+    "stereo70": {
+     "E": 704523.522,
+     "N": 377454.551
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.4,
+     "descriere": "praf argilos cafeniu tare"
+    },
+    {
+     "de": 1.4,
+     "la": 2,
+     "descriere": "praf argilos gălbui-cafeniu, consistent"
+    },
+    {
+     "de": 2,
+     "la": 2.9,
+     "descriere": "praf argilos gălbui, consistent, slab nisipos, cu nuanțe cenușii"
+    },
+    {
+     "de": 2.9,
+     "la": 3.2,
+     "descriere": "praf nisipos gălbui, consistent-moale (infiltrație apă)"
+    },
+    {
+     "de": 3.2,
+     "la": 3.7,
+     "descriere": "praf nisipos gălbui, consistent, umed, cu nuanțe cenușii"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "nisip cărămiziu"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F88/fisa.jpg",
+    "thumb": "photos/F88/t_fisa.jpg",
+    "original": "FISA F88.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/F88/01.jpg",
+     "thumb": "photos/F88/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.36.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:00"
+    },
+    {
+     "src": "photos/F88/02.jpg",
+     "thumb": "photos/F88/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.361.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:00"
+    },
+    {
+     "src": "photos/F88/03.jpg",
+     "thumb": "photos/F88/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.362.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-26 19:00"
+    },
+    {
+     "src": "photos/F88/04.jpg",
+     "thumb": "photos/F88/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.363.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-26 19:00"
+    },
+    {
+     "src": "photos/F88/05.jpg",
+     "thumb": "photos/F88/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.384.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:00"
+    },
+    {
+     "src": "photos/F88/06.jpg",
+     "thumb": "photos/F88/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.00.385.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:00"
+    }
+   ]
+  },
+  {
+   "id": "F89",
+   "tip": "foraj",
+   "nr": 89,
+   "eticheta": "Foraj F89",
+   "data": "2026-09-26",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'06.3\"",
+    "E 027°34'56.3\""
+   ],
+   "lat": 44.868417,
+   "lon": 27.582306,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr89",
+    "lat": 44.86842869,
+    "lon": 27.58227865,
+    "stereo70": {
+     "E": 704140.969,
+     "N": 377571.521
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1,
+     "la": 1.7,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.7,
+     "la": 2,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 2,
+     "la": 2.2,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 2.2,
+     "la": 2.5,
+     "descriere": "praf nisipos cafeniu-gălbui"
+    },
+    {
+     "de": 2.5,
+     "la": 4,
+     "descriere": "nisip fin gălbui (la 3,00 m: slab umed)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F89/fisa.jpg",
+    "thumb": "photos/F89/t_fisa.jpg",
+    "original": "FISA F89.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F89/01.jpg",
+     "thumb": "photos/F89/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.09.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/F89/02.jpg",
+     "thumb": "photos/F89/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.10.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/F89/03.jpg",
+     "thumb": "photos/F89/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.101.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/F89/04.jpg",
+     "thumb": "photos/F89/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.102.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-26 19:03"
+    },
+    {
+     "src": "photos/F89/05.jpg",
+     "thumb": "photos/F89/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.03.11.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:03"
+    }
+   ]
+  },
+  {
+   "id": "F90",
+   "tip": "foraj",
+   "nr": 90,
+   "eticheta": "Foraj F90",
+   "data": "2026-09-26",
+   "nota_data": "Data din fișă (2026-09-29) diferă de lista de execuție (2026-09-26); s-a reținut data din lista de execuție. Fotografiile au fost transmise pe 2026-09-26.",
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'12.6\"",
+    "E 027°34'37.0\""
+   ],
+   "lat": 44.870167,
+   "lon": 27.576944,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr90",
+    "lat": 44.86960159,
+    "lon": 27.57749383,
+    "stereo70": {
+     "E": 703758.819,
+     "N": 377689.679
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 0.6,
+     "descriere": "praf argilos negru tare"
+    },
+    {
+     "de": 0.6,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui tare (la 1,00 m: strat macroporic)"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos gălbui, vârtos"
+    },
+    {
+     "de": 2,
+     "la": 4,
+     "descriere": "praf nisipos, consistent (la 3,00 m: slab umed; strat macroporic)"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    },
+    {
+     "adancime": 3.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F90/fisa.jpg",
+    "thumb": "photos/F90/t_fisa.jpg",
+    "original": "FISA F90.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/F90/01.jpg",
+     "thumb": "photos/F90/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.48.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    },
+    {
+     "src": "photos/F90/02.jpg",
+     "thumb": "photos/F90/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.481.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    },
+    {
+     "src": "photos/F90/03.jpg",
+     "thumb": "photos/F90/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.492.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    },
+    {
+     "src": "photos/F90/04.jpg",
+     "thumb": "photos/F90/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.493.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    },
+    {
+     "src": "photos/F90/05.jpg",
+     "thumb": "photos/F90/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.494.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    },
+    {
+     "src": "photos/F90/06.jpg",
+     "thumb": "photos/F90/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-26 at 19.04.50.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-26 19:04"
+    }
+   ]
+  },
+  {
+   "id": "F91",
+   "tip": "foraj",
+   "nr": 91,
+   "eticheta": "Foraj F91",
+   "data": "2026-09-29",
+   "nota_data": "Data din fișă (2026-09-28) diferă de lista de execuție (2026-09-29); s-a reținut data din lista de execuție. Fotografiile au fost transmise pe 2026-09-29.",
+   "adancime": 4,
+   "apa": "NH=4.00m",
+   "NH": 4.0,
+   "IN": 2.2,
+   "gps_dms": [
+    "N 44°52'14.8\"",
+    "E 027°34'22.2\""
+   ],
+   "lat": 44.870778,
+   "lon": 27.572833,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr91",
+    "lat": 44.87077429,
+    "lon": 27.57270882,
+    "stereo70": {
+     "E": 703376.669,
+     "N": 377807.838
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1.1,
+     "descriere": "praf argilos cafeniu-negru"
+    },
+    {
+     "de": 1.1,
+     "la": 1.5,
+     "descriere": "praf argilos cafeniu"
+    },
+    {
+     "de": 1.5,
+     "la": 4,
+     "descriere": "praf argilos cafeniu-gălbui, cu nuanțe cărămizii și concrețiuni calcaroase, consistent spre moale (la 2,20 m: infiltrație apă)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F91/fisa.jpg",
+    "thumb": "photos/F91/t_fisa.jpg",
+    "original": "fisa F91.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/F91/01.jpg",
+     "thumb": "photos/F91/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.28.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 19:48"
+    },
+    {
+     "src": "photos/F91/02.jpg",
+     "thumb": "photos/F91/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.281.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-29 19:48"
+    },
+    {
+     "src": "photos/F91/03.jpg",
+     "thumb": "photos/F91/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.282.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:48"
+    },
+    {
+     "src": "photos/F91/04.jpg",
+     "thumb": "photos/F91/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.283.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:48"
+    },
+    {
+     "src": "photos/F91/05.jpg",
+     "thumb": "photos/F91/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.284.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:48"
+    },
+    {
+     "src": "photos/F91/06.jpg",
+     "thumb": "photos/F91/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 19.48.29.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 19:48"
+    }
+   ]
+  },
+  {
+   "id": "F92",
+   "tip": "foraj",
+   "nr": 92,
+   "eticheta": "Foraj F92",
+   "data": "2026-09-23",
+   "nota_data": "Data din fișă (2026-10-23) diferă de lista de execuție (2026-09-23); s-a reținut data din lista de execuție. Fotografiile au fost transmise pe 2026-09-24.",
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'28.7\"",
+    "E 027°34'49.8\""
+   ],
+   "lat": 44.874639,
+   "lon": 27.5805,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr92",
+    "lat": 44.87462526,
+    "lon": 27.58048365,
+    "stereo70": {
+     "E": 703977.078,
+     "N": 378255.3
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.4,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.4,
+     "la": 1,
+     "descriere": "praf argilos tare, cafeniu (la 1,00 m: strat macroporic)"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos vârtos, cu culoare cenușie-gălbuie (loess)"
+    },
+    {
+     "de": 2,
+     "la": 3.2,
+     "descriere": "praf argilos (loess), cafeniu-cenușiu, cu culoare cărămizie"
+    },
+    {
+     "de": 3.2,
+     "la": 3.6,
+     "descriere": "praf nisipos cenușiu, cu culoare cărămizie"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "nisip, nisip, culoare cărămizie"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F92/fisa.jpg",
+    "thumb": "photos/F92/t_fisa.jpg",
+    "original": "fisa foraj F92.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F92/01.jpg",
+     "thumb": "photos/F92/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.20.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/02.jpg",
+     "thumb": "photos/F92/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.201.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/03.jpg",
+     "thumb": "photos/F92/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.202.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/04.jpg",
+     "thumb": "photos/F92/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.203.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/05.jpg",
+     "thumb": "photos/F92/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.204.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/06.jpg",
+     "thumb": "photos/F92/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.21.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/07.jpg",
+     "thumb": "photos/F92/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.211.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    },
+    {
+     "src": "photos/F92/08.jpg",
+     "thumb": "photos/F92/t_08.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.57.212.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:57"
+    }
+   ]
+  },
+  {
+   "id": "F93",
+   "tip": "foraj",
+   "nr": 93,
+   "eticheta": "Foraj F93",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'24.8\"",
+    "E 027°35'07.3\""
+   ],
+   "lat": 44.873556,
+   "lon": 27.585361,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr93",
+    "lat": 44.87352896,
+    "lon": 27.58530565,
+    "stereo70": {
+     "E": 704361.862,
+     "N": 378145.759
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.2,
+     "la": 0.5,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 0.5,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos (la 1,00 m: strat macroporic)"
+    },
+    {
+     "de": 1,
+     "la": 3.3,
+     "descriere": "praf argilos gălbui (loess) (la 2,80 m: cu calcar și praf calcaros)"
+    },
+    {
+     "de": 3.3,
+     "la": 3.6,
+     "descriere": "praf nisipos gălbui, cu nuanțe cenușii"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "nisip gălbui-cărămiziu"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F93/fisa.jpg",
+    "thumb": "photos/F93/t_fisa.jpg",
+    "original": "FISA F93.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/F93/01.jpg",
+     "thumb": "photos/F93/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.27.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/02.jpg",
+     "thumb": "photos/F93/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.271.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/03.jpg",
+     "thumb": "photos/F93/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.272.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/04.jpg",
+     "thumb": "photos/F93/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.273.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/05.jpg",
+     "thumb": "photos/F93/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.28.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/06.jpg",
+     "thumb": "photos/F93/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.281.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    },
+    {
+     "src": "photos/F93/07.jpg",
+     "thumb": "photos/F93/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-29 at 20.11.284.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-29 20:11"
+    }
+   ]
+  },
+  {
+   "id": "F94",
+   "tip": "foraj",
+   "nr": 94,
+   "eticheta": "Foraj F94",
+   "data": "2026-09-24",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'20.6\"",
+    "E 027°35'24.3\""
+   ],
+   "lat": 44.872389,
+   "lon": 27.590083,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr94",
+    "lat": 44.87238172,
+    "lon": 27.59009035,
+    "stereo70": {
+     "E": 704743.897,
+     "N": 378030.487
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 0.8,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 0.8,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos (loess)"
+    },
+    {
+     "de": 2,
+     "la": 3.1,
+     "descriere": "praf argilos gălbui, vârtos"
+    },
+    {
+     "de": 3.1,
+     "la": 3.3,
+     "descriere": "praf argilos gălbui, nisipos"
+    },
+    {
+     "de": 3.3,
+     "la": 3.5,
+     "descriere": "praf nisipos gălbui"
+    },
+    {
+     "de": 3.5,
+     "la": 4,
+     "descriere": "nisip fin"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F94/fisa.jpg",
+    "thumb": "photos/F94/t_fisa.jpg",
+    "original": "FISA F94.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F94/01.jpg",
+     "thumb": "photos/F94/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.37.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:47"
+    },
+    {
+     "src": "photos/F94/02.jpg",
+     "thumb": "photos/F94/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.371.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:47"
+    },
+    {
+     "src": "photos/F94/03.jpg",
+     "thumb": "photos/F94/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.372.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:47"
+    },
+    {
+     "src": "photos/F94/04.jpg",
+     "thumb": "photos/F94/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.373.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-24 19:47"
+    },
+    {
+     "src": "photos/F94/05.jpg",
+     "thumb": "photos/F94/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.374.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:47"
+    },
+    {
+     "src": "photos/F94/06.jpg",
+     "thumb": "photos/F94/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-24 at 19.47.384.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-24 19:47"
+    }
+   ]
+  },
+  {
+   "id": "F95",
+   "tip": "foraj",
+   "nr": 95,
+   "eticheta": "Foraj F95",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără infiltrație apă; umezeala cauzată din cauza adunăturii de apă (baltă)",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'16.1\"",
+    "E 027°35'42.4\""
+   ],
+   "lat": 44.871139,
+   "lon": 27.595111,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr95",
+    "lat": 44.87120615,
+    "lon": 27.59487411,
+    "stereo70": {
+     "E": 705125.974,
+     "N": 377912.089
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.1,
+     "descriere": "praf argilos cafeniu-negru, consistent (la 1,00 m: strat macroporic)"
+    },
+    {
+     "de": 1.1,
+     "la": 3,
+     "descriere": "praf argilos gălbui, consistent, cu calcar mărunt (strat macroporic)"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "praf nisipos, umed, consistent"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    },
+    {
+     "adancime": 1.1,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F95/fisa.jpg",
+    "thumb": "photos/F95/t_fisa.jpg",
+    "original": "FISA F95.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F95/01.jpg",
+     "thumb": "photos/F95/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.16.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:47"
+    },
+    {
+     "src": "photos/F95/02.jpg",
+     "thumb": "photos/F95/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.161.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:47"
+    },
+    {
+     "src": "photos/F95/03.jpg",
+     "thumb": "photos/F95/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.162.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:47"
+    },
+    {
+     "src": "photos/F95/04.jpg",
+     "thumb": "photos/F95/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.17.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:47"
+    },
+    {
+     "src": "photos/F95/05.jpg",
+     "thumb": "photos/F95/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.171.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:47"
+    },
+    {
+     "src": "photos/F95/06.jpg",
+     "thumb": "photos/F95/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.47.172.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:47"
+    }
+   ]
+  },
+  {
+   "id": "F96",
+   "tip": "foraj",
+   "nr": 96,
+   "eticheta": "Foraj F96",
+   "data": "2026-09-25",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără infiltrație apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°52'11.8\"",
+    "E 027°35'59.1\""
+   ],
+   "lat": 44.869944,
+   "lon": 27.59975,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr96",
+    "lat": 44.87001471,
+    "lon": 27.59964997,
+    "stereo70": {
+     "E": 705507.5,
+     "N": 377791.93
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1,
+     "la": 1.9,
+     "descriere": "praf argilos cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 1.9,
+     "la": 2.7,
+     "descriere": "praf nisipos gălbui, consistent spre moale, umed"
+    },
+    {
+     "de": 2.7,
+     "la": 3,
+     "descriere": "nisip fin gălbui, umed"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "nisip nisip gălbui, umed"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/F96/fisa.jpg",
+    "thumb": "photos/F96/t_fisa.jpg",
+    "original": "FISA F96.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/F96/01.jpg",
+     "thumb": "photos/F96/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.30.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:49"
+    },
+    {
+     "src": "photos/F96/02.jpg",
+     "thumb": "photos/F96/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.301.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:49"
+    },
+    {
+     "src": "photos/F96/03.jpg",
+     "thumb": "photos/F96/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.302.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:49"
+    },
+    {
+     "src": "photos/F96/04.jpg",
+     "thumb": "photos/F96/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.303.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-25 20:49"
+    },
+    {
+     "src": "photos/F96/05.jpg",
+     "thumb": "photos/F96/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.304.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:49"
+    },
+    {
+     "src": "photos/F96/06.jpg",
+     "thumb": "photos/F96/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-25 at 20.49.305.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-25 20:49"
+    }
+   ]
+  }
+ ],
+ "puncte_proiectate": [
+  {
+   "id": "FT1",
+   "lat": 44.85244858,
+   "lon": 27.61617066,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT1",
+   "stereo70": {
+    "E": 706875.995,
+    "N": 375882.987
+   }
+  },
+  {
+   "id": "FT2",
+   "lat": 44.85253799,
+   "lon": 27.60725496,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT2",
+   "stereo70": {
+    "E": 706171.193,
+    "N": 375870.033
+   }
+  },
+  {
+   "id": "FT3",
+   "lat": 44.85945334,
+   "lon": 27.60015294,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT3",
+   "stereo70": {
+    "E": 705585.177,
+    "N": 376620.032
+   }
+  },
+  {
+   "id": "FT4",
+   "lat": 44.86113664,
+   "lon": 27.60796106,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat pentru test Downhole (DH1)",
+   "stereo70": {
+    "E": 706196.0,
+    "N": 376827.0
+   }
+  },
+  {
+   "id": "FT5",
+   "lat": 44.8613299,
+   "lon": 27.61480717,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT5",
+   "stereo70": {
+    "E": 706736.17,
+    "N": 376866.037
+   }
+  },
+  {
+   "id": "FT6",
+   "lat": 44.86250158,
+   "lon": 27.62484783,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT6",
+   "stereo70": {
+    "E": 707525.165,
+    "N": 377022.04
+   }
+  },
+  {
+   "id": "FT7",
+   "lat": 44.86603217,
+   "lon": 27.61973112,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT7",
+   "stereo70": {
+    "E": 707108.156,
+    "N": 377401.039
+   }
+  },
+  {
+   "id": "FT8",
+   "lat": 44.86889852,
+   "lon": 27.60711441,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT8",
+   "stereo70": {
+    "E": 706101.149,
+    "N": 377687.037
+   }
+  },
+  {
+   "id": "FT9",
+   "lat": 44.87485308,
+   "lon": 27.60889239,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 706220.129,
+    "N": 378353.038
+   }
+  },
+  {
+   "id": "FT10",
+   "lat": 44.87219108,
+   "lon": 27.59469304,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT10",
+   "stereo70": {
+    "E": 705108.14,
+    "N": 378021.035
+   }
+  },
+  {
+   "id": "FT11",
+   "lat": 44.87617135,
+   "lon": 27.57771808,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT11",
+   "stereo70": {
+    "E": 703753.13,
+    "N": 378420.036
+   }
+  },
+  {
+   "id": "FT12",
+   "lat": 44.87011691,
+   "lon": 27.57911638,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT12",
+   "stereo70": {
+    "E": 703885.151,
+    "N": 377751.033
+   }
+  },
+  {
+   "id": "FT13",
+   "lat": 44.86379867,
+   "lon": 27.56956574,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 703153.163,
+    "N": 377025.024
+   }
+  },
+  {
+   "id": "FT14",
+   "lat": 44.85990613,
+   "lon": 27.57565638,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT14",
+   "stereo70": {
+    "E": 703648.181,
+    "N": 376608.027
+   }
+  },
+  {
+   "id": "FT15",
+   "lat": 44.86124925,
+   "lon": 27.58503062,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT15",
+   "stereo70": {
+    "E": 704384.004,
+    "N": 376780.996
+   }
+  },
+  {
+   "id": "FT16",
+   "lat": 44.85691527,
+   "lon": 27.5674319,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT16",
+   "stereo70": {
+    "E": 703009.008,
+    "N": 376255.008
+   }
+  },
+  {
+   "id": "FT17",
+   "lat": 44.85108821,
+   "lon": 27.56952415,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT17",
+   "stereo70": {
+    "E": 703195.005,
+    "N": 375613.001
+   }
+  },
+  {
+   "id": "FT18",
+   "lat": 44.85035124,
+   "lon": 27.58210809,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 704191.994,
+    "N": 375562.995
+   }
+  },
+  {
+   "id": "FT20",
+   "lat": 44.85166599,
+   "lon": 27.5591347,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT20",
+   "stereo70": {
+    "E": 702372.005,
+    "N": 375650.998
+   }
+  },
+  {
+   "id": "FT21",
+   "lat": 44.85255224,
+   "lon": 27.54699959,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 701409.998,
+    "N": 375718.996
+   }
+  },
+  {
+   "id": "FT22",
+   "lat": 44.85750329,
+   "lon": 27.54220828,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT22",
+   "stereo70": {
+    "E": 701014.014,
+    "N": 376256.995
+   }
+  },
+  {
+   "id": "FT23",
+   "lat": 44.86004456,
+   "lon": 27.52361382,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 699536.005,
+    "N": 376493.002
+   }
+  },
+  {
+   "id": "FT25",
+   "lat": 44.86263874,
+   "lon": 27.54001877,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT25",
+   "stereo70": {
+    "E": 700822.997,
+    "N": 376821.992
+   }
+  },
+  {
+   "id": "FT26",
+   "lat": 44.8591141,
+   "lon": 27.55301289,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat pentru test Downhole (DH2)",
+   "stereo70": {
+    "E": 701862.001,
+    "N": 376462.981
+   }
+  },
+  {
+   "id": "FT27",
+   "lat": 44.86500358,
+   "lon": 27.55213656,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT27",
+   "stereo70": {
+    "E": 701771.995,
+    "N": 377115.007
+   }
+  },
+  {
+   "id": "FT28",
+   "lat": 44.87156601,
+   "lon": 27.54655546,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT28",
+   "stereo70": {
+    "E": 701307.998,
+    "N": 377830.002
+   }
+  },
+  {
+   "id": "FT29",
+   "lat": 44.87233097,
+   "lon": 27.52771366,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT29",
+   "stereo70": {
+    "E": 699817.004,
+    "N": 377868.002
+   }
+  },
+  {
+   "id": "FT30",
+   "lat": 44.87006057,
+   "lon": 27.56257857,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT30",
+   "stereo70": {
+    "E": 702578.998,
+    "N": 377702.996
+   }
+  },
+  {
+   "id": "FT31",
+   "lat": 44.87643974,
+   "lon": 27.55477434,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT31",
+   "stereo70": {
+    "E": 701940.003,
+    "N": 378391.993
+   }
+  },
+  {
+   "id": "FT32",
+   "lat": 44.87603647,
+   "lon": 27.56542934,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT32",
+   "stereo70": {
+    "E": 702783.0,
+    "N": 378374.0
+   }
+  },
+  {
+   "id": "FT33",
+   "lat": 44.88165135,
+   "lon": 27.5460299,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 701230.999,
+    "N": 378949.003
+   }
+  },
+  {
+   "id": "FT34",
+   "lat": 44.88666319,
+   "lon": 27.53009511,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 699955.0,
+    "N": 379466.0
+   }
+  },
+  {
+   "id": "FT35",
+   "lat": 44.88653077,
+   "lon": 27.57503081999999,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 703504.014,
+    "N": 379563.987
+   }
+  },
+  {
+   "id": "FT36",
+   "lat": 44.89636837,
+   "lon": 27.57036997,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat pentru test Downhole (DH3)",
+   "stereo70": {
+    "E": 703101.001,
+    "N": 380644.996
+   }
+  },
+  {
+   "id": "FT37",
+   "lat": 44.89917137,
+   "lon": 27.55672827,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT37",
+   "stereo70": {
+    "E": 702014.005,
+    "N": 380922.006
+   }
+  },
+  {
+   "id": "FT38",
+   "lat": 44.90305436,
+   "lon": 27.54301922,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj echipat piezometric",
+   "stereo70": {
+    "E": 700917.998,
+    "N": 381319.001
+   }
+  },
+  {
+   "id": "FT39",
+   "lat": 44.89961874,
+   "lon": 27.57864778,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT39",
+   "stereo70": {
+    "E": 703742.995,
+    "N": 381026.994
+   }
+  },
+  {
+   "id": "FT47",
+   "lat": 44.86117278,
+   "lon": 27.6366702,
+   "tip": "Foraje fundații turbine (FT)",
+   "adancime": "45 m",
+   "obs": "foraj fundație turbină WT47",
+   "stereo70": {
+    "E": 708463.991,
+    "N": 376905.0
+   }
+  },
+  {
+   "id": "Fp1.1",
+   "lat": 44.85265466,
+   "lon": 27.61632663,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT1",
+   "stereo70": {
+    "E": 706887.574,
+    "N": 375906.28
+   }
+  },
+  {
+   "id": "Fp2.1",
+   "lat": 44.85230738,
+   "lon": 27.60719544,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT2",
+   "stereo70": {
+    "E": 706167.321,
+    "N": 375844.264
+   }
+  },
+  {
+   "id": "Fp3.1",
+   "lat": 44.85967938,
+   "lon": 27.60023408,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT3",
+   "stereo70": {
+    "E": 705590.775,
+    "N": 376645.348
+   }
+  },
+  {
+   "id": "Fp4.1",
+   "lat": 44.86090585,
+   "lon": 27.6079074,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT4",
+   "stereo70": {
+    "E": 706192.593,
+    "N": 376801.225
+   }
+  },
+  {
+   "id": "Fp5.1",
+   "lat": 44.86155922,
+   "lon": 27.61486784,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT5",
+   "stereo70": {
+    "E": 706740.135,
+    "N": 376891.666
+   }
+  },
+  {
+   "id": "Fp6.1",
+   "lat": 44.86226776,
+   "lon": 27.6248651,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT6",
+   "stereo70": {
+    "E": 707527.377,
+    "N": 376996.112
+   }
+  },
+  {
+   "id": "Fp7.1",
+   "lat": 44.86626539,
+   "lon": 27.61970984,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT7",
+   "stereo70": {
+    "E": 707105.631,
+    "N": 377426.891
+   }
+  },
+  {
+   "id": "Fp8.1",
+   "lat": 44.86913085,
+   "lon": 27.6071473,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT8",
+   "stereo70": {
+    "E": 706102.909,
+    "N": 377712.929
+   }
+  },
+  {
+   "id": "Fp9.1",
+   "lat": 44.87508664,
+   "lon": 27.60888473,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT9",
+   "stereo70": {
+    "E": 706218.682,
+    "N": 378378.964
+   }
+  },
+  {
+   "id": "Fp10.1",
+   "lat": 44.87241906,
+   "lon": 27.59476327,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT10",
+   "stereo70": {
+    "E": 705112.87,
+    "N": 378046.539
+   }
+  },
+  {
+   "id": "Fp11.1",
+   "lat": 44.8763994,
+   "lon": 27.57778818,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT11",
+   "stereo70": {
+    "E": 703757.854,
+    "N": 378445.545
+   }
+  },
+  {
+   "id": "Fp12.1",
+   "lat": 44.87031788,
+   "lon": 27.57928216,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT12",
+   "stereo70": {
+    "E": 703897.53,
+    "N": 377773.778
+   }
+  },
+  {
+   "id": "Fp13.1",
+   "lat": 44.86400432,
+   "lon": 27.56971997,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT13",
+   "stereo70": {
+    "E": 703164.617,
+    "N": 377048.257
+   }
+  },
+  {
+   "id": "Fp14.1",
+   "lat": 44.86011137,
+   "lon": 27.5758114,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT14",
+   "stereo70": {
+    "E": 703659.698,
+    "N": 376631.218
+   }
+  },
+  {
+   "id": "Fp15.1",
+   "lat": 44.86104348,
+   "lon": 27.5848742,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT15",
+   "stereo70": {
+    "E": 704372.381,
+    "N": 376757.741
+   }
+  },
+  {
+   "id": "Fp16.1",
+   "lat": 44.85670864,
+   "lon": 27.56727742,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT16",
+   "stereo70": {
+    "E": 702997.536,
+    "N": 376231.665
+   }
+  },
+  {
+   "id": "Fp17.1",
+   "lat": 44.85130059,
+   "lon": 27.56966187,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT17",
+   "stereo70": {
+    "E": 703205.133,
+    "N": 375636.941
+   }
+  },
+  {
+   "id": "Fp18.1",
+   "lat": 44.85011901,
+   "lon": 27.58206914,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT18",
+   "stereo70": {
+    "E": 704189.744,
+    "N": 375537.099
+   }
+  },
+  {
+   "id": "Fp20.1",
+   "lat": 44.85148546,
+   "lon": 27.55892551,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT20",
+   "stereo70": {
+    "E": 702356.114,
+    "N": 375630.418
+   }
+  },
+  {
+   "id": "Fp21.1",
+   "lat": 44.85276844,
+   "lon": 27.54712527,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT21",
+   "stereo70": {
+    "E": 701419.168,
+    "N": 375743.327
+   }
+  },
+  {
+   "id": "Fp22.1",
+   "lat": 44.85772074,
+   "lon": 27.54232951,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT22",
+   "stereo70": {
+    "E": 701022.829,
+    "N": 376281.453
+   }
+  },
+  {
+   "id": "Fp23.1",
+   "lat": 44.86022044,
+   "lon": 27.52383057,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT23",
+   "stereo70": {
+    "E": 699552.516,
+    "N": 376513.077
+   }
+  },
+  {
+   "id": "Fp25.1",
+   "lat": 44.86285593,
+   "lon": 27.54014122,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT25",
+   "stereo70": {
+    "E": 700831.908,
+    "N": 376846.424
+   }
+  },
+  {
+   "id": "Fp26.1",
+   "lat": 44.85929439,
+   "lon": 27.55322275,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT26",
+   "stereo70": {
+    "E": 701877.945,
+    "N": 376483.534
+   }
+  },
+  {
+   "id": "Fp27.1",
+   "lat": 44.86518108,
+   "lon": 27.55235093,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT27",
+   "stereo70": {
+    "E": 701788.304,
+    "N": 377135.262
+   }
+  },
+  {
+   "id": "Fp28.1",
+   "lat": 44.87179158,
+   "lon": 27.54664246,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT28",
+   "stereo70": {
+    "E": 701314.077,
+    "N": 377855.278
+   }
+  },
+  {
+   "id": "Fp29.1",
+   "lat": 44.87215133,
+   "lon": 27.52750288,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT29",
+   "stereo70": {
+    "E": 699800.982,
+    "N": 377847.524
+   }
+  },
+  {
+   "id": "Fp30.1",
+   "lat": 44.87028656,
+   "lon": 27.56266292,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT30",
+   "stereo70": {
+    "E": 702584.86,
+    "N": 377728.312
+   }
+  },
+  {
+   "id": "Fp31.1",
+   "lat": 44.8762424,
+   "lon": 27.55459765,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT31",
+   "stereo70": {
+    "E": 701926.744,
+    "N": 378369.629
+   }
+  },
+  {
+   "id": "Fp32.1",
+   "lat": 44.8758407,
+   "lon": 27.56524916,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT32",
+   "stereo70": {
+    "E": 702769.463,
+    "N": 378351.799
+   }
+  },
+  {
+   "id": "Fp33.1",
+   "lat": 44.88145461,
+   "lon": 27.54585283,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT33",
+   "stereo70": {
+    "E": 701217.706,
+    "N": 378926.706
+   }
+  },
+  {
+   "id": "Fp34.1",
+   "lat": 44.88646339,
+   "lon": 27.52991998,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT34",
+   "stereo70": {
+    "E": 699941.868,
+    "N": 379443.37
+   }
+  },
+  {
+   "id": "Fp35.1",
+   "lat": 44.88675755,
+   "lon": 27.57511186,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT35",
+   "stereo70": {
+    "E": 703509.606,
+    "N": 379589.384
+   }
+  },
+  {
+   "id": "Fp36.1",
+   "lat": 44.89659581,
+   "lon": 27.57045019,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT36",
+   "stereo70": {
+    "E": 703106.527,
+    "N": 380670.464
+   }
+  },
+  {
+   "id": "Fp37.1",
+   "lat": 44.89935335,
+   "lon": 27.55693789,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT37",
+   "stereo70": {
+    "E": 702029.912,
+    "N": 380942.747
+   }
+  },
+  {
+   "id": "Fp38.1",
+   "lat": 44.90328822,
+   "lon": 27.5430299,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT38",
+   "stereo70": {
+    "E": 700918.019,
+    "N": 381345.006
+   }
+  },
+  {
+   "id": "Fp39.1",
+   "lat": 44.89984438,
+   "lon": 27.57873427,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT39",
+   "stereo70": {
+    "E": 703749.02,
+    "N": 381052.277
+   }
+  },
+  {
+   "id": "Fp47.1",
+   "lat": 44.86139593,
+   "lon": 27.6367689,
+   "tip": "Foraje platforme turbine (Fp)",
+   "adancime": "6 m",
+   "obs": "foraj platformă turbină WT47",
+   "stereo70": {
+    "E": 708470.975,
+    "N": 376930.044
+   }
+  },
+  {
+   "id": "CPTu1.1",
+   "lat": 44.85240389,
+   "lon": 27.61635639,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT1",
+   "stereo70": {
+    "E": 706890.832,
+    "N": 375878.5
+   }
+  },
+  {
+   "id": "CPTu2.1",
+   "lat": 44.85241978,
+   "lon": 27.60736284,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT2",
+   "stereo70": {
+    "E": 706180.143,
+    "N": 375857.178
+   }
+  },
+  {
+   "id": "CPTu3.1",
+   "lat": 44.85944734,
+   "lon": 27.60034668999999,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT3",
+   "stereo70": {
+    "E": 705600.506,
+    "N": 376619.861
+   }
+  },
+  {
+   "id": "CPTu4.1",
+   "lat": 44.86101552,
+   "lon": 27.60806057,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT4",
+   "stereo70": {
+    "E": 706204.299,
+    "N": 376813.8
+   }
+  },
+  {
+   "id": "CPTu5.1",
+   "lat": 44.86133601,
+   "lon": 27.61461325,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT5",
+   "stereo70": {
+    "E": 706720.827,
+    "N": 376866.218
+   }
+  },
+  {
+   "id": "CPTu6.1",
+   "lat": 44.86252134,
+   "lon": 27.62504247,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT6",
+   "stereo70": {
+    "E": 707540.47,
+    "N": 377024.737
+   }
+  },
+  {
+   "id": "CPTu7.1",
+   "lat": 44.86610713,
+   "lon": 27.61956368,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT7",
+   "stereo70": {
+    "E": 707094.657,
+    "N": 377408.935
+   }
+  },
+  {
+   "id": "CPTu8.1",
+   "lat": 44.86894193,
+   "lon": 27.60692627,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT8",
+   "stereo70": {
+    "E": 706086.131,
+    "N": 377691.376
+   }
+  },
+  {
+   "id": "CPTu9.1",
+   "lat": 44.87489646,
+   "lon": 27.60870448,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT9",
+   "stereo70": {
+    "E": 706205.131,
+    "N": 378357.376
+   }
+  },
+  {
+   "id": "CPTu10.1",
+   "lat": 44.87223448,
+   "lon": 27.59450499,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT10",
+   "stereo70": {
+    "E": 705093.131,
+    "N": 378025.376
+   }
+  },
+  {
+   "id": "CPTu11.1",
+   "lat": 44.87620247,
+   "lon": 27.57752862,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT11",
+   "stereo70": {
+    "E": 703738.055,
+    "N": 378423.012
+   }
+  },
+  {
+   "id": "CPTu12.1",
+   "lat": 44.87002053,
+   "lon": 27.57926014,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT12",
+   "stereo70": {
+    "E": 703896.85,
+    "N": 377740.692
+   }
+  },
+  {
+   "id": "CPTu13.1",
+   "lat": 44.86373448,
+   "lon": 27.56973788,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT13",
+   "stereo70": {
+    "E": 703166.991,
+    "N": 377018.328
+   }
+  },
+  {
+   "id": "CPTu14.1",
+   "lat": 44.85984191,
+   "lon": 27.57582828,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT14",
+   "stereo70": {
+    "E": 703661.991,
+    "N": 376601.328
+   }
+  },
+  {
+   "id": "CPTu15.1",
+   "lat": 44.86118438,
+   "lon": 27.58485701,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT15",
+   "stereo70": {
+    "E": 704370.52,
+    "N": 376773.349
+   }
+  },
+  {
+   "id": "CPTu16.1",
+   "lat": 44.85689424,
+   "lon": 27.56723795,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT16",
+   "stereo70": {
+    "E": 702993.759,
+    "N": 376252.182
+   }
+  },
+  {
+   "id": "CPTu17.1",
+   "lat": 44.85106221,
+   "lon": 27.56971671,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT17",
+   "stereo70": {
+    "E": 703210.313,
+    "N": 375610.599
+   }
+  },
+  {
+   "id": "CPTu18.1",
+   "lat": 44.85028145,
+   "lon": 27.58228022,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT18",
+   "stereo70": {
+    "E": 704205.844,
+    "N": 375555.679
+   }
+  },
+  {
+   "id": "CPTu20.1",
+   "lat": 44.85175207,
+   "lon": 27.55898036,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT20",
+   "stereo70": {
+    "E": 702359.505,
+    "N": 375660.173
+   }
+  },
+  {
+   "id": "CPTu21.1",
+   "lat": 44.8526731,
+   "lon": 27.54690171,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT21",
+   "stereo70": {
+    "E": 701401.838,
+    "N": 375732.177
+   }
+  },
+  {
+   "id": "CPTu22.1",
+   "lat": 44.85755125,
+   "lon": 27.54202396,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT22",
+   "stereo70": {
+    "E": 700999.282,
+    "N": 376261.861
+   }
+  },
+  {
+   "id": "CPTu23.1",
+   "lat": 44.85994733,
+   "lon": 27.52375528,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT23",
+   "stereo70": {
+    "E": 699547.52,
+    "N": 376482.552
+   }
+  },
+  {
+   "id": "CPTu25.1",
+   "lat": 44.86268671,
+   "lon": 27.53983464,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT25",
+   "stereo70": {
+    "E": 700808.282,
+    "N": 376826.861
+   }
+  },
+  {
+   "id": "CPTu26.1",
+   "lat": 44.85898957,
+   "lon": 27.55310638,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT26",
+   "stereo70": {
+    "E": 701869.826,
+    "N": 376449.382
+   }
+  },
+  {
+   "id": "CPTu27.1",
+   "lat": 44.86491558,
+   "lon": 27.55228883,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT27",
+   "stereo70": {
+    "E": 701784.334,
+    "N": 377105.613
+   }
+  },
+  {
+   "id": "CPTu28.1",
+   "lat": 44.87162872,
+   "lon": 27.54638269,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT28",
+   "stereo70": {
+    "E": 701294.131,
+    "N": 377836.536
+   }
+  },
+  {
+   "id": "CPTu29.1",
+   "lat": 44.87245041,
+   "lon": 27.52761144999999,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT29",
+   "stereo70": {
+    "E": 699808.513,
+    "N": 377881.017
+   }
+  },
+  {
+   "id": "CPTu30.1",
+   "lat": 44.87008486,
+   "lon": 27.56238547,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT30",
+   "stereo70": {
+    "E": 702563.658,
+    "N": 377705.208
+   }
+  },
+  {
+   "id": "CPTu31.1",
+   "lat": 44.87648894,
+   "lon": 27.55459074,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT31",
+   "stereo70": {
+    "E": 701925.328,
+    "N": 378396.997
+   }
+  },
+  {
+   "id": "CPTu32.1",
+   "lat": 44.87611887,
+   "lon": 27.56527405,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT32",
+   "stereo70": {
+    "E": 702770.443,
+    "N": 378382.762
+   }
+  },
+  {
+   "id": "CPTu33.1",
+   "lat": 44.8816655,
+   "lon": 27.54583477,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT33",
+   "stereo70": {
+    "E": 701215.538,
+    "N": 378950.088
+   }
+  },
+  {
+   "id": "CPTu34.1",
+   "lat": 44.88673905,
+   "lon": 27.52993095,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT34",
+   "stereo70": {
+    "E": 699941.771,
+    "N": 379474.019
+   }
+  },
+  {
+   "id": "CPTu35.1",
+   "lat": 44.88657453,
+   "lon": 27.57484432,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT35",
+   "stereo70": {
+    "E": 703489.131,
+    "N": 379568.376
+   }
+  },
+  {
+   "id": "CPTu36.1",
+   "lat": 44.89646487,
+   "lon": 27.57022825,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT36",
+   "stereo70": {
+    "E": 703089.469,
+    "N": 380655.357
+   }
+  },
+  {
+   "id": "CPTu37.1",
+   "lat": 44.89912045,
+   "lon": 27.55691091,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT37",
+   "stereo70": {
+    "E": 702028.605,
+    "N": 380916.808
+   }
+  },
+  {
+   "id": "CPTu38.1",
+   "lat": 44.90314276,
+   "lon": 27.54286747,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT38",
+   "stereo70": {
+    "E": 700905.707,
+    "N": 381328.441
+   }
+  },
+  {
+   "id": "CPTu39.1",
+   "lat": 44.89965796,
+   "lon": 27.57845952,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT39",
+   "stereo70": {
+    "E": 703727.992,
+    "N": 381030.874
+   }
+  },
+  {
+   "id": "CPTu47.1",
+   "lat": 44.8611203,
+   "lon": 27.63685199,
+   "tip": "Penetrări statice cu con (CPTu)",
+   "adancime": "30 m",
+   "obs": "penetrare statică cu con – Faza I, turbina WT47",
+   "stereo70": {
+    "E": 708478.544,
+    "N": 376899.642
+   }
+  },
+  {
+   "id": "Fr1",
+   "lat": 44.9029582,
+   "lon": 27.58050783,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703877.936,
+    "N": 381402.664
+   }
+  },
+  {
+   "id": "Fr2",
+   "lat": 44.89816903,
+   "lon": 27.57780739,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703681.811,
+    "N": 380863.827
+   }
+  },
+  {
+   "id": "Fr3",
+   "lat": 44.89942143,
+   "lon": 27.57306018,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703302.55,
+    "N": 380990.936
+   }
+  },
+  {
+   "id": "Fr4",
+   "lat": 44.89719525,
+   "lon": 27.57059868,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703116.121,
+    "N": 380737.426
+   }
+  },
+  {
+   "id": "Fr5",
+   "lat": 44.89530956,
+   "lon": 27.56688099,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702829.283,
+    "N": 380518.576
+   }
+  },
+  {
+   "id": "Fr6",
+   "lat": 44.89659182,
+   "lon": 27.56214974,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702451.176,
+    "N": 380649.093
+   }
+  },
+  {
+   "id": "Fr7",
+   "lat": 44.89778924,
+   "lon": 27.55423701,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701822.195,
+    "N": 380762.219
+   }
+  },
+  {
+   "id": "Fr8",
+   "lat": 44.89937862,
+   "lon": 27.54982772,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701468.462,
+    "N": 380927.718
+   }
+  },
+  {
+   "id": "Fr9",
+   "lat": 44.90115773,
+   "lon": 27.54540949,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701113.375,
+    "N": 381114.29
+   }
+  },
+  {
+   "id": "Fr10",
+   "lat": 44.89542784,
+   "lon": 27.55866765,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702180.362,
+    "N": 380511.035
+   }
+  },
+  {
+   "id": "Fr11",
+   "lat": 44.89214695,
+   "lon": 27.5565861,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702027.603,
+    "N": 380141.352
+   }
+  },
+  {
+   "id": "Fr12",
+   "lat": 44.88887986,
+   "lon": 27.55457933,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701880.68,
+    "N": 379773.394
+   }
+  },
+  {
+   "id": "Fr13",
+   "lat": 44.88807937,
+   "lon": 27.55951537,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702273.292,
+    "N": 379696.874
+   }
+  },
+  {
+   "id": "Fr14",
+   "lat": 44.88727839,
+   "lon": 27.56445119,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702665.899,
+    "N": 379620.323
+   }
+  },
+  {
+   "id": "Fr15",
+   "lat": 44.88647747,
+   "lon": 27.56938694999999,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703058.512,
+    "N": 379543.802
+   }
+  },
+  {
+   "id": "Fr16",
+   "lat": 44.8856766,
+   "lon": 27.57432266,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703451.13,
+    "N": 379467.312
+   }
+  },
+  {
+   "id": "Fr17",
+   "lat": 44.88558028,
+   "lon": 27.55255734,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701732.652,
+    "N": 379401.793
+   }
+  },
+  {
+   "id": "Fr18",
+   "lat": 44.88228002,
+   "lon": 27.55053769,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701584.791,
+    "N": 379030.125
+   }
+  },
+  {
+   "id": "Fr19",
+   "lat": 44.88290615,
+   "lon": 27.54502717,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701147.393,
+    "N": 379085.883
+   }
+  },
+  {
+   "id": "Fr20",
+   "lat": 44.88433896,
+   "lon": 27.54038319,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700775.606,
+    "N": 379233.443
+   }
+  },
+  {
+   "id": "Fr21",
+   "lat": 44.88576595,
+   "lon": 27.5357294,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700403.082,
+    "N": 379380.352
+   }
+  },
+  {
+   "id": "Fr22",
+   "lat": 44.88752332,
+   "lon": 27.53131132,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700048.035,
+    "N": 379564.571
+   }
+  },
+  {
+   "id": "Fr23",
+   "lat": 44.88030033,
+   "lon": 27.55486977,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701933.909,
+    "N": 378821.08
+   }
+  },
+  {
+   "id": "Fr24",
+   "lat": 44.87899001,
+   "lon": 27.55958444,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702310.9,
+    "N": 378687.372
+   }
+  },
+  {
+   "id": "Fr25",
+   "lat": 44.8776795,
+   "lon": 27.5642989,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702687.891,
+    "N": 378553.664
+   }
+  },
+  {
+   "id": "Fr26",
+   "lat": 44.87984761,
+   "lon": 27.54899537,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701471.555,
+    "N": 378756.06
+   }
+  },
+  {
+   "id": "Fr27",
+   "lat": 44.87654957,
+   "lon": 27.5469682,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701323.06,
+    "N": 378384.627
+   }
+  },
+  {
+   "id": "Fr28",
+   "lat": 44.87517568,
+   "lon": 27.55164458,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701697.261,
+    "N": 378243.725
+   }
+  },
+  {
+   "id": "Fr29",
+   "lat": 44.87385388,
+   "lon": 27.55635249,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702073.786,
+    "N": 378108.71
+   }
+  },
+  {
+   "id": "Fr30",
+   "lat": 44.87254167,
+   "lon": 27.56106557,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702450.701,
+    "N": 377974.796
+   }
+  },
+  {
+   "id": "Fr31",
+   "lat": 44.87123731,
+   "lon": 27.56578286,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702827.939,
+    "N": 377841.786
+   }
+  },
+  {
+   "id": "Fr32",
+   "lat": 44.87491677,
+   "lon": 27.54590474,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701244.809,
+    "N": 378200.589
+   }
+  },
+  {
+   "id": "Fr33",
+   "lat": 44.8716713,
+   "lon": 27.54371088,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701082.934,
+    "N": 377834.585
+   }
+  },
+  {
+   "id": "Fr34",
+   "lat": 44.87017706,
+   "lon": 27.54828786,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701449.732,
+    "N": 377680.05
+   }
+  },
+  {
+   "id": "Fr35",
+   "lat": 44.86885263,
+   "lon": 27.5529939,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701826.145,
+    "N": 377544.723
+   }
+  },
+  {
+   "id": "Fr36",
+   "lat": 44.866697,
+   "lon": 27.55388891,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701904.453,
+    "N": 377307.514
+   }
+  },
+  {
+   "id": "Fr37",
+   "lat": 44.86415327,
+   "lon": 27.54892656,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701521.402,
+    "N": 377012.505
+   }
+  },
+  {
+   "id": "Fr38",
+   "lat": 44.86555338,
+   "lon": 27.54426442,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701148.168,
+    "N": 377156.367
+   }
+  },
+  {
+   "id": "Fr39",
+   "lat": 44.8669533,
+   "lon": 27.53960204,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700774.933,
+    "N": 377300.229
+   }
+  },
+  {
+   "id": "Fr40",
+   "lat": 44.86840974,
+   "lon": 27.53499916,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700406.218,
+    "N": 377450.539
+   }
+  },
+  {
+   "id": "Fr41",
+   "lat": 44.8699526,
+   "lon": 27.53042661,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700039.615,
+    "N": 377610.546
+   }
+  },
+  {
+   "id": "Fr42",
+   "lat": 44.86276631,
+   "lon": 27.55359634,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701895.211,
+    "N": 376870.145
+   }
+  },
+  {
+   "id": "Fr43",
+   "lat": 44.86138049,
+   "lon": 27.55826668,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702269.077,
+    "N": 376727.934
+   }
+  },
+  {
+   "id": "Fr44",
+   "lat": 44.86054271,
+   "lon": 27.55455172,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701978.537,
+    "N": 376625.538
+   }
+  },
+  {
+   "id": "Fr45",
+   "lat": 44.85812559,
+   "lon": 27.55132754,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701732.33,
+    "N": 376348.947
+   }
+  },
+  {
+   "id": "Fr46",
+   "lat": 44.85957045,
+   "lon": 27.54669296,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701361.073,
+    "N": 376497.837
+   }
+  },
+  {
+   "id": "Fr47",
+   "lat": 44.86103277,
+   "lon": 27.5420691,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700990.619,
+    "N": 376648.715
+   }
+  },
+  {
+   "id": "Fr48",
+   "lat": 44.86247603,
+   "lon": 27.53743325,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700619.304,
+    "N": 376797.466
+   }
+  },
+  {
+   "id": "Fr49",
+   "lat": 44.86093322,
+   "lon": 27.53371196000001,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700330.713,
+    "N": 376616.812
+   }
+  },
+  {
+   "id": "Fr50",
+   "lat": 44.85792619,
+   "lon": 27.53108555,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700133.729,
+    "N": 376276.244
+   }
+  },
+  {
+   "id": "Fr51",
+   "lat": 44.85743566,
+   "lon": 27.52750818,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 699852.797,
+    "N": 376212.861
+   }
+  },
+  {
+   "id": "Fr52",
+   "lat": 44.85919271,
+   "lon": 27.52321613,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 699507.555,
+    "N": 376397.389
+   }
+  },
+  {
+   "id": "Fr53",
+   "lat": 44.85836312,
+   "lon": 27.53745023,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700635.066,
+    "N": 376340.632
+   }
+  },
+  {
+   "id": "Fr54",
+   "lat": 44.85664655,
+   "lon": 27.54189775,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 700992.488,
+    "N": 376161.049
+   }
+  },
+  {
+   "id": "Fr55",
+   "lat": 44.85493045,
+   "lon": 27.54634549,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701349.946,
+    "N": 375981.54
+   }
+  },
+  {
+   "id": "Fr56",
+   "lat": 44.85880932,
+   "lon": 27.54302778,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 701074.173,
+    "N": 376404.121
+   }
+  },
+  {
+   "id": "Fr57",
+   "lat": 44.8521827,
+   "lon": 27.56140828,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702549.829,
+    "N": 375714.117
+   }
+  },
+  {
+   "id": "Fr58",
+   "lat": 44.85096127,
+   "lon": 27.56616759,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 702930.226,
+    "N": 375590.43
+   }
+  },
+  {
+   "id": "Fr59",
+   "lat": 44.84973965,
+   "lon": 27.5709267,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703310.622,
+    "N": 375466.742
+   }
+  },
+  {
+   "id": "Fr60",
+   "lat": 44.84851783,
+   "lon": 27.57568559,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703691.018,
+    "N": 375343.055
+   }
+  },
+  {
+   "id": "Fr61",
+   "lat": 44.84729581,
+   "lon": 27.58044427999999,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704071.415,
+    "N": 375219.367
+   }
+  },
+  {
+   "id": "Fr62",
+   "lat": 44.85111521,
+   "lon": 27.58268208,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704234.624,
+    "N": 375649.316
+   }
+  },
+  {
+   "id": "Fr63",
+   "lat": 44.85233307,
+   "lon": 27.57792096,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703854.072,
+    "N": 375772.524
+   }
+  },
+  {
+   "id": "Fr64",
+   "lat": 44.85355072,
+   "lon": 27.57315964,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703473.52,
+    "N": 375895.733
+   }
+  },
+  {
+   "id": "Fr65",
+   "lat": 44.85232499,
+   "lon": 27.57031763,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703253.312,
+    "N": 375752.391
+   }
+  },
+  {
+   "id": "Fr66",
+   "lat": 44.85476818,
+   "lon": 27.56839811,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703092.968,
+    "N": 376018.941
+   }
+  },
+  {
+   "id": "Fr67",
+   "lat": 44.8604851,
+   "lon": 27.56890871,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703113.02,
+    "N": 376655.283
+   }
+  },
+  {
+   "id": "Fr68",
+   "lat": 44.85927397,
+   "lon": 27.5736739,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703493.802,
+    "N": 376532.788
+   }
+  },
+  {
+   "id": "Fr69",
+   "lat": 44.85804581,
+   "lon": 27.57843038,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703873.972,
+    "N": 376408.403
+   }
+  },
+  {
+   "id": "Fr70",
+   "lat": 44.85682587,
+   "lon": 27.58319091,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704254.448,
+    "N": 376284.963
+   }
+  },
+  {
+   "id": "Fr71",
+   "lat": 44.85622992,
+   "lon": 27.58557816,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704445.193,
+    "N": 376224.827
+   }
+  },
+  {
+   "id": "Fr72",
+   "lat": 44.85498184,
+   "lon": 27.59032409,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704824.641,
+    "N": 376098.258
+   }
+  },
+  {
+   "id": "Fr73",
+   "lat": 44.85310856,
+   "lon": 27.59726208,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705379.551,
+    "N": 375907.856
+   }
+  },
+  {
+   "id": "Fr74",
+   "lat": 44.85192695,
+   "lon": 27.60204126,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705761.426,
+    "N": 375788.811
+   }
+  },
+  {
+   "id": "Fr75",
+   "lat": 44.85078354,
+   "lon": 27.60664942,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706129.665,
+    "N": 375673.593
+   }
+  },
+  {
+   "id": "Fr76",
+   "lat": 44.85744743,
+   "lon": 27.59667099,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705317.278,
+    "N": 376388.319
+   }
+  },
+  {
+   "id": "Fr77",
+   "lat": 44.85835343,
+   "lon": 27.59978565,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705560.11,
+    "N": 376496.913
+   }
+  },
+  {
+   "id": "Fr78",
+   "lat": 44.85713732,
+   "lon": 27.60454812,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705940.758,
+    "N": 376374.004
+   }
+  },
+  {
+   "id": "Fr79",
+   "lat": 44.85592405,
+   "lon": 27.60931192,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706321.517,
+    "N": 376251.437
+   }
+  },
+  {
+   "id": "Fr80",
+   "lat": 44.85471058,
+   "lon": 27.61407552,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706702.276,
+    "N": 376128.87
+   }
+  },
+  {
+   "id": "Fr81",
+   "lat": 44.86086305,
+   "lon": 27.59830223,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705433.899,
+    "N": 376771.898
+   }
+  },
+  {
+   "id": "Fr82",
+   "lat": 44.86366002,
+   "lon": 27.60222241,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705733.552,
+    "N": 377092.611
+   }
+  },
+  {
+   "id": "Fr83",
+   "lat": 44.86244094,
+   "lon": 27.60699119,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706114.678,
+    "N": 376969.398
+   }
+  },
+  {
+   "id": "Fr84",
+   "lat": 44.86122182,
+   "lon": 27.61175248,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706495.229,
+    "N": 376846.186
+   }
+  },
+  {
+   "id": "Fr85",
+   "lat": 44.86578469,
+   "lon": 27.6006586,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705602.375,
+    "N": 377324.626
+   }
+  },
+  {
+   "id": "Fr86",
+   "lat": 44.86495965,
+   "lon": 27.59665657,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705289.185,
+    "N": 377222.758
+   }
+  },
+  {
+   "id": "Fr87",
+   "lat": 44.86611508,
+   "lon": 27.59186379,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704906.424,
+    "N": 377338.887
+   }
+  },
+  {
+   "id": "Fr88",
+   "lat": 44.86726616,
+   "lon": 27.58706884,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704523.522,
+    "N": 377454.551
+   }
+  },
+  {
+   "id": "Fr89",
+   "lat": 44.86842869,
+   "lon": 27.58227865,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704140.969,
+    "N": 377571.521
+   }
+  },
+  {
+   "id": "Fr90",
+   "lat": 44.86960159,
+   "lon": 27.57749383,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703758.819,
+    "N": 377689.679
+   }
+  },
+  {
+   "id": "Fr91",
+   "lat": 44.87077429,
+   "lon": 27.57270882,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703376.669,
+    "N": 377807.838
+   }
+  },
+  {
+   "id": "Fr92",
+   "lat": 44.87462526,
+   "lon": 27.58048365,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 703977.078,
+    "N": 378255.3
+   }
+  },
+  {
+   "id": "Fr93",
+   "lat": 44.87352896,
+   "lon": 27.58530565,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704361.862,
+    "N": 378145.759
+   }
+  },
+  {
+   "id": "Fr94",
+   "lat": 44.87238172,
+   "lon": 27.59009035,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704743.897,
+    "N": 378030.487
+   }
+  },
+  {
+   "id": "Fr95",
+   "lat": 44.87120615,
+   "lon": 27.59487411,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705125.974,
+    "N": 377912.089
+   }
+  },
+  {
+   "id": "Fr96",
+   "lat": 44.87001471,
+   "lon": 27.59964997,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705507.5,
+    "N": 377791.93
+   }
+  },
+  {
+   "id": "Fr97",
+   "lat": 44.86749076,
+   "lon": 27.6014646,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705659.913,
+    "N": 377516.201
+   }
+  },
+  {
+   "id": "Fr98",
+   "lat": 44.86803447,
+   "lon": 27.60687614,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706085.44,
+    "N": 377590.446
+   }
+  },
+  {
+   "id": "Fr99",
+   "lat": 44.86682198,
+   "lon": 27.61164124,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706466.23,
+    "N": 377467.978
+   }
+  },
+  {
+   "id": "Fr100",
+   "lat": 44.86559812,
+   "lon": 27.61640049,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706846.616,
+    "N": 377344.255
+   }
+  },
+  {
+   "id": "Fr101",
+   "lat": 44.86438151,
+   "lon": 27.6211633,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 707227.272,
+    "N": 377221.369
+   }
+  },
+  {
+   "id": "Fr102",
+   "lat": 44.86317497,
+   "lon": 27.62593105,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 707608.298,
+    "N": 377099.637
+   }
+  },
+  {
+   "id": "Fr103",
+   "lat": 44.87074731,
+   "lon": 27.60258921,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705737.04,
+    "N": 377880.821
+   }
+  },
+  {
+   "id": "Fr104",
+   "lat": 44.87424781,
+   "lon": 27.60376554,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 705817.363,
+    "N": 378272.674
+   }
+  },
+  {
+   "id": "Fr105",
+   "lat": 44.87347845,
+   "lon": 27.60870816,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 706210.533,
+    "N": 378199.869
+   }
+  },
+  {
+   "id": "Fr106",
+   "lat": 44.86934557,
+   "lon": 27.58696639,
+   "tip": "Foraje drumuri (Fr)",
+   "adancime": "4 m",
+   "obs": "foraj drum de acces / exploatare",
+   "stereo70": {
+    "E": 704507.994,
+    "N": 377685.277
+   }
+  },
+  {
+   "id": "D1",
+   "lat": 44.90131893,
+   "lon": 27.5794634,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt1)",
+   "stereo70": {
+    "E": 703801.327,
+    "N": 381217.922
+   }
+  },
+  {
+   "id": "D2",
+   "lat": 44.89879524,
+   "lon": 27.57543384,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703492.183,
+    "N": 380927.38
+   }
+  },
+  {
+   "id": "D3",
+   "lat": 44.8988509,
+   "lon": 27.57158612,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt2)",
+   "stereo70": {
+    "E": 703188.199,
+    "N": 380923.835
+   }
+  },
+  {
+   "id": "D4",
+   "lat": 44.89466987,
+   "lon": 27.56924735,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703018.396,
+    "N": 380453.487
+   }
+  },
+  {
+   "id": "D5",
+   "lat": 44.8959492,
+   "lon": 27.56451458,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt3)",
+   "stereo70": {
+    "E": 702640.171,
+    "N": 380583.664
+   }
+  },
+  {
+   "id": "D6",
+   "lat": 44.89742837,
+   "lon": 27.55680544,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702026.258,
+    "N": 380728.581
+   }
+  },
+  {
+   "id": "D7",
+   "lat": 44.89848747,
+   "lon": 27.55204051,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt4)",
+   "stereo70": {
+    "E": 701646.309,
+    "N": 380834.272
+   }
+  },
+  {
+   "id": "D8",
+   "lat": 44.90026571,
+   "lon": 27.5476248,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701291.414,
+    "N": 381020.744
+   }
+  },
+  {
+   "id": "D9",
+   "lat": 44.90204474,
+   "lon": 27.54320643,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt5)",
+   "stereo70": {
+    "E": 700936.327,
+    "N": 381207.316
+   }
+  },
+  {
+   "id": "D10",
+   "lat": 44.89379599,
+   "lon": 27.55759962,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702101.802,
+    "N": 380327.079
+   }
+  },
+  {
+   "id": "D11",
+   "lat": 44.8904979,
+   "lon": 27.55557264,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt6)",
+   "stereo70": {
+    "E": 701953.403,
+    "N": 379955.626
+   }
+  },
+  {
+   "id": "D12",
+   "lat": 44.88847966,
+   "lon": 27.55704636,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702076.906,
+    "N": 379735.134
+   }
+  },
+  {
+   "id": "D13",
+   "lat": 44.88767817,
+   "lon": 27.56198229,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt7)",
+   "stereo70": {
+    "E": 702469.519,
+    "N": 379658.514
+   }
+  },
+  {
+   "id": "D14",
+   "lat": 44.88687825,
+   "lon": 27.56691817,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702862.131,
+    "N": 379582.093
+   }
+  },
+  {
+   "id": "D15",
+   "lat": 44.88607746,
+   "lon": 27.57185418,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt8)",
+   "stereo70": {
+    "E": 703254.769,
+    "N": 379505.6
+   }
+  },
+  {
+   "id": "D16",
+   "lat": 44.88722978,
+   "lon": 27.55356832,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701806.668,
+    "N": 379587.561
+   }
+  },
+  {
+   "id": "D17",
+   "lat": 44.88392954,
+   "lon": 27.55154854,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt9)",
+   "stereo70": {
+    "E": 701658.807,
+    "N": 379215.893
+   }
+  },
+  {
+   "id": "D18",
+   "lat": 44.88219006,
+   "lon": 27.54735848,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701334.029,
+    "N": 379012.169
+   }
+  },
+  {
+   "id": "D19",
+   "lat": 44.8836175,
+   "lon": 27.54271129,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt10)",
+   "stereo70": {
+    "E": 700961.998,
+    "N": 379159.114
+   }
+  },
+  {
+   "id": "D20",
+   "lat": 44.8850498,
+   "lon": 27.53805777,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700589.468,
+    "N": 379306.604
+   }
+  },
+  {
+   "id": "D21",
+   "lat": 44.88663788,
+   "lon": 27.5335353,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt11)",
+   "stereo70": {
+    "E": 700226.759,
+    "N": 379471.746
+   }
+  },
+  {
+   "id": "D22",
+   "lat": 44.88095752,
+   "lon": 27.55251351,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701745.498,
+    "N": 378888.171
+   }
+  },
+  {
+   "id": "D23",
+   "lat": 44.8796473,
+   "lon": 27.55722829,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt12)",
+   "stereo70": {
+    "E": 702122.489,
+    "N": 378754.463
+   }
+  },
+  {
+   "id": "D24",
+   "lat": 44.87833133,
+   "lon": 27.5619398,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702499.257,
+    "N": 378620.13
+   }
+  },
+  {
+   "id": "D25",
+   "lat": 44.87721991,
+   "lon": 27.56587639,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt13)",
+   "stereo70": {
+    "E": 702814.113,
+    "N": 378506.588
+   }
+  },
+  {
+   "id": "D26",
+   "lat": 44.87818003,
+   "lon": 27.54804122,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701402.069,
+    "N": 378568.43
+   }
+  },
+  {
+   "id": "D27",
+   "lat": 44.87583953,
+   "lon": 27.5492901,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt14)",
+   "stereo70": {
+    "E": 701508.953,
+    "N": 378311.567
+   }
+  },
+  {
+   "id": "D28",
+   "lat": 44.87451282,
+   "lon": 27.55399534,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701885.276,
+    "N": 378175.989
+   }
+  },
+  {
+   "id": "D29",
+   "lat": 44.87319592,
+   "lon": 27.55870591,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt15)",
+   "stereo70": {
+    "E": 702262.002,
+    "N": 378041.536
+   }
+  },
+  {
+   "id": "D30",
+   "lat": 44.87189002,
+   "lon": 27.56342242,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702639.175,
+    "N": 377908.342
+   }
+  },
+  {
+   "id": "D31",
+   "lat": 44.87058229,
+   "lon": 27.56813782,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt16)",
+   "stereo70": {
+    "E": 703016.283,
+    "N": 377774.965
+   }
+  },
+  {
+   "id": "D32",
+   "lat": 44.87328599,
+   "lon": 27.5448361,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701166.137,
+    "N": 378016.763
+   }
+  },
+  {
+   "id": "D33",
+   "lat": 44.87083941,
+   "lon": 27.54592557,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt17)",
+   "stereo70": {
+    "E": 701260.8,
+    "N": 377747.713
+   }
+  },
+  {
+   "id": "D34",
+   "lat": 44.86951917,
+   "lon": 27.550634,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701637.378,
+    "N": 377612.847
+   }
+  },
+  {
+   "id": "D35",
+   "lat": 44.86821918,
+   "lon": 27.55518652,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt18)",
+   "stereo70": {
+    "E": 702001.585,
+    "N": 377479.86
+   }
+  },
+  {
+   "id": "D36",
+   "lat": 44.86345894,
+   "lon": 27.55127021,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701708.999,
+    "N": 376941.251
+   }
+  },
+  {
+   "id": "D37",
+   "lat": 44.86485581,
+   "lon": 27.54659563,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt19)",
+   "stereo70": {
+    "E": 701334.785,
+    "N": 377084.711
+   }
+  },
+  {
+   "id": "D38",
+   "lat": 44.86625336,
+   "lon": 27.54193326,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700961.55,
+    "N": 377228.298
+   }
+  },
+  {
+   "id": "D39",
+   "lat": 44.86763867,
+   "lon": 27.53726603,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt20)",
+   "stereo70": {
+    "E": 700587.993,
+    "N": 377370.536
+   }
+  },
+  {
+   "id": "D40",
+   "lat": 44.86918362,
+   "lon": 27.53269493,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700221.488,
+    "N": 377530.767
+   }
+  },
+  {
+   "id": "D41",
+   "lat": 44.87072937,
+   "lon": 27.52812425,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt21)",
+   "stereo70": {
+    "E": 699855.032,
+    "N": 377691.11
+   }
+  },
+  {
+   "id": "D42",
+   "lat": 44.86207322,
+   "lon": 27.55594066,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702082.865,
+    "N": 376799.04
+   }
+  },
+  {
+   "id": "D43",
+   "lat": 44.86068519,
+   "lon": 27.56060956,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt22)",
+   "stereo70": {
+    "E": 702456.635,
+    "N": 376656.592
+   }
+  },
+  {
+   "id": "D44",
+   "lat": 44.86450033,
+   "lon": 27.54127852,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700915.983,
+    "N": 377031.93
+   }
+  },
+  {
+   "id": "D45",
+   "lat": 44.85885134,
+   "lon": 27.5490143,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt23)",
+   "stereo70": {
+    "E": 701547.008,
+    "N": 376423.768
+   }
+  },
+  {
+   "id": "D46",
+   "lat": 44.86030117,
+   "lon": 27.54438273,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701175.98,
+    "N": 376573.228
+   }
+  },
+  {
+   "id": "D47",
+   "lat": 44.8617634,
+   "lon": 27.53975875,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt24)",
+   "stereo70": {
+    "E": 700805.527,
+    "N": 376724.107
+   }
+  },
+  {
+   "id": "D48",
+   "lat": 44.8624577,
+   "lon": 27.53504362,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700430.58,
+    "N": 376789.474
+   }
+  },
+  {
+   "id": "D49",
+   "lat": 44.85932646,
+   "lon": 27.53230854,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt25)",
+   "stereo70": {
+    "E": 700225.457,
+    "N": 376434.834
+   }
+  },
+  {
+   "id": "D50",
+   "lat": 44.85648598,
+   "lon": 27.52982775,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700039.385,
+    "N": 376113.131
+   }
+  },
+  {
+   "id": "D51",
+   "lat": 44.85828144,
+   "lon": 27.52544223,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt26)",
+   "stereo70": {
+    "E": 699686.614,
+    "N": 376301.684
+   }
+  },
+  {
+   "id": "D52",
+   "lat": 44.8592211,
+   "lon": 27.5352297,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 700456.619,
+    "N": 376430.405
+   }
+  },
+  {
+   "id": "D53",
+   "lat": 44.85750462,
+   "lon": 27.53967735,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt27)",
+   "stereo70": {
+    "E": 700814.041,
+    "N": 376250.822
+   }
+  },
+  {
+   "id": "D54",
+   "lat": 44.85578868,
+   "lon": 27.54412178,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 701171.226,
+    "N": 376071.313
+   }
+  },
+  {
+   "id": "D55",
+   "lat": 44.85407938,
+   "lon": 27.54857462,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt28)",
+   "stereo70": {
+    "E": 701529.074,
+    "N": 375892.581
+   }
+  },
+  {
+   "id": "D56",
+   "lat": 44.85277794,
+   "lon": 27.55902668,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 702359.538,
+    "N": 375774.246
+   }
+  },
+  {
+   "id": "D57",
+   "lat": 44.85156285,
+   "lon": 27.56378925,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt29)",
+   "stereo70": {
+    "E": 702740.162,
+    "N": 375651.259
+   }
+  },
+  {
+   "id": "D58",
+   "lat": 44.85034755,
+   "lon": 27.56855161,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703120.785,
+    "N": 375528.272
+   }
+  },
+  {
+   "id": "D59",
+   "lat": 44.84912876,
+   "lon": 27.57330617,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt30)",
+   "stereo70": {
+    "E": 703500.82,
+    "N": 375404.899
+   }
+  },
+  {
+   "id": "D60",
+   "lat": 44.84792286,
+   "lon": 27.57807303,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703881.797,
+    "N": 375283.01
+   }
+  },
+  {
+   "id": "D61",
+   "lat": 44.8488925,
+   "lon": 27.58183907,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt31)",
+   "stereo70": {
+    "E": 704175.94,
+    "N": 375400.271
+   }
+  },
+  {
+   "id": "D62",
+   "lat": 44.8517296,
+   "lon": 27.58030307,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704044.448,
+    "N": 375711.527
+   }
+  },
+  {
+   "id": "D63",
+   "lat": 44.85294192,
+   "lon": 27.57554033,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt32)",
+   "stereo70": {
+    "E": 703663.796,
+    "N": 375834.128
+   }
+  },
+  {
+   "id": "D64",
+   "lat": 44.85415505,
+   "lon": 27.57077668,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703283.084,
+    "N": 375956.84
+   }
+  },
+  {
+   "id": "D65",
+   "lat": 44.85536929,
+   "lon": 27.56601693,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt33)",
+   "stereo70": {
+    "E": 702902.692,
+    "N": 376079.706
+   }
+  },
+  {
+   "id": "D66",
+   "lat": 44.8586961,
+   "lon": 27.56803535,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703050.368,
+    "N": 376454.351
+   }
+  },
+  {
+   "id": "D67",
+   "lat": 44.86201058,
+   "lon": 27.56901583,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt34)",
+   "stereo70": {
+    "E": 703116.068,
+    "N": 376825.009
+   }
+  },
+  {
+   "id": "D68",
+   "lat": 44.85987532,
+   "lon": 27.57129082,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703303.386,
+    "N": 376593.563
+   }
+  },
+  {
+   "id": "D69",
+   "lat": 44.85867252,
+   "lon": 27.57606013,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt35)",
+   "stereo70": {
+    "E": 703684.471,
+    "N": 376472.016
+   }
+  },
+  {
+   "id": "D70",
+   "lat": 44.85743557,
+   "lon": 27.58081183,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704064.302,
+    "N": 376346.653
+   }
+  },
+  {
+   "id": "D71",
+   "lat": 44.85868516,
+   "lon": 27.58350462,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt36)",
+   "stereo70": {
+    "E": 704272.597,
+    "N": 376492.295
+   }
+  },
+  {
+   "id": "D72",
+   "lat": 44.85560023,
+   "lon": 27.58794976,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704634.827,
+    "N": 376160.908
+   }
+  },
+  {
+   "id": "D73",
+   "lat": 44.85438526,
+   "lon": 27.59271259,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt37)",
+   "stereo70": {
+    "E": 705015.5,
+    "N": 376038.072
+   }
+  },
+  {
+   "id": "D74",
+   "lat": 44.85252503,
+   "lon": 27.59965354,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705570.608,
+    "N": 375849.144
+   }
+  },
+  {
+   "id": "D75",
+   "lat": 44.8513464,
+   "lon": 27.6044358,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt38)",
+   "stereo70": {
+    "E": 705952.723,
+    "N": 375730.448
+   }
+  },
+  {
+   "id": "D76",
+   "lat": 44.85576584,
+   "lon": 27.59584131,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705257.758,
+    "N": 376199.407
+   }
+  },
+  {
+   "id": "D77",
+   "lat": 44.85916283,
+   "lon": 27.59747368,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt39)",
+   "stereo70": {
+    "E": 705374.541,
+    "N": 376580.919
+   }
+  },
+  {
+   "id": "D78",
+   "lat": 44.85774355,
+   "lon": 27.60216668,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705750.422,
+    "N": 376435.252
+   }
+  },
+  {
+   "id": "D79",
+   "lat": 44.85653071,
+   "lon": 27.60693004,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt40)",
+   "stereo70": {
+    "E": 706131.138,
+    "N": 376312.721
+   }
+  },
+  {
+   "id": "D80",
+   "lat": 44.85531734,
+   "lon": 27.61169374,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 706511.896,
+    "N": 376190.153
+   }
+  },
+  {
+   "id": "D81",
+   "lat": 44.85410378,
+   "lon": 27.61645724,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt41)",
+   "stereo70": {
+    "E": 706892.655,
+    "N": 376067.586
+   }
+  },
+  {
+   "id": "D82",
+   "lat": 44.86254955,
+   "lon": 27.59914671,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705494.559,
+    "N": 376961.396
+   }
+  },
+  {
+   "id": "D83",
+   "lat": 44.86305042,
+   "lon": 27.60461047,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt42)",
+   "stereo70": {
+    "E": 705924.403,
+    "N": 377031.005
+   }
+  },
+  {
+   "id": "D84",
+   "lat": 44.86183125,
+   "lon": 27.6093783,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 706305.463,
+    "N": 376907.792
+   }
+  },
+  {
+   "id": "D85",
+   "lat": 44.8606261,
+   "lon": 27.61413776,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt43)",
+   "stereo70": {
+    "E": 706685.826,
+    "N": 376786.138
+   }
+  },
+  {
+   "id": "D86",
+   "lat": 44.86554064,
+   "lon": 27.59425676,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705097.52,
+    "N": 377281.175
+   }
+  },
+  {
+   "id": "D87",
+   "lat": 44.86669185,
+   "lon": 27.58946179,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt44)",
+   "stereo70": {
+    "E": 704714.609,
+    "N": 377396.842
+   }
+  },
+  {
+   "id": "D88",
+   "lat": 44.86784307,
+   "lon": 27.58466672,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704331.704,
+    "N": 377512.531
+   }
+  },
+  {
+   "id": "D89",
+   "lat": 44.86901517,
+   "lon": 27.57988627,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt45)",
+   "stereo70": {
+    "E": 703949.894,
+    "N": 377630.6
+   }
+  },
+  {
+   "id": "D90",
+   "lat": 44.87018796,
+   "lon": 27.57510135,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 703567.744,
+    "N": 377748.759
+   }
+  },
+  {
+   "id": "D91",
+   "lat": 44.87514689,
+   "lon": 27.57806164,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt46)",
+   "stereo70": {
+    "E": 703783.915,
+    "N": 378307.106
+   }
+  },
+  {
+   "id": "D92",
+   "lat": 44.87409755,
+   "lon": 27.58290333,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704170.081,
+    "N": 378202.819
+   }
+  },
+  {
+   "id": "D93",
+   "lat": 44.87295601,
+   "lon": 27.58770445,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt47)",
+   "stereo70": {
+    "E": 704553.385,
+    "N": 378088.211
+   }
+  },
+  {
+   "id": "D94",
+   "lat": 44.87178834,
+   "lon": 27.59248204,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704934.939,
+    "N": 377970.663
+   }
+  },
+  {
+   "id": "D95",
+   "lat": 44.87060232,
+   "lon": 27.59726169,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt48)",
+   "stereo70": {
+    "E": 705316.737,
+    "N": 377851.104
+   }
+  },
+  {
+   "id": "D96",
+   "lat": 44.86863857,
+   "lon": 27.60449342,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705895.044,
+    "N": 377651.449
+   }
+  },
+  {
+   "id": "D97",
+   "lat": 44.86742825,
+   "lon": 27.60925871,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt49)",
+   "stereo70": {
+    "E": 706275.835,
+    "N": 377529.212
+   }
+  },
+  {
+   "id": "D98",
+   "lat": 44.86620528,
+   "lon": 27.61402323,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 706656.626,
+    "N": 377405.59
+   }
+  },
+  {
+   "id": "D99",
+   "lat": 44.86498833,
+   "lon": 27.61878783,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt50)",
+   "stereo70": {
+    "E": 707037.416,
+    "N": 377282.66
+   }
+  },
+  {
+   "id": "D100",
+   "lat": 44.86377168,
+   "lon": 27.6235503,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 707418.054,
+    "N": 377159.78
+   }
+  },
+  {
+   "id": "D101",
+   "lat": 44.8625562,
+   "lon": 27.62831352,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt51)",
+   "stereo70": {
+    "E": 707798.761,
+    "N": 377037.053
+   }
+  },
+  {
+   "id": "D102",
+   "lat": 44.87249756,
+   "lon": 27.60317736,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 705777.202,
+    "N": 378076.748
+   }
+  },
+  {
+   "id": "D103",
+   "lat": 44.87401451,
+   "lon": 27.60629565,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt52)",
+   "stereo70": {
+    "E": 706018.046,
+    "N": 378253.234
+   }
+  },
+  {
+   "id": "D104",
+   "lat": 44.8710334,
+   "lon": 27.58784407,
+   "tip": "Sondaje deschise – dezveliri drumuri (D)",
+   "adancime": "4 m",
+   "obs": "sondaj deschis (dezvelire) drum",
+   "stereo70": {
+    "E": 704571.289,
+    "N": 377874.997
+   }
+  },
+  {
+   "id": "Fb1.1",
+   "lat": 44.89722088,
+   "lon": 27.559299,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 702223.869,
+    "N": 380711.799
+   }
+  },
+  {
+   "id": "Fb1.2",
+   "lat": 44.89710555,
+   "lon": 27.55978364,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 702262.542,
+    "N": 380700.207
+   }
+  },
+  {
+   "id": "Fb2.1",
+   "lat": 44.88162199,
+   "lon": 27.54968978,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 701520.146,
+    "N": 378954.904
+   }
+  },
+  {
+   "id": "Fb2.2",
+   "lat": 44.88150671,
+   "lon": 27.55017431,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 701558.819,
+    "N": 378943.312
+   }
+  },
+  {
+   "id": "Fb3.1",
+   "lat": 44.8643595,
+   "lon": 27.59934695,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705503.877,
+    "N": 377162.961
+   }
+  },
+  {
+   "id": "Fb3.2",
+   "lat": 44.864244,
+   "lon": 27.59983123,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705542.55,
+    "N": 377151.368
+   }
+  },
+  {
+   "id": "Fb4.1",
+   "lat": 44.8694552,
+   "lon": 27.60159376,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705663.054,
+    "N": 377734.745
+   }
+  },
+  {
+   "id": "Fb4.2",
+   "lat": 44.8693397,
+   "lon": 27.60207807,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705701.727,
+    "N": 377723.153
+   }
+  },
+  {
+   "id": "Fb5.1",
+   "lat": 44.85400442,
+   "lon": 27.59430542,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705142.72,
+    "N": 375999.827
+   }
+  },
+  {
+   "id": "Fb5.2",
+   "lat": 44.85388895,
+   "lon": 27.59478963,
+   "tip": "Foraje podețe (Fb)",
+   "adancime": "8 m",
+   "obs": "foraj podeț",
+   "stereo70": {
+    "E": 705181.392,
+    "N": 375988.235
+   }
+  },
+  {
+   "id": "Rt1",
+   "lat": 44.90131893,
+   "lon": 27.5794634,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703801.327,
+    "N": 381217.922
+   }
+  },
+  {
+   "id": "Rt2",
+   "lat": 44.8988509,
+   "lon": 27.57158612,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703188.199,
+    "N": 380923.835
+   }
+  },
+  {
+   "id": "Rt3",
+   "lat": 44.8959492,
+   "lon": 27.56451458,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702640.171,
+    "N": 380583.664
+   }
+  },
+  {
+   "id": "Rt4",
+   "lat": 44.89848747,
+   "lon": 27.55204051,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701646.309,
+    "N": 380834.272
+   }
+  },
+  {
+   "id": "Rt5",
+   "lat": 44.90204474,
+   "lon": 27.54320643,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700936.327,
+    "N": 381207.316
+   }
+  },
+  {
+   "id": "Rt6",
+   "lat": 44.8904979,
+   "lon": 27.55557264,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701953.403,
+    "N": 379955.626
+   }
+  },
+  {
+   "id": "Rt7",
+   "lat": 44.88767817,
+   "lon": 27.56198229,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702469.519,
+    "N": 379658.514
+   }
+  },
+  {
+   "id": "Rt8",
+   "lat": 44.88607746,
+   "lon": 27.57185418,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703254.769,
+    "N": 379505.6
+   }
+  },
+  {
+   "id": "Rt9",
+   "lat": 44.88392949,
+   "lon": 27.55155057,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701658.968,
+    "N": 379215.893
+   }
+  },
+  {
+   "id": "Rt10",
+   "lat": 44.8836175,
+   "lon": 27.54271129,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700961.998,
+    "N": 379159.114
+   }
+  },
+  {
+   "id": "Rt11",
+   "lat": 44.88663788,
+   "lon": 27.53353541,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700226.767,
+    "N": 379471.746
+   }
+  },
+  {
+   "id": "Rt12",
+   "lat": 44.87964413,
+   "lon": 27.55722815,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702122.489,
+    "N": 378754.111
+   }
+  },
+  {
+   "id": "Rt13",
+   "lat": 44.87721962,
+   "lon": 27.56588894,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702815.106,
+    "N": 378506.588
+   }
+  },
+  {
+   "id": "Rt14",
+   "lat": 44.87583667,
+   "lon": 27.54928998,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701508.953,
+    "N": 378311.249
+   }
+  },
+  {
+   "id": "Rt15",
+   "lat": 44.87319499,
+   "lon": 27.55870587,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702262.002,
+    "N": 378041.433
+   }
+  },
+  {
+   "id": "Rt16",
+   "lat": 44.8705812,
+   "lon": 27.56814517,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703016.867,
+    "N": 377774.862
+   }
+  },
+  {
+   "id": "Rt17",
+   "lat": 44.87083941,
+   "lon": 27.54592557,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701260.8,
+    "N": 377747.713
+   }
+  },
+  {
+   "id": "Rt18",
+   "lat": 44.86821938,
+   "lon": 27.55517739,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702000.863,
+    "N": 377479.86
+   }
+  },
+  {
+   "id": "Rt19",
+   "lat": 44.86485602,
+   "lon": 27.54658663,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701334.073,
+    "N": 377084.711
+   }
+  },
+  {
+   "id": "Rt20",
+   "lat": 44.86763867,
+   "lon": 27.53726603,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700587.993,
+    "N": 377370.536
+   }
+  },
+  {
+   "id": "Rt21",
+   "lat": 44.87072946,
+   "lon": 27.52812037,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 699854.725,
+    "N": 377691.11
+   }
+  },
+  {
+   "id": "Rt22",
+   "lat": 44.86068528,
+   "lon": 27.56060568,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702456.328,
+    "N": 376656.592
+   }
+  },
+  {
+   "id": "Rt23",
+   "lat": 44.85885142,
+   "lon": 27.54901043,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701546.701,
+    "N": 376423.768
+   }
+  },
+  {
+   "id": "Rt24",
+   "lat": 44.8617651,
+   "lon": 27.53975883,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700805.527,
+    "N": 376724.296
+   }
+  },
+  {
+   "id": "Rt25",
+   "lat": 44.85932646,
+   "lon": 27.53230854,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700225.457,
+    "N": 376434.834
+   }
+  },
+  {
+   "id": "Rt26",
+   "lat": 44.85828144,
+   "lon": 27.52544223,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 699686.614,
+    "N": 376301.684
+   }
+  },
+  {
+   "id": "Rt27",
+   "lat": 44.85750462,
+   "lon": 27.53967735,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 700814.041,
+    "N": 376250.822
+   }
+  },
+  {
+   "id": "Rt28",
+   "lat": 44.85407938,
+   "lon": 27.54857462,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 701529.074,
+    "N": 375892.581
+   }
+  },
+  {
+   "id": "Rt29",
+   "lat": 44.85156322,
+   "lon": 27.56377274,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702738.856,
+    "N": 375651.259
+   }
+  },
+  {
+   "id": "Rt30",
+   "lat": 44.84912876,
+   "lon": 27.57330617,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703500.82,
+    "N": 375404.899
+   }
+  },
+  {
+   "id": "Rt31",
+   "lat": 44.8488925,
+   "lon": 27.58183907,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 704175.94,
+    "N": 375400.271
+   }
+  },
+  {
+   "id": "Rt32",
+   "lat": 44.85294215,
+   "lon": 27.57553022,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703662.997,
+    "N": 375834.128
+   }
+  },
+  {
+   "id": "Rt33",
+   "lat": 44.85536929,
+   "lon": 27.56601693,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 702902.692,
+    "N": 376079.706
+   }
+  },
+  {
+   "id": "Rt34",
+   "lat": 44.86201435,
+   "lon": 27.569016,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703116.068,
+    "N": 376825.428
+   }
+  },
+  {
+   "id": "Rt35",
+   "lat": 44.85867625,
+   "lon": 27.57606191,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703684.599,
+    "N": 376472.435
+   }
+  },
+  {
+   "id": "Rt36",
+   "lat": 44.85868516,
+   "lon": 27.58350462,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 704272.597,
+    "N": 376492.295
+   }
+  },
+  {
+   "id": "Rt37",
+   "lat": 44.85438507,
+   "lon": 27.59271259,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 705015.5,
+    "N": 376038.05
+   }
+  },
+  {
+   "id": "Rt38",
+   "lat": 44.85134618,
+   "lon": 27.60443663,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 705952.79,
+    "N": 375730.426
+   }
+  },
+  {
+   "id": "Rt39",
+   "lat": 44.85916281,
+   "lon": 27.59747452,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 705374.608,
+    "N": 376580.919
+   }
+  },
+  {
+   "id": "Rt40",
+   "lat": 44.85653071,
+   "lon": 27.60693004,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 706131.138,
+    "N": 376312.721
+   }
+  },
+  {
+   "id": "Rt41",
+   "lat": 44.85410378,
+   "lon": 27.61645724,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 706892.655,
+    "N": 376067.586
+   }
+  },
+  {
+   "id": "Rt42",
+   "lat": 44.86305823,
+   "lon": 27.60461167,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 705924.47,
+    "N": 377031.875
+   }
+  },
+  {
+   "id": "Rt43",
+   "lat": 44.86062429,
+   "lon": 27.61413767,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 706685.826,
+    "N": 376785.936
+   }
+  },
+  {
+   "id": "Rt44",
+   "lat": 44.86669968,
+   "lon": 27.58946245,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 704714.633,
+    "N": 377397.712
+   }
+  },
+  {
+   "id": "Rt45",
+   "lat": 44.86901516,
+   "lon": 27.57988657,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703949.918,
+    "N": 377630.6
+   }
+  },
+  {
+   "id": "Rt46",
+   "lat": 44.87514713,
+   "lon": 27.5780512,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 703783.09,
+    "N": 378307.106
+   }
+  },
+  {
+   "id": "Rt47",
+   "lat": 44.87295601,
+   "lon": 27.58770445,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 704553.385,
+    "N": 378088.211
+   }
+  },
+  {
+   "id": "Rt48",
+   "lat": 44.87060232,
+   "lon": 27.59726169,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 705316.737,
+    "N": 377851.104
+   }
+  },
+  {
+   "id": "Rt49",
+   "lat": 44.86742825,
+   "lon": 27.60925871,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 706275.835,
+    "N": 377529.212
+   }
+  },
+  {
+   "id": "Rt50",
+   "lat": 44.86498833,
+   "lon": 27.61878783,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 707037.416,
+    "N": 377282.66
+   }
+  },
+  {
+   "id": "Rt51",
+   "lat": 44.8625573,
+   "lon": 27.62831357,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 707798.761,
+    "N": 377037.176
+   }
+  },
+  {
+   "id": "Rt52",
+   "lat": 44.87401451,
+   "lon": 27.60629565,
+   "tip": "Teste de rezistivitate termică (Rt)",
+   "adancime": "–",
+   "obs": "test de rezistivitate termică din sondaj de dezvelire",
+   "stereo70": {
+    "E": 706018.046,
+    "N": 378253.234
+   }
+  },
+  {
+   "id": "DH1",
+   "lat": 44.86113664,
+   "lon": 27.60796106,
+   "tip": "Teste seismice Downhole (DH)",
+   "adancime": "45 m",
+   "obs": "test seismic Downhole, executat în forajul FT",
+   "stereo70": {
+    "E": 706196.0,
+    "N": 376827.0
+   }
+  },
+  {
+   "id": "DH2",
+   "lat": 44.8591141,
+   "lon": 27.55301289,
+   "tip": "Teste seismice Downhole (DH)",
+   "adancime": "45 m",
+   "obs": "test seismic Downhole, executat în forajul FT",
+   "stereo70": {
+    "E": 701862.001,
+    "N": 376462.981
+   }
+  },
+  {
+   "id": "DH3",
+   "lat": 44.89636837,
+   "lon": 27.57036999,
+   "tip": "Teste seismice Downhole (DH)",
+   "adancime": "45 m",
+   "obs": "test seismic Downhole, executat în forajul FT",
+   "stereo70": {
+    "E": 703101.003,
+    "N": 380644.996
+   }
+  },
+  {
+   "id": "FT9 – piezometru",
+   "lat": 44.87485308,
+   "lon": 27.60889239,
+   "tip": "foraj fundație turbină WT9, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 706220.129,
+    "N": 378353.038
+   }
+  },
+  {
+   "id": "FT13 – piezometru",
+   "lat": 44.86379867,
+   "lon": 27.56956574,
+   "tip": "foraj fundație turbină WT13, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 703153.163,
+    "N": 377025.024
+   }
+  },
+  {
+   "id": "FT18 – piezometru",
+   "lat": 44.85035124,
+   "lon": 27.58210809,
+   "tip": "foraj fundație turbină WT18, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 704191.994,
+    "N": 375562.995
+   }
+  },
+  {
+   "id": "FT21 – piezometru",
+   "lat": 44.85255224,
+   "lon": 27.54699959,
+   "tip": "foraj fundație turbină WT21, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 701409.998,
+    "N": 375718.996
+   }
+  },
+  {
+   "id": "FT23 – piezometru",
+   "lat": 44.86004456,
+   "lon": 27.52361382,
+   "tip": "foraj fundație turbină WT23, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 699536.005,
+    "N": 376493.002
+   }
+  },
+  {
+   "id": "FT33 – piezometru",
+   "lat": 44.88165135,
+   "lon": 27.5460299,
+   "tip": "foraj fundație turbină WT33, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 701230.999,
+    "N": 378949.003
+   }
+  },
+  {
+   "id": "FT34 – piezometru",
+   "lat": 44.88666319,
+   "lon": 27.53009511,
+   "tip": "foraj fundație turbină WT34, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 699955.0,
+    "N": 379466.0
+   }
+  },
+  {
+   "id": "FT35 – piezometru",
+   "lat": 44.88653077,
+   "lon": 27.57503081999999,
+   "tip": "foraj fundație turbină WT35, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 703504.014,
+    "N": 379563.987
+   }
+  },
+  {
+   "id": "FT38 – piezometru",
+   "lat": 44.90305436,
+   "lon": 27.54301922,
+   "tip": "foraj fundație turbină WT38, echipat piezometric",
+   "adancime": "45 m",
+   "obs": "",
+   "stereo70": {
+    "E": 700917.998,
+    "N": 381319.001
+   }
+  },
+  {
+   "id": "Organizare 1",
+   "lat": 44.8719654239603,
+   "lon": 27.60346859127772,
+   "tip": "",
+   "adancime": "",
+   "obs": "",
+   "stereo70": null
+  },
+  {
+   "id": "organizare 2",
+   "lat": 44.92538845019195,
+   "lon": 27.58926996812428,
+   "tip": "",
+   "adancime": "",
+   "obs": "",
+   "stereo70": null
+  }
+ ],
+ "meteo": {
+  "2026-09-23": {
+   "weather_code": 51,
+   "temperature_2m_max": 18.5,
+   "temperature_2m_min": 11.4,
+   "temperature_2m_mean": 13.9,
+   "precipitation_sum": 0.8,
+   "wind_speed_10m_max": 18.3,
+   "wind_gusts_10m_max": 40.0,
+   "wind_direction_10m_dominant": 335,
+   "relative_humidity_2m_mean": 68,
+   "sunshine_duration": 43053.1
+  },
+  "2026-09-24": {
+   "weather_code": 51,
+   "temperature_2m_max": 20.3,
+   "temperature_2m_min": 10.6,
+   "temperature_2m_mean": 15.3,
+   "precipitation_sum": 0.2,
+   "wind_speed_10m_max": 16.9,
+   "wind_gusts_10m_max": 34.2,
+   "wind_direction_10m_dominant": 264,
+   "relative_humidity_2m_mean": 59,
+   "sunshine_duration": 33483.9
+  },
+  "2026-09-25": {
+   "weather_code": 3,
+   "temperature_2m_max": 21.1,
+   "temperature_2m_min": 8.7,
+   "temperature_2m_mean": 14.9,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 12.8,
+   "wind_gusts_10m_max": 22.0,
+   "wind_direction_10m_dominant": 126,
+   "relative_humidity_2m_mean": 61,
+   "sunshine_duration": 23775.46
+  },
+  "2026-09-26": {
+   "weather_code": 51,
+   "temperature_2m_max": 20.0,
+   "temperature_2m_min": 11.2,
+   "temperature_2m_mean": 15.6,
+   "precipitation_sum": 0.3,
+   "wind_speed_10m_max": 15.1,
+   "wind_gusts_10m_max": 29.5,
+   "wind_direction_10m_dominant": 48,
+   "relative_humidity_2m_mean": 72,
+   "sunshine_duration": 19761.51
+  },
+  "2026-09-27": {
+   "weather_code": 3,
+   "temperature_2m_max": 21.9,
+   "temperature_2m_min": 11.1,
+   "temperature_2m_mean": 16.1,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 23.5,
+   "wind_gusts_10m_max": 45.0,
+   "wind_direction_10m_dominant": 8,
+   "relative_humidity_2m_mean": 61,
+   "sunshine_duration": 42366.26
+  },
+  "2026-09-28": {
+   "weather_code": 3,
+   "temperature_2m_max": 20.2,
+   "temperature_2m_min": 12.1,
+   "temperature_2m_mean": 16.4,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 32.9,
+   "wind_gusts_10m_max": 60.8,
+   "wind_direction_10m_dominant": 1,
+   "relative_humidity_2m_mean": 57,
+   "sunshine_duration": 35218.78
+  },
+  "2026-09-29": {
+   "weather_code": 3,
+   "temperature_2m_max": 22.0,
+   "temperature_2m_min": 15.1,
+   "temperature_2m_mean": 18.1,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 26.1,
+   "wind_gusts_10m_max": 47.5,
+   "wind_direction_10m_dominant": 14,
+   "relative_humidity_2m_mean": 53,
+   "sunshine_duration": 24709.85
+  },
+  "2026-09-30": {
+   "weather_code": 0,
+   "temperature_2m_max": 20.6,
+   "temperature_2m_min": 11.0,
+   "temperature_2m_mean": 15.5,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 21.4,
+   "wind_gusts_10m_max": 41.8,
+   "wind_direction_10m_dominant": 18,
+   "relative_humidity_2m_mean": 55,
+   "sunshine_duration": 41803.15
+  },
+  "_meta": {
+   "sursa": "Open-Meteo (ERA5 / archive API)",
+   "lat": 44.88576,
+   "lon": 27.585138,
+   "elevatie_m": 47.0
+  }
+ }
+}
