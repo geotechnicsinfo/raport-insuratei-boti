@@ -71,7 +71,9 @@ python -m http.server 8000
 
 ## Observații asupra datelor
 
-- Fișa F92 este datată în manuscris „23.10.2026” (eroare de scriere); s-a reținut 23.09.2026 din lista de execuție.
-- Fișa F91 indică 28.09.2026, lista de execuție 29.09.2026; s-a reținut data din lista de execuție. Corectează în `data.json` dacă fișa este cea corectă.
+- Fișa Fr92 (cod fișă F92) este datată în manuscris „23.10.2026” (eroare de scriere); s-a reținut 23.09.2026 din lista de execuție.
+- Fișa Fr91 (cod fișă F91) indică 28.09.2026, lista de execuție 29.09.2026; s-a reținut data din lista de execuție. Corectează în `data.json` dacă fișa este cea corectă.
 - D93 nu are GPS în fișă; pe hartă este plasat în punctul proiectat.
 - Probele tulburate pe strat (vizibile în pozele lăzilor) nu sunt listate în fișe; se pot adăuga manual în `data.json → investigatii[].probe`.
+- Denumirile investigațiilor sunt cele din KML (`Fr67`, `D67`); codul scurt din fișa Excel (`F67`) apare ca „cod fișă”.
+- Secțiunea „Stadiu execuție” compară punctele executate cu cele proiectate în KML pe fiecare categorie (Fr, D, FT, Fp, CPTu, Rt, DH, Fb).

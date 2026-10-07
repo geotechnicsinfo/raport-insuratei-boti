@@ -60,6 +60,16 @@ h1,h2,h3,h4{font-family:var(--cond);font-weight:600;margin:0;line-height:1.1;let
 .stat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:10px 12px}
 .stat b{display:block;font-family:var(--cond);font-size:30px;color:var(--navy);line-height:1}
 .stat span{font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
+.stat b small{font-size:15px;color:var(--ink-3);font-weight:500}
+.progs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.prog{border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;background:#fff;opacity:.6}
+.prog.road{opacity:1;border-color:var(--navy)}
+.prog .pl{display:flex;justify-content:space-between;gap:8px;font-size:13.5px;align-items:baseline}
+.prog .pl .mono{white-space:nowrap}
+.prog .pl b{font-family:var(--cond);font-size:16px;color:var(--navy);font-weight:600}
+.prog .bar{height:8px;background:var(--line-2);border-radius:4px;overflow:hidden;margin:8px 0 5px}
+.prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--orange))}
+.prog .pp{font-size:12px;color:var(--ink-3)}
 @media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero h1{font-size:32px}}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}}
 
@@ -230,10 +240,17 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
           <div class="right"><button class="btn" id="btn-sat">Satelit</button><button class="btn" id="btn-fit">Încadrează</button></div></div>
         <div id="map"></div>
         <div class="legend">
-          <span><i style="background:var(--blue)"></i>Foraj drum (F) executat</span>
+          <span><i style="background:var(--blue)"></i>Foraj drum (Fr) executat</span>
           <span><i style="background:var(--orange)"></i>Sondaj deschis / dezvelire (D) executat</span>
           <span><i style="background:#9AA5B1;width:9px;height:9px"></i>Punct proiectat (Fr / D / FT / Fp / CPTu / Rt / DH / Fb), neexecutat încă în această etapă</span>
         </div>
+      </div>
+    </section>
+
+    <section class="block" id="stadiu-sec">
+      <div class="wrap">
+        <div class="sec-h"><h2>Stadiu execuție</h2><span class="n">executat / proiectat, conform KML „Investigații geotehnice Faza I”</span></div>
+        <div class="progs" id="stadiu"></div>
       </div>
     </section>
 
@@ -243,11 +260,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
           <div class="right">
             <div class="chips" id="chips">
               <button class="chip on" data-f="all">Toate</button>
-              <button class="chip" data-f="foraj">Foraje</button>
-              <button class="chip or" data-f="dezvelire">Dezveliri</button>
+              <button class="chip" data-f="foraj">Foraje drum (Fr)</button>
+              <button class="chip or" data-f="dezvelire">Dezveliri (D)</button>
               <button class="chip" data-f="apa">Cu apă / infiltrații</button>
             </div>
-            <input class="search" id="q" placeholder="Caută (ex: F92, loess, nisip)…">
+            <input class="search" id="q" placeholder="Caută (ex: Fr92, D91, loess)…">
           </div>
         </div>
         <div class="grid" id="grid"></div>
@@ -350,17 +367,32 @@ function renderHome(){
   const ml = INV.reduce((s,i)=>s+(+i.adancime||0),0);
   const nP = INV.reduce((s,i)=>s+i.poze.length+(i.fisa_foto?1:0),0);
   const days = new Set(INV.map(i=>i.data)).size;
+  const st = (D.stadiu||[]); const pf = st.find(x=>/Foraje drumuri/.test(x.categorie)), pd = st.find(x=>/dezveliri/.test(x.categorie));
   document.getElementById('stats').innerHTML = [
-    [nF,'foraje (F)'],[nD,'dezveliri (D)'],[ml.toFixed(0)+' m','metri liniari'],[days,'zile de teren'],
+    [nF + (pf?`<small> / ${pf.proiectate}</small>`:''),'foraje drum (Fr)'],[nD + (pd?`<small> / ${pd.proiectate}</small>`:''),'dezveliri (D)'],[ml.toFixed(0)+' m','metri liniari'],[days,'zile de teren'],
   ].map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('') ;
+  renderStadiu();
   document.getElementById('cnt').textContent = `${INV.length} investigații · ${nP} fotografii`;
   renderGrid(); renderDays(); renderTable(); initMap();
+}
+
+/* ---- stadiu execuție pe categorii (proiectat în KML vs executat) ---- */
+function renderStadiu(){
+  const el = document.getElementById('stadiu'); if(!el || !D.stadiu) return;
+  const rows = D.stadiu.map(x => {
+    const pct = x.proiectate ? Math.round(100*x.executate/x.proiectate) : 0;
+    const road = /Foraje drumuri|dezveliri|rezistivitate/.test(x.categorie);
+    return `<div class="prog ${road?'road':''}"><div class="pl"><b>${esc(x.categorie)}</b><span class="mono">${x.executate} / ${x.proiectate}</span></div>
+      <div class="bar"><i style="width:${pct}%"></i></div>
+      <div class="pp">${pct}% executat${road?'':(x.executate?' – teste efectuate în dezvelirile din acest raport':' – nu face obiectul acestui raport')}</div></div>`;
+  }).join('');
+  el.innerHTML = rows;
 }
 
 let filt='all', q='';
 function visible(){
   return INV.filter(i => (filt==='all' || (filt==='apa' ? (i.NH!=null||i.IN!=null) : i.tip===filt))
-    && (!q || (i.id+' '+i.straturi.map(s=>s.descriere).join(' ')+' '+(i.apa||'')).toLowerCase().includes(q)));
+    && (!q || (i.id+' '+(i.id_fisa||'')+' '+i.straturi.map(s=>s.descriere).join(' ')+' '+(i.apa||'')).toLowerCase().includes(q)));
 }
 function renderGrid(){
   const list = visible();
@@ -396,7 +428,7 @@ function renderTable(){
   const rows = INV.map(i => {
     const off = i.proiectat ? dist(i.lat,i.lon,i.proiectat.lat,i.proiectat.lon) : null;
     return `<tr>
-      <td><a href="#/i/${i.id}"><b>${i.id}</b></a></td><td>${i.tip==='dezvelire'?'dezvelire':'foraj'}</td>
+      <td><a href="#/i/${i.id}"><b>${i.id}</b></a></td><td>${i.tip==='dezvelire'?'dezvelire (D)':'foraj drum (Fr)'}</td>
       <td class="num">${fmtDate(i.data)}</td><td class="num">${n2(i.adancime)}</td>
       <td class="num">${i.lat!=null?i.lat.toFixed(6):'—'}</td><td class="num">${i.lon!=null?i.lon.toFixed(6):'—'}</td>
       <td class="num">${i.proiectat&&i.proiectat.stereo70?i.proiectat.stereo70.E.toFixed(1):'—'}</td><td class="num">${i.proiectat&&i.proiectat.stereo70?i.proiectat.stereo70.N.toFixed(1):'—'}</td>
@@ -424,9 +456,9 @@ function initMap(){
   baseSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Esri'});
   baseOSM.addTo(map);
   // puncte proiectate (context)
-  const execIds = new Set(INV.map(i=>i.id)); const execFr = new Set(INV.filter(i=>i.tip==='foraj').map(i=>'Fr'+i.nr));
+  const execIds = new Set(INV.map(i=>i.id));
   D.puncte_proiectate.forEach(p => {
-    if (execIds.has(p.id)||execFr.has(p.id)) return;
+    if (execIds.has(p.id)) return;
     L.circleMarker([p.lat,p.lon],{radius:3.5,color:'#fff',weight:1,fillColor:'#9AA5B1',fillOpacity:.9}).addTo(map)
       .bindPopup(`<b>${esc(p.id)}</b><br>${esc(p.tip)}<br>${p.adancime?'Adâncime: '+esc(p.adancime):''}<br><span style="color:#7B8794">${esc(p.obs)}</span>`);
   });
@@ -487,9 +519,9 @@ function renderDetail(id){
   const html = `
     <a class="back" href="#/">← Înapoi la sinteză</a>
     <div class="dhead">
-      <div><span class="type ${dz?'dz':''}">${dz?'Sondaj deschis · dezvelire drum':'Foraj drum de acces / exploatare'}</span>
+      <div><span class="type ${dz?'dz':''}">${esc(i.categorie_kml||(dz?'Sondaje deschise – dezveliri drumuri (D)':'Foraje drumuri (Fr)'))}</span>
         <h1>${i.id}</h1></div>
-      <div style="color:var(--ink-2)">${fmtDateL(i.data)}<br><span class="mono">${D.proiect.amplasament}</span></div>
+      <div style="color:var(--ink-2)">${fmtDateL(i.data)}<br><span class="mono">${D.proiect.amplasament}${i.id_fisa&&i.id_fisa!==i.id?` · cod fișă: ${esc(i.id_fisa)}`:''}</span></div>
       <div class="pn"><a class="${prev?'':'dis'}" href="#/i/${prev?prev.id:''}">‹ ${prev?prev.id:''}</a><a class="${next?'':'dis'}" href="#/i/${next?next.id:''}">${next?next.id:''} ›</a></div>
     </div>
     ${i.nota_data?`<div class="note">${esc(i.nota_data)}</div>`:''}

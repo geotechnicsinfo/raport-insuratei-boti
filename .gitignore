@@ -4,3 +4,4 @@ __pycache__/
 desktop.ini
 Thumbs.db
 data_copy.json
+_to_delete/

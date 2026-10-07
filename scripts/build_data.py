@@ -202,9 +202,10 @@ def main():
         folder_name = ('Dezvelire' if tip == 'dezvelire' else 'Foraj') + f' N{nr}'
         folder = os.path.join(a.poze, folder_name)
         fisa_img, pics = (None, [])
+        pid = planned['id'] if planned else iid
         if os.path.isdir(folder):
             print('poze', folder_name)
-            fisa_img, pics = process_photos(folder, os.path.join(a.out, 'photos', iid), f'photos/{iid}')
+            fisa_img, pics = process_photos(folder, os.path.join(a.out, 'photos', pid), f'photos/{pid}')
         data = f.get('data') or fc.get('data')
         nota = None
         # corecție: fișa F92 este datată 23.10.2026 (eroare de scriere), lista de execuție indică 23.09.2026
@@ -222,9 +223,12 @@ def main():
             m = re.search(r'\((Rt\d+)\)', planned['obs'])
             if m:
                 rt = m.group(1)
+        # denumirea oficială = numele punctului din KML (Fr67 / D67); fallback pe codul din fișă
+        kid = planned['id'] if planned else iid
+        ktip = planned['tip'] if planned else ('Sondaje deschise – dezveliri drumuri (D)' if tip == 'dezvelire' else 'Foraje drumuri (Fr)')
         investigatii.append({
-            'id': iid, 'tip': tip, 'nr': nr,
-            'eticheta': ('Sondaj deschis (dezvelire) ' if tip == 'dezvelire' else 'Foraj ') + iid,
+            'id': kid, 'id_fisa': iid, 'tip': tip, 'nr': nr, 'categorie_kml': ktip,
+            'eticheta': ('Sondaj deschis (dezvelire) ' if tip == 'dezvelire' else 'Foraj drum ') + kid,
             'data': data, 'nota_data': nota,
             'adancime': fc.get('adancime') or f.get('adancime_fisa'),
             'apa': f.get('apa'), 'NH': f.get('NH'), 'IN': f.get('IN'),
@@ -247,7 +251,21 @@ def main():
         meteo['_meta'] = {'sursa': 'Open-Meteo (ERA5 / archive API)', 'lat': mj.get('latitude'),
                           'lon': mj.get('longitude'), 'elevatie_m': mj.get('elevation')}
 
+    # stadiu execuție pe categorii (din KML)
+    from collections import Counter
+    for p in kml:  # piezometrele sunt descrise individual în KML -> o singură categorie
+        if p['tip'].lower().startswith('foraj fundație turbină'):
+            p['tip'] = 'Foraje echipate piezometric'
+    plan_cnt = Counter(p['tip'] for p in kml if p['tip'])
+    exec_ids = {i['id'] for i in investigatii} | {i['rt'] for i in investigatii if i.get('rt')}
+    stadiu = []
+    for tipk, total in sorted(plan_cnt.items(), key=lambda x: -x[1]):
+        ids = [p['id'] for p in kml if p['tip'] == tipk]
+        done = [x for x in ids if x in exec_ids]
+        stadiu.append({'categorie': tipk, 'proiectate': total, 'executate': len(done),
+                       'neexecutate': [x for x in ids if x not in exec_ids]})
     out = {
+        'stadiu': stadiu,
         'proiect': {
             'titlu': 'Investigații geotehnice Faza I – UAT Însurăței',
             'beneficiar_lucrare': 'Parc eolian – UAT Însurăței, jud. Brăila',
