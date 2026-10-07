@@ -61,7 +61,7 @@ h1,h2,h3,h4{font-family:var(--cond);font-weight:600;margin:0;line-height:1.1;let
 .stat b{display:block;font-family:var(--cond);font-size:30px;color:var(--navy);line-height:1}
 .stat span{font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
 .stat b small{font-size:15px;color:var(--ink-3);font-weight:500}
-.progs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.progs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;max-width:760px}
 .prog{border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;background:#fff;opacity:.6}
 .prog.road{opacity:1;border-color:var(--navy)}
 .prog .pl{display:flex;justify-content:space-between;gap:8px;font-size:13.5px;align-items:baseline}
@@ -242,7 +242,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
         <div class="legend">
           <span><i style="background:var(--blue)"></i>Foraj drum (Fr) executat</span>
           <span><i style="background:var(--orange)"></i>Sondaj deschis / dezvelire (D) executat</span>
-          <span><i style="background:#9AA5B1;width:9px;height:9px"></i>Punct proiectat (Fr / D / FT / Fp / CPTu / Rt / DH / Fb), neexecutat încă în această etapă</span>
+          <span><i style="background:#9AA5B1;width:9px;height:9px"></i>Foraj drum / dezvelire proiectată, neexecutată încă</span>
         </div>
       </div>
     </section>
@@ -379,12 +379,11 @@ function renderHome(){
 /* ---- stadiu execuție pe categorii (proiectat în KML vs executat) ---- */
 function renderStadiu(){
   const el = document.getElementById('stadiu'); if(!el || !D.stadiu) return;
-  const rows = D.stadiu.map(x => {
+  const rows = D.stadiu.filter(x => /Foraje drumuri|dezveliri/.test(x.categorie)).map(x => {
     const pct = x.proiectate ? Math.round(100*x.executate/x.proiectate) : 0;
-    const road = /Foraje drumuri|dezveliri|rezistivitate/.test(x.categorie);
-    return `<div class="prog ${road?'road':''}"><div class="pl"><b>${esc(x.categorie)}</b><span class="mono">${x.executate} / ${x.proiectate}</span></div>
+    return `<div class="prog road"><div class="pl"><b>${esc(x.categorie)}</b><span class="mono">${x.executate} / ${x.proiectate}</span></div>
       <div class="bar"><i style="width:${pct}%"></i></div>
-      <div class="pp">${pct}% executat${road?'':(x.executate?' – teste efectuate în dezvelirile din acest raport':' – nu face obiectul acestui raport')}</div></div>`;
+      <div class="pp">${pct}% executat · ${x.proiectate-x.executate} rămase</div></div>`;
   }).join('');
   el.innerHTML = rows;
 }
@@ -426,23 +425,21 @@ function renderDays(){
 
 function renderTable(){
   const rows = INV.map(i => {
-    const off = i.proiectat ? dist(i.lat,i.lon,i.proiectat.lat,i.proiectat.lon) : null;
     return `<tr>
       <td><a href="#/i/${i.id}"><b>${i.id}</b></a></td><td>${i.tip==='dezvelire'?'dezvelire (D)':'foraj drum (Fr)'}</td>
       <td class="num">${fmtDate(i.data)}</td><td class="num">${n2(i.adancime)}</td>
       <td class="num">${i.lat!=null?i.lat.toFixed(6):'—'}</td><td class="num">${i.lon!=null?i.lon.toFixed(6):'—'}</td>
       <td class="num">${i.proiectat&&i.proiectat.stereo70?i.proiectat.stereo70.E.toFixed(1):'—'}</td><td class="num">${i.proiectat&&i.proiectat.stereo70?i.proiectat.stereo70.N.toFixed(1):'—'}</td>
-      <td class="num">${off!=null?off.toFixed(0):'—'}</td>
       <td>${i.NH!=null?`NH ${n2(i.NH)} m`:''}${i.IN!=null?` · IN ${n2(i.IN)} m`:''}${i.NH==null&&i.IN==null?esc(i.apa||'fără apă'):''}</td>
       <td class="num">${i.straturi.length}</td><td class="num">${i.poze.length}</td><td>${i.rt||''}</td></tr>`;
   }).join('');
-  document.getElementById('tbl').innerHTML = `<thead><tr><th>ID</th><th>Tip</th><th>Data</th><th>Ad. [m]</th><th>Lat (GPS)</th><th>Lon (GPS)</th><th>E Stereo70*</th><th>N Stereo70*</th><th>Abatere [m]</th><th>Apă subterană</th><th>Straturi</th><th>Foto</th><th>Test asociat</th></tr></thead><tbody>${rows}</tbody>`;
+  document.getElementById('tbl').innerHTML = `<thead><tr><th>ID</th><th>Tip</th><th>Data</th><th>Ad. [m]</th><th>Lat (GPS)</th><th>Lon (GPS)</th><th>E Stereo70*</th><th>N Stereo70*</th><th>Apă subterană</th><th>Straturi</th><th>Foto</th><th>Test asociat</th></tr></thead><tbody>${rows}</tbody>`;
   document.getElementById('tbl').insertAdjacentHTML('afterend','');
 }
 function exportCSV(){
-  const h = ['ID','Tip','Data','Adancime_m','Lat_GPS','Lon_GPS','E_Stereo70_proiectat','N_Stereo70_proiectat','Abatere_m','Apa','NH_m','IN_m','Nr_straturi','Stratificatie','Nr_foto','Test_asociat'];
-  const rows = INV.map(i => { const off = i.proiectat?dist(i.lat,i.lon,i.proiectat.lat,i.proiectat.lon):null; const st=i.proiectat&&i.proiectat.stereo70;
-    return [i.id,i.tip,fmtDate(i.data),i.adancime,i.lat,i.lon,st?st.E:'',st?st.N:'',off!=null?off.toFixed(1):'',i.apa||'',i.NH??'',i.IN??'',i.straturi.length,i.straturi.map(s=>`${s.de}-${s.la??''} m: ${s.descriere}`).join(' | '),i.poze.length,i.rt||'']; });
+  const h = ['ID','Tip','Data','Adancime_m','Lat_GPS','Lon_GPS','E_Stereo70_proiectat','N_Stereo70_proiectat','Apa','NH_m','IN_m','Nr_straturi','Stratificatie','Nr_foto','Test_asociat'];
+  const rows = INV.map(i => { const st=i.proiectat&&i.proiectat.stereo70;
+    return [i.id,i.tip,fmtDate(i.data),i.adancime,i.lat,i.lon,st?st.E:'',st?st.N:'',i.apa||'',i.NH??'',i.IN??'',i.straturi.length,i.straturi.map(s=>`${s.de}-${s.la??''} m: ${s.descriere}`).join(' | '),i.poze.length,i.rt||'']; });
   const csv = [h,...rows].map(r=>r.map(v=>`"${String(v??'').replace(/"/g,'""')}"`).join(';')).join('\r\n');
   const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'})); a.download = 'centralizator_investigatii_insuratei.csv'; a.click();
 }
@@ -458,7 +455,7 @@ function initMap(){
   // puncte proiectate (context)
   const execIds = new Set(INV.map(i=>i.id));
   D.puncte_proiectate.forEach(p => {
-    if (execIds.has(p.id)) return;
+    if (execIds.has(p.id) || !/Foraje drumuri|dezveliri/.test(p.tip)) return;
     L.circleMarker([p.lat,p.lon],{radius:3.5,color:'#fff',weight:1,fillColor:'#9AA5B1',fillOpacity:.9}).addTo(map)
       .bindPopup(`<b>${esc(p.id)}</b><br>${esc(p.tip)}<br>${p.adancime?'Adâncime: '+esc(p.adancime):''}<br><span style="color:#7B8794">${esc(p.obs)}</span>`);
   });
@@ -512,7 +509,6 @@ function renderDetail(id){
   const i = INV.find(x=>x.id===id); if(!i){ location.hash='#/'; return; }
   const idx = INV.indexOf(i), prev = INV[idx-1], next = INV[idx+1];
   const w = wxOf(i.data); const dz = i.tip==='dezvelire';
-  const off = i.proiectat ? dist(i.lat,i.lon,i.proiectat.lat,i.proiectat.lon) : null;
   const gmaps = i.lat!=null ? `https://www.google.com/maps?q=${i.lat},${i.lon}` : null;
   const water = i.NH!=null ? `NH = ${n2(i.NH)} m` : (i.IN!=null ? `infiltrație la ${n2(i.IN)} m` : (i.apa||'fără apă'));
   const legend = [...new Map(i.straturi.map(s=>{const L=litho(s.descriere);return [L.k,L.c];})).entries()].map(([k,c])=>`<span><i style="background:${c};border-radius:2px"></i>${k}</span>`).join('');
@@ -529,7 +525,7 @@ function renderDetail(id){
       <div class="kv"><span>Adâncime</span><b>${n2(i.adancime)} m</b></div>
       <div class="kv ${i.NH!=null||i.IN!=null?'water':''}"><span>Apă subterană</span><b>${esc(water)}</b>${i.NH!=null&&i.IN!=null?`<div class="sm">infiltrație la ${n2(i.IN)} m</div>`:''}</div>
       <div class="kv"><span>GPS teren (WGS84)</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.gps_dms.join(' · ')||i.coord_sursa)}</div></div>
-      <div class="kv"><span>Punct proiectat · Stereo 70</span><b class="mono">${i.proiectat&&i.proiectat.stereo70?`E ${i.proiectat.stereo70.E.toFixed(2)} · N ${i.proiectat.stereo70.N.toFixed(2)}`:'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.id)+(off!=null?` · abatere ${off.toFixed(0)} m`:''):''}</div></div>
+      <div class="kv"><span>Punct proiectat · Stereo 70</span><b class="mono">${i.proiectat&&i.proiectat.stereo70?`E ${i.proiectat.stereo70.E.toFixed(2)} · N ${i.proiectat.stereo70.N.toFixed(2)}`:'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.id):''}</div></div>
       <div class="kv"><span>Teste asociate</span><b>${i.rt?esc(i.rt)+' – rezistivitate termică':'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.obs):''}</div></div>
       <div class="kv"><span>Fotografii</span><b>${i.poze.length}${i.fisa_foto?' + fișă':''}</b>${gmaps?`<div class="sm"><a href="${gmaps}" target="_blank" rel="noopener">Deschide în Google Maps ↗</a></div>`:''}</div>
     </div>

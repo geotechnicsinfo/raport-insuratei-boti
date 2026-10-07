@@ -76,4 +76,4 @@ python -m http.server 8000
 - D93 nu are GPS în fișă; pe hartă este plasat în punctul proiectat.
 - Probele tulburate pe strat (vizibile în pozele lăzilor) nu sunt listate în fișe; se pot adăuga manual în `data.json → investigatii[].probe`.
 - Denumirile investigațiilor sunt cele din KML (`Fr67`, `D67`); codul scurt din fișa Excel (`F67`) apare ca „cod fișă”.
-- Secțiunea „Stadiu execuție” compară punctele executate cu cele proiectate în KML pe fiecare categorie (Fr, D, FT, Fp, CPTu, Rt, DH, Fb).
+- Secțiunea „Stadiu execuție” compară forajele de drum (Fr) și dezvelirile (D) executate cu cele proiectate în KML.
