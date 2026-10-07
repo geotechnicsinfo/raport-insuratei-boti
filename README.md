@@ -77,3 +77,5 @@ python -m http.server 8000
 - Probele tulburate pe strat (vizibile în pozele lăzilor) nu sunt listate în fișe; se pot adăuga manual în `data.json → investigatii[].probe`.
 - Denumirile investigațiilor sunt cele din KML (`Fr67`, `D67`); codul scurt din fișa Excel (`F67`) apare ca „cod fișă”.
 - Secțiunea „Stadiu execuție” compară forajele de drum (Fr) și dezvelirile (D) executate cu cele proiectate în KML.
+- Intro 3D (`intro3d.js`, Three.js r128): bloc de teren stilizat din `terrain.json` (grilă EU-DEM 25 m, 20×20) cu carotele extrase animat în ordinea execuției; relief exagerat ×30, carote ×110. Se dezactivează singur dacă WebGL nu e disponibil.
+- Folderul `gis/` (local, pe Drive) conține proiectul QGIS al hărții apei subterane și scriptul `build_map.py`.

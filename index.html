@@ -71,6 +71,34 @@ h1,h2,h3,h4{font-family:var(--cond);font-weight:600;margin:0;line-height:1.1;let
 .prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--orange))}
 .prog .pp{font-size:12px;color:var(--ink-3)}
 @media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero h1{font-size:32px}}
+/* ---------- intro 3D ---------- */
+.hero{position:relative;overflow:hidden}
+#intro3d{display:none}
+.hero.has3d #intro3d{display:block;position:absolute;inset:0;z-index:1}
+#intro3d canvas{display:block;width:100%;height:100%;cursor:grab}
+.hero.has3d{min-height:640px}
+.hero.has3d::after{content:"";position:absolute;inset:0 55% 0 0;background:linear-gradient(90deg,rgba(255,255,255,.96) 35%,rgba(255,255,255,0));z-index:1;pointer-events:none}
+.hero.has3d .wrap{position:relative;z-index:2;pointer-events:none;grid-template-columns:minmax(0,470px);align-items:start;gap:18px;padding-top:34px}
+.hero.has3d .stats{grid-template-columns:repeat(2,1fr);max-width:330px}
+.hero.has3d .stat{background:rgba(255,255,255,.9)}
+.i3-hud{position:absolute;right:20px;bottom:14px;z-index:3;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:6px;pointer-events:none}
+.i3-hud .btn{pointer-events:auto}
+.i3-date b{font-family:var(--cond);font-size:34px;color:var(--navy);line-height:1;display:block}
+.i3-date span{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.i3-leg{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:12.5px;color:var(--ink-2)}
+.i3-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:-1px}
+.i3-note{font-size:11.5px;color:var(--ink-3);max-width:340px}
+.i3-tip{position:absolute;z-index:4;display:none;background:#fff;border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:4px;padding:7px 10px;font-size:12.5px;line-height:1.4;box-shadow:0 6px 18px rgba(10,47,79,.16);pointer-events:none;min-width:150px}
+.i3-tip b{font-family:var(--cond);font-size:17px;color:var(--navy)}.i3-tip .w{color:var(--water);font-weight:600}.i3-tip em{color:var(--ink-3);font-size:11px}
+@media(max-width:900px){
+  .hero.has3d{min-height:0}
+  .hero.has3d #intro3d{position:relative;inset:auto;height:400px}
+  .hero.has3d::after{display:none}
+  .hero.has3d .wrap{grid-template-columns:1fr}
+  .hero.has3d .stats{max-width:none;grid-template-columns:repeat(2,1fr)}
+  .i3-hud{right:16px;left:16px;bottom:10px}.i3-note{display:none}.i3-date b{font-size:26px}
+}
+@media print{.hero.has3d #intro3d,.hero.has3d::after{display:none}.hero.has3d{min-height:0}}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}}
 
 /* ---------- layout ---------- */
@@ -232,6 +260,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
         </div>
         <div class="stats" id="stats"></div>
       </div>
+      <div id="intro3d" aria-label="Vedere 3D stilizată a amplasamentului și a investigațiilor executate"></div>
     </div>
 
     <section class="block" id="harta">
@@ -307,6 +336,8 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="intro3d.js"></script>
 <script>
 /* ============================================================
    Aplicație de raportare – investigații de teren Însurăței
@@ -612,6 +643,7 @@ window.addEventListener('hashchange', route);
 fetch('data.json').then(r=>r.json()).then(d => {
   D = d; INV = d.investigatii.slice().sort((a,b)=> a.tip===b.tip ? a.nr-b.nr : (a.tip==='foraj'?-1:1));
   try { renderHome(); } catch(e){ console.error(e); }
+  fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; filt=b.dataset.f; document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c===b)); renderGrid(); };
   document.getElementById('q').oninput = e => { q=e.target.value.trim().toLowerCase(); renderGrid(); };
