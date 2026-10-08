@@ -71,18 +71,6 @@ h1,h2,h3,h4{font-family:var(--cond);font-weight:600;margin:0;line-height:1.1;let
 .prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--orange))}
 .prog .pp{font-size:12px;color:var(--ink-3)}
 @media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero h1{font-size:32px}}
-/* ---------- harta apei ---------- */
-#wmap{height:560px;border:1px solid var(--line);border-radius:var(--r);background:#eef1f4}
-@media(max-width:700px){#wmap{height:400px}}
-.wsel{font-size:13px;color:var(--ink-2);display:inline-flex;align-items:center;gap:6px}
-.wsel select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:var(--r);padding:4px 6px;background:#fff}
-.iso-lbl{font-family:var(--mono);font-size:10.5px;color:#0A4F8F;text-align:center;line-height:14px;background:rgba(255,255,255,.85);border-radius:3px}
-.iso-lbl.mj{font-weight:600;color:var(--navy)}
-.iso-pt{font-family:var(--mono);font-size:10.5px;font-weight:600;color:var(--navy);text-shadow:0 0 3px #fff,0 0 3px #fff;white-space:nowrap}
-.wbar{display:flex;align-items:center;gap:10px;margin-top:12px;font-size:13px;color:var(--ink-2)}
-.wbar i{display:block;height:12px;width:260px;max-width:40vw;border-radius:3px;border:1px solid var(--line)}
-.wbar em{font-style:normal;color:var(--ink-3)}
-.wnote{font-size:12.5px;color:var(--ink-2);background:var(--orange-l);border-left:3px solid var(--orange);padding:8px 12px;border-radius:0 4px 4px 0;margin:10px 0 0;max-width:95ch}
 /* ---------- intro 3D ---------- */
 .hero{position:relative;overflow:hidden}
 #intro3d{display:none}
@@ -254,7 +242,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
     <nav class="nav">
       <a href="#/" data-nav="/">Sinteză</a>
       <a href="#/harta" data-nav="/harta">Hartă</a>
-      <a href="#/apa" data-nav="/apa">Apă</a>
       <a href="#/zile" data-nav="/zile">Calendar</a>
       <a href="#/tabel" data-nav="/tabel">Tabel</a>
     </nav>
@@ -286,15 +273,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
           <span><i style="background:var(--orange)"></i>Sondaj deschis / dezvelire (D) executat</span>
           <span><i style="background:#9AA5B1;width:9px;height:9px"></i>Foraj drum / dezvelire proiectată, neexecutată încă</span>
         </div>
-      </div>
-    </section>
-
-    <section class="block" id="apa">
-      <div class="wrap">
-        <div class="sec-h"><h2>Apa subterană</h2><span class="n">izohipse calculate din datele de teren · preliminar</span>
-          <div class="right" id="wctl"></div></div>
-        <div id="wmap"></div>
-        <div id="wleg"></div>
       </div>
     </section>
 
@@ -360,7 +338,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="intro3d.js"></script>
-<script src="apa.js"></script>
 <script>
 /* ============================================================
    Aplicație de raportare – investigații de teren Însurăței
@@ -657,7 +634,7 @@ function route(){
   if (m){ home.style.display='none'; det.classList.add('open'); renderDetail(m[1]); window.scrollTo(0,0); return; }
   det.classList.remove('open'); home.style.display='block';
   if (map) setTimeout(()=>map.invalidateSize(),50);
-  const sec = {'/harta':'harta','/apa':'apa','/zile':'zile','/tabel':'tabel'}[h];
+  const sec = {'/harta':'harta','/zile':'zile','/tabel':'tabel'}[h];
   if (sec) document.getElementById(sec).scrollIntoView({behavior:'smooth'}); else if (h==='/') window.scrollTo({top:0});
 }
 window.addEventListener('hashchange', route);
@@ -666,8 +643,7 @@ window.addEventListener('hashchange', route);
 fetch('data.json').then(r=>r.json()).then(d => {
   D = d; INV = d.investigatii.slice().sort((a,b)=> a.tip===b.tip ? a.nr-b.nr : (a.tip==='foraj'?-1:1));
   try { renderHome(); } catch(e){ console.error(e); }
-  fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); }
-    try { if (T && window.initApa) window.initApa(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
+  fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; filt=b.dataset.f; document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c===b)); renderGrid(); };
   document.getElementById('q').oninput = e => { q=e.target.value.trim().toLowerCase(); renderGrid(); };

@@ -79,4 +79,3 @@ python -m http.server 8000
 - Secțiunea „Stadiu execuție” compară forajele de drum (Fr) și dezvelirile (D) executate cu cele proiectate în KML.
 - Intro 3D (`intro3d.js`, Three.js r128): bloc de teren stilizat din `terrain.json` (grilă EU-DEM 25 m, 20×20) cu carotele extrase animat în ordinea execuției; relief exagerat ×30, carote ×110. Se dezactivează singur dacă WebGL nu e disponibil.
 - Folderul `gis/` (local, pe Drive) conține proiectul QGIS al hărții apei subterane și scriptul `build_map.py`.
-- Harta apei subterane (`apa.js`): izohipse / adâncimea apei calculate direct în browser (IDW + marching squares) din `data.json` și `terrain.json`; se actualizează automat la date noi. Varianta QGIS (Stereo 70, layout A3) este în `gis/`.

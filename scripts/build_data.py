@@ -155,12 +155,14 @@ def process_photos(folder, out_dir, rel):
         except Exception as e:
             print('  ! poza ignorată', src, e)
             continue
-        is_fisa = 'fisa' in f.lower()
+        is_fisa = 'fisa' in f.lower() or bool(re.match(r'^(D|F|Fr)[\s_-]*\d+\.(jpe?g|png)$', f, re.I))
         name = 'fisa' if is_fisa else f'{n + 1:02d}'
         for w, suffix in ((MAX_W, ''), (THUMB_W, 't_')):
             img = im.copy()
             img.thumbnail((w, w))
             dst = os.path.join(out_dir, f'{suffix}{name}.jpg')
+            if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
+                continue   # deja procesată
             img.save(dst, 'JPEG', quality=QUALITY, optimize=True, progressive=True)
         entry = {'src': f'{rel}/{name}.jpg', 'thumb': f'{rel}/t_{name}.jpg',
                  'original': f, 'w': im.width, 'h': im.height}

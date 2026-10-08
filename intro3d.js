@@ -4,7 +4,7 @@
    window.initIntro3D(D, INV, T)  –  D = data.json, T = terrain.json
    ============================================================ */
 (function () {
-  const VE = 30;            // exagerare verticală relief
+  const VE = 22;            // exagerare verticală relief
   const CORE_S = 110;       // exagerare verticală carote (1 m = 110 unități)
   const CORE_R = 26;        // raza carotei (unități ≈ m în plan)
   const GAP = 70;           // distanța dintre teren și baza carotei extrase
@@ -37,6 +37,7 @@
     }
     const inside = (lat, lon) => lat >= T.lat0 && lat <= T.lat1 && lon >= T.lon0 && lon <= T.lon1;
 
+    const SPAN = Math.max((T.lon1 - T.lon0) * kx, (T.lat1 - T.lat0) * ky);
     const scene = new THREE.Scene();
     scene.add(new THREE.AmbientLight(0xffffff, 0.78));
     const sun = new THREE.DirectionalLight(0xffffff, 0.62); sun.position.set(-0.6, 1.4, 0.8); scene.add(sun);
@@ -150,7 +151,7 @@
     function resize() {
       const w = host.clientWidth, h = host.clientHeight; if (!w || !h) return; W = w; Hh = h;
       renderer.setSize(w, h, false); camera.aspect = w / h;
-      Rad = 7600 * Math.max(1, 1.75 / camera.aspect); if (Rad > 15000) Rad = 15000;
+      Rad = SPAN * 1.8 * Math.max(1, 1.75 / camera.aspect); if (Rad > SPAN * 4.2) Rad = SPAN * 4.2;
       if (w > 900) camera.setViewOffset(w, h, -w * 0.13, -h * 0.02, w, h); else camera.clearViewOffset();
       camera.updateProjectionMatrix();
     }
@@ -185,7 +186,7 @@
 
     /* ---------- animație ---------- */
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const STEP = 0.2, DUR = 1.25, T0 = 0.7; let t0 = performance.now(), visible = true, lastShown = -1;
+    const STEP = Math.max(0.08, Math.min(0.2, 7 / Math.max(1, cores.length))), DUR = 1.25, T0 = 0.7; let t0 = performance.now(), visible = true, lastShown = -1;
     hud.querySelector('#i3-replay').onclick = () => { t0 = performance.now(); lastShown = -1; };
     if (window.IntersectionObserver) new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(host);
     const ease = x => 1 - Math.pow(1 - x, 3);

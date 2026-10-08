@@ -3,7 +3,7 @@
   {
    "categorie": "Foraje drumuri (Fr)",
    "proiectate": 106,
-   "executate": 17,
+   "executate": 25,
    "neexecutate": [
     "Fr1",
     "Fr2",
@@ -61,16 +61,8 @@
     "Fr54",
     "Fr55",
     "Fr56",
-    "Fr57",
-    "Fr58",
-    "Fr59",
     "Fr60",
     "Fr61",
-    "Fr62",
-    "Fr63",
-    "Fr64",
-    "Fr65",
-    "Fr66",
     "Fr73",
     "Fr74",
     "Fr75",
@@ -99,7 +91,7 @@
   {
    "categorie": "Sondaje deschise – dezveliri drumuri (D)",
    "proiectate": 104,
-   "executate": 14,
+   "executate": 22,
    "neexecutate": [
     "D1",
     "D2",
@@ -156,19 +148,11 @@
     "D53",
     "D54",
     "D55",
-    "D56",
-    "D57",
-    "D58",
     "D59",
     "D60",
     "D61",
-    "D62",
-    "D63",
-    "D64",
-    "D65",
     "D66",
     "D71",
-    "D73",
     "D74",
     "D75",
     "D76",
@@ -196,7 +180,7 @@
   {
    "categorie": "Teste de rezistivitate termică (Rt)",
    "proiectate": 52,
-   "executate": 7,
+   "executate": 11,
    "neexecutate": [
     "Rt1",
     "Rt2",
@@ -226,13 +210,9 @@
     "Rt26",
     "Rt27",
     "Rt28",
-    "Rt29",
     "Rt30",
     "Rt31",
-    "Rt32",
-    "Rt33",
     "Rt36",
-    "Rt37",
     "Rt38",
     "Rt39",
     "Rt40",
@@ -432,11 +412,762 @@
   "tip_lucrari": "Foraje drumuri de acces/exploatare (Fr) și sondaje deschise – dezveliri drumuri (D), adâncime 4,00 m",
   "perioada": {
    "de_la": "2026-09-23",
-   "pana_la": "2026-09-30"
+   "pana_la": "2026-10-03"
   },
-  "generat": "2026-10-07"
+  "generat": "2026-10-08"
  },
  "investigatii": [
+  {
+   "id": "D56",
+   "id_fisa": "D56",
+   "tip": "dezvelire",
+   "nr": 56,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D56",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'10.1\"",
+    "E 027°33'32.7\""
+   ],
+   "lat": 44.852806,
+   "lon": 27.559083,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D56",
+    "lat": 44.85277794,
+    "lon": 27.55902668,
+    "stereo70": {
+     "E": 702359.538,
+     "N": 375774.246
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 2,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2,
+     "la": 2.7,
+     "descriere": "praf nisipos gălbui, vârtos"
+    },
+    {
+     "de": 2.7,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D56/fisa.jpg",
+    "thumb": "photos/D56/t_fisa.jpg",
+    "original": "D56.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D56/01.jpg",
+     "thumb": "photos/D56/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.411.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/D56/02.jpg",
+     "thumb": "photos/D56/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.42.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/D56/03.jpg",
+     "thumb": "photos/D56/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.421.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/D56/04.jpg",
+     "thumb": "photos/D56/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.43.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:50"
+    }
+   ]
+  },
+  {
+   "id": "D57",
+   "id_fisa": "D57",
+   "tip": "dezvelire",
+   "nr": 57,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D57",
+   "data": "2026-10-03",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'05.7\"",
+    "E 027°33'49.6\""
+   ],
+   "lat": 44.851583,
+   "lon": 27.563778,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D57",
+    "lat": 44.85156285,
+    "lon": 27.56378925,
+    "stereo70": {
+     "E": 702740.162,
+     "N": 375651.259
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt29)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt29",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 0.9,
+     "descriere": "praf argilos negru, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.5,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 1.5,
+     "la": 3,
+     "descriere": "praf nisipos gălbui, vârtos"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D57/fisa.jpg",
+    "thumb": "photos/D57/t_fisa.jpg",
+    "original": "D57.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": []
+  },
+  {
+   "id": "D58",
+   "id_fisa": "D58",
+   "tip": "dezvelire",
+   "nr": 58,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D58",
+   "data": "2026-10-03",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'01.2\"",
+    "E 027°34'06.7\""
+   ],
+   "lat": 44.850333,
+   "lon": 27.568528,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D58",
+    "lat": 44.85034755,
+    "lon": 27.56855161,
+    "stereo70": {
+     "E": 703120.785,
+     "N": 375528.272
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.6,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.6,
+     "la": 2.5,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 2.5,
+     "la": 3,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D58/fisa.jpg",
+    "thumb": "photos/D58/t_fisa.jpg",
+    "original": "D58.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/D58/01.jpg",
+     "thumb": "photos/D58/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.18.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/D58/02.jpg",
+     "thumb": "photos/D58/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.181.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/D58/03.jpg",
+     "thumb": "photos/D58/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.19.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/D58/04.jpg",
+     "thumb": "photos/D58/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.191.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/D58/05.jpg",
+     "thumb": "photos/D58/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.192.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/D58/06.jpg",
+     "thumb": "photos/D58/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.193.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-03 18:07"
+    }
+   ]
+  },
+  {
+   "id": "D62",
+   "id_fisa": "D62",
+   "tip": "dezvelire",
+   "nr": 62,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D62",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'06.3\"",
+    "E 027°34'49.0\""
+   ],
+   "lat": 44.85175,
+   "lon": 27.580278,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D62",
+    "lat": 44.8517296,
+    "lon": 27.58030307,
+    "stereo70": {
+     "E": 704044.448,
+     "N": 375711.527
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos (la 1,00 m: cu concrețiuni calcaroase)"
+    },
+    {
+     "de": 2,
+     "la": 2.8,
+     "descriere": "praf argilos slab nisipos, gălbui, consistent"
+    },
+    {
+     "de": 2.8,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D62/fisa.jpg",
+    "thumb": "photos/D62/t_fisa.jpg",
+    "original": "D62.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D62/01.jpg",
+     "thumb": "photos/D62/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.01.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/02.jpg",
+     "thumb": "photos/D62/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.02.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/03.jpg",
+     "thumb": "photos/D62/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.021.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/04.jpg",
+     "thumb": "photos/D62/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.03.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/05.jpg",
+     "thumb": "photos/D62/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.031.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/06.jpg",
+     "thumb": "photos/D62/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.032.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    },
+    {
+     "src": "photos/D62/07.jpg",
+     "thumb": "photos/D62/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.19.034.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:19"
+    }
+   ]
+  },
+  {
+   "id": "D63",
+   "id_fisa": "D63",
+   "tip": "dezvelire",
+   "nr": 63,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D63",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'10.4\"",
+    "E 027°34'32.1\""
+   ],
+   "lat": 44.852889,
+   "lon": 27.575583,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D63",
+    "lat": 44.85294192,
+    "lon": 27.57554033,
+    "stereo70": {
+     "E": 703663.796,
+     "N": 375834.128
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt32)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt32",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 1,
+     "descriere": "praf argilos cafeniu, vârtos"
+    },
+    {
+     "de": 1,
+     "la": 2.4,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos, cu concrețiuni calcaroase, slab nisipos"
+    },
+    {
+     "de": 2.4,
+     "la": 3.6,
+     "descriere": "praf argilos cafeniu-gălbui, nisipos, consistent"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D63/fisa.jpg",
+    "thumb": "photos/D63/t_fisa.jpg",
+    "original": "D63.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D63/01.jpg",
+     "thumb": "photos/D63/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.00.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/D63/02.jpg",
+     "thumb": "photos/D63/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.01.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/D63/03.jpg",
+     "thumb": "photos/D63/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.011.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/D63/04.jpg",
+     "thumb": "photos/D63/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.022.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/D63/05.jpg",
+     "thumb": "photos/D63/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.023.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/D63/06.jpg",
+     "thumb": "photos/D63/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.024.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-01 19:22"
+    }
+   ]
+  },
+  {
+   "id": "D64",
+   "id_fisa": "D64",
+   "tip": "dezvelire",
+   "nr": 64,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D64",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'14.9\"",
+    "E 027°34'14.7\""
+   ],
+   "lat": 44.854139,
+   "lon": 27.57075,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D64",
+    "lat": 44.85415505,
+    "lon": 27.57077668,
+    "stereo70": {
+     "E": 703283.084,
+     "N": 375956.84
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 3.6,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase, slab nisipos"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, vârtos"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D64/fisa.jpg",
+    "thumb": "photos/D64/t_fisa.jpg",
+    "original": "D64.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D64/01.jpg",
+     "thumb": "photos/D64/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.22.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:43"
+    },
+    {
+     "src": "photos/D64/02.jpg",
+     "thumb": "photos/D64/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.221.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:43"
+    },
+    {
+     "src": "photos/D64/03.jpg",
+     "thumb": "photos/D64/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.23.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:43"
+    },
+    {
+     "src": "photos/D64/04.jpg",
+     "thumb": "photos/D64/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.231.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:43"
+    },
+    {
+     "src": "photos/D64/05.jpg",
+     "thumb": "photos/D64/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.24.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:43"
+    },
+    {
+     "src": "photos/D64/06.jpg",
+     "thumb": "photos/D64/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.43.241.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:43"
+    }
+   ]
+  },
+  {
+   "id": "D65",
+   "id_fisa": "D65",
+   "tip": "dezvelire",
+   "nr": 65,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D65",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'19.2\"",
+    "E 027°33'58.1\""
+   ],
+   "lat": 44.855333,
+   "lon": 27.566139,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D65",
+    "lat": 44.85536929,
+    "lon": 27.56601693,
+    "stereo70": {
+     "E": 702902.692,
+     "N": 376079.706
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt33)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt33",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent (la 2,40 m: slab umezit)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D65/fisa.jpg",
+    "thumb": "photos/D65/t_fisa.jpg",
+    "original": "D65.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D65/01.jpg",
+     "thumb": "photos/D65/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.12.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/D65/02.jpg",
+     "thumb": "photos/D65/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/D65/03.jpg",
+     "thumb": "photos/D65/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.141.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/D65/04.jpg",
+     "thumb": "photos/D65/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.15.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/D65/05.jpg",
+     "thumb": "photos/D65/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.42.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    }
+   ]
+  },
   {
    "id": "D67",
    "id_fisa": "D67",
@@ -999,6 +1730,111 @@
      "w": 1200,
      "h": 1600,
      "timestamp": "2026-09-30 19:15"
+    }
+   ]
+  },
+  {
+   "id": "D73",
+   "id_fisa": "D73",
+   "tip": "dezvelire",
+   "nr": 73,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D73",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "IN=3.80m",
+   "NH": null,
+   "IN": 3.8,
+   "gps_dms": [
+    "N 44°51'15.9\"",
+    "E 027°35'33.8\""
+   ],
+   "lat": 44.854417,
+   "lon": 27.592722,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "D73",
+    "lat": 44.85438526,
+    "lon": 27.59271259,
+    "stereo70": {
+     "E": 705015.5,
+     "N": 376038.072
+    },
+    "obs": "sondaj deschis (dezvelire) drum; test de rezistivitate termică (Rt37)",
+    "adancime": "4 m"
+   },
+   "rt": "Rt37",
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1.7,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1.7,
+     "la": 2,
+     "descriere": "praf argilos gălbui, consistent spre moale, slab nisipos"
+    },
+    {
+     "de": 2,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent-moale (la 3,80 m: infiltrație apă; fără apă acumulată la 4,00 m)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/D73/fisa.jpg",
+    "thumb": "photos/D73/t_fisa.jpg",
+    "original": "D73.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/D73/01.jpg",
+     "thumb": "photos/D73/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.13.38.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:13"
+    },
+    {
+     "src": "photos/D73/02.jpg",
+     "thumb": "photos/D73/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.13.42.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:13"
+    },
+    {
+     "src": "photos/D73/03.jpg",
+     "thumb": "photos/D73/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.13.421.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:13"
+    },
+    {
+     "src": "photos/D73/04.jpg",
+     "thumb": "photos/D73/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.13.422.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:13"
+    },
+    {
+     "src": "photos/D73/05.jpg",
+     "thumb": "photos/D73/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.13.423.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:13"
     }
    ]
   },
@@ -2134,6 +2970,917 @@
      "w": 1200,
      "h": 1600,
      "timestamp": "2026-09-25 20:48"
+    }
+   ]
+  },
+  {
+   "id": "Fr57",
+   "id_fisa": "F57",
+   "tip": "foraj",
+   "nr": 57,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr57",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'07.9\"",
+    "E 027°33'41.1\""
+   ],
+   "lat": 44.852194,
+   "lon": 27.561417,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr57",
+    "lat": 44.8521827,
+    "lon": 27.56140828,
+    "stereo70": {
+     "E": 702549.829,
+     "N": 375714.117
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.2,
+     "la": 0.7,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 0.7,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2,
+     "la": 3.4,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 3.4,
+     "la": 4,
+     "descriere": "nisip fin gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr57/fisa.jpg",
+    "thumb": "photos/Fr57/t_fisa.jpg",
+    "original": "F57.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr57/01.jpg",
+     "thumb": "photos/Fr57/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.42.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr57/02.jpg",
+     "thumb": "photos/Fr57/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.421.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr57/03.jpg",
+     "thumb": "photos/Fr57/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.431.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr57/04.jpg",
+     "thumb": "photos/Fr57/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.432.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr57/05.jpg",
+     "thumb": "photos/Fr57/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.44.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    }
+   ]
+  },
+  {
+   "id": "Fr58",
+   "id_fisa": "F58",
+   "tip": "foraj",
+   "nr": 58,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr58",
+   "data": "2026-10-03",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'03.4\"",
+    "E 027°33'58.3\""
+   ],
+   "lat": 44.850944,
+   "lon": 27.566194,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr58",
+    "lat": 44.85096127,
+    "lon": 27.56616759,
+    "stereo70": {
+     "E": 702930.226,
+     "N": 375590.43
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 0.9,
+     "la": 1.7,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.7,
+     "la": 3.4,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    },
+    {
+     "de": 3.4,
+     "la": 3.6,
+     "descriere": "nisip fin gălbui"
+    },
+    {
+     "de": 3.6,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr58/fisa.jpg",
+    "thumb": "photos/Fr58/t_fisa.jpg",
+    "original": "F58.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr58/01.jpg",
+     "thumb": "photos/Fr58/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.22.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-03 18:01"
+    },
+    {
+     "src": "photos/Fr58/02.jpg",
+     "thumb": "photos/Fr58/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.221.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-03 18:01"
+    },
+    {
+     "src": "photos/Fr58/03.jpg",
+     "thumb": "photos/Fr58/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.222.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:01"
+    },
+    {
+     "src": "photos/Fr58/04.jpg",
+     "thumb": "photos/Fr58/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.223.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:01"
+    },
+    {
+     "src": "photos/Fr58/05.jpg",
+     "thumb": "photos/Fr58/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.23.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:01"
+    },
+    {
+     "src": "photos/Fr58/06.jpg",
+     "thumb": "photos/Fr58/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.01.231.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:01"
+    }
+   ]
+  },
+  {
+   "id": "Fr59",
+   "id_fisa": "F59",
+   "tip": "foraj",
+   "nr": 59,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr59",
+   "data": "2026-10-03",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°50'59.2\"",
+    "E 027°34'15.3\""
+   ],
+   "lat": 44.849778,
+   "lon": 27.570917,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr59",
+    "lat": 44.84973965,
+    "lon": 27.5709267,
+    "stereo70": {
+     "E": 703310.622,
+     "N": 375466.742
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 0.9,
+     "la": 2.3,
+     "descriere": "praf argilos gălbui, vârtos"
+    },
+    {
+     "de": 2.3,
+     "la": 3,
+     "descriere": "praf nisipos gălbui, vârtos"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "nisip fin, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr59/fisa.jpg",
+    "thumb": "photos/Fr59/t_fisa.jpg",
+    "original": "F59.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr59/01.jpg",
+     "thumb": "photos/Fr59/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.53.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/Fr59/02.jpg",
+     "thumb": "photos/Fr59/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.531.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/Fr59/03.jpg",
+     "thumb": "photos/Fr59/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.532.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/Fr59/04.jpg",
+     "thumb": "photos/Fr59/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.54.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/Fr59/05.jpg",
+     "thumb": "photos/Fr59/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.541.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    },
+    {
+     "src": "photos/Fr59/06.jpg",
+     "thumb": "photos/Fr59/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-03 at 18.07.542.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-03 18:07"
+    }
+   ]
+  },
+  {
+   "id": "Fr62",
+   "id_fisa": "F62",
+   "tip": "foraj",
+   "nr": 62,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr62",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'04.0\"",
+    "E 027°34'57.7\""
+   ],
+   "lat": 44.851111,
+   "lon": 27.582694,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr62",
+    "lat": 44.85111521,
+    "lon": 27.58268208,
+    "stereo70": {
+     "E": 704234.624,
+     "N": 375649.316
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.3,
+     "la": 1.1,
+     "descriere": "praf argilos cafeniu-gălbui, tare-vârtos"
+    },
+    {
+     "de": 1.1,
+     "la": 2,
+     "descriere": "praf argilos gălbui, consistent"
+    },
+    {
+     "de": 2,
+     "la": 3,
+     "descriere": "praf argilos gălbui, consistent, slab nisipos"
+    },
+    {
+     "de": 3,
+     "la": 3.8,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 3.8,
+     "la": 4,
+     "descriere": "nisip fin gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr62/fisa.jpg",
+    "thumb": "photos/Fr62/t_fisa.jpg",
+    "original": "F62.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr62/01.jpg",
+     "thumb": "photos/Fr62/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.12.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:18"
+    },
+    {
+     "src": "photos/Fr62/02.jpg",
+     "thumb": "photos/Fr62/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.13.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:18"
+    },
+    {
+     "src": "photos/Fr62/03.jpg",
+     "thumb": "photos/Fr62/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.131.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:18"
+    },
+    {
+     "src": "photos/Fr62/04.jpg",
+     "thumb": "photos/Fr62/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.132.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-01 19:18"
+    },
+    {
+     "src": "photos/Fr62/05.jpg",
+     "thumb": "photos/Fr62/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:18"
+    },
+    {
+     "src": "photos/Fr62/06.jpg",
+     "thumb": "photos/Fr62/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.18.141.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-01 19:18"
+    }
+   ]
+  },
+  {
+   "id": "Fr63",
+   "id_fisa": "F63",
+   "tip": "foraj",
+   "nr": 63,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr63",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'08.6\"",
+    "E 027°34'41.1\""
+   ],
+   "lat": 44.852389,
+   "lon": 27.578083,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr63",
+    "lat": 44.85233307,
+    "lon": 27.57792096,
+    "stereo70": {
+     "E": 703854.072,
+     "N": 375772.524
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1,
+     "la": 1.9,
+     "descriere": "praf argilos gălbui, slab nisipos, consistent"
+    },
+    {
+     "de": 1.9,
+     "la": 2,
+     "descriere": "praf nisipos gălbui, consistent, slab umezit"
+    },
+    {
+     "de": 2,
+     "la": 3,
+     "descriere": "nisip fin gălbui, slab umezit"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "nisip gălbui, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr63/fisa.jpg",
+    "thumb": "photos/Fr63/t_fisa.jpg",
+    "original": "F63.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr63/01.jpg",
+     "thumb": "photos/Fr63/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.02.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/02.jpg",
+     "thumb": "photos/Fr63/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.021.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/03.jpg",
+     "thumb": "photos/Fr63/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.03.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/04.jpg",
+     "thumb": "photos/Fr63/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.032.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/05.jpg",
+     "thumb": "photos/Fr63/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.04.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/06.jpg",
+     "thumb": "photos/Fr63/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.041.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    },
+    {
+     "src": "photos/Fr63/07.jpg",
+     "thumb": "photos/Fr63/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.20.05.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:20"
+    }
+   ]
+  },
+  {
+   "id": "Fr64",
+   "id_fisa": "F64",
+   "tip": "foraj",
+   "nr": 64,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr64",
+   "data": "2026-10-01",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'12.7\"",
+    "E 027°34'23.5\""
+   ],
+   "lat": 44.853528,
+   "lon": 27.573194,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr64",
+    "lat": 44.85355072,
+    "lon": 27.57315964,
+    "stereo70": {
+     "E": 703473.52,
+     "N": 375895.733
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos negru, tare"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos cafeniu, tare"
+    },
+    {
+     "de": 2,
+     "la": 2.5,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 2.5,
+     "la": 3,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, slab nisipos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 3,
+     "la": 4,
+     "descriere": "praf nisipos cafeniu-gălbui, consistent, slab umezit"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr64/fisa.jpg",
+    "thumb": "photos/Fr64/t_fisa.jpg",
+    "original": "F64.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr64/01.jpg",
+     "thumb": "photos/Fr64/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.58.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/Fr64/02.jpg",
+     "thumb": "photos/Fr64/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.581.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/Fr64/03.jpg",
+     "thumb": "photos/Fr64/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.22.59.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:22"
+    },
+    {
+     "src": "photos/Fr64/04.jpg",
+     "thumb": "photos/Fr64/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.23.00.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:23"
+    },
+    {
+     "src": "photos/Fr64/05.jpg",
+     "thumb": "photos/Fr64/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.23.01.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:23"
+    },
+    {
+     "src": "photos/Fr64/06.jpg",
+     "thumb": "photos/Fr64/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-01 at 19.23.02.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-01 19:23"
+    }
+   ]
+  },
+  {
+   "id": "Fr65",
+   "id_fisa": "F65",
+   "tip": "foraj",
+   "nr": 65,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr65",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'08.2\"",
+    "E 027°34'13.4\""
+   ],
+   "lat": 44.852278,
+   "lon": 27.570389,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr65",
+    "lat": 44.85232499,
+    "lon": 27.57031763,
+    "stereo70": {
+     "E": 703253.312,
+     "N": 375752.391
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.3,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.3,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1,
+     "la": 1.9,
+     "descriere": "praf argilos gălbui, vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 1.9,
+     "la": 2.4,
+     "descriere": "praf nisipos gălbui, consistent"
+    },
+    {
+     "de": 2.4,
+     "la": 4,
+     "descriere": "nisip gălbui"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr65/fisa.jpg",
+    "thumb": "photos/Fr65/t_fisa.jpg",
+    "original": "F65.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "poze": [
+    {
+     "src": "photos/Fr65/01.jpg",
+     "thumb": "photos/Fr65/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.12.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/Fr65/02.jpg",
+     "thumb": "photos/Fr65/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.13.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:47"
+    },
+    {
+     "src": "photos/Fr65/03.jpg",
+     "thumb": "photos/Fr65/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.47.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:47"
+    }
+   ]
+  },
+  {
+   "id": "Fr66",
+   "id_fisa": "F66",
+   "tip": "foraj",
+   "nr": 66,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr66",
+   "data": "2026-10-02",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "N 44°51'17.1\"",
+    "E 027°34'06.6\""
+   ],
+   "lat": 44.85475,
+   "lon": 27.5685,
+   "coord_sursa": "GPS teren",
+   "proiectat": {
+    "id": "Fr66",
+    "lat": 44.85476818,
+    "lon": 27.56839811,
+    "stereo70": {
+     "E": 703092.968,
+     "N": 376018.941
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 1.9,
+     "descriere": "praf argilos cafeniu-gălbui, tare"
+    },
+    {
+     "de": 1.9,
+     "la": 2,
+     "descriere": "praf argilos gălbui, tare-vârtos, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 2,
+     "la": 4,
+     "descriere": "praf nisipos gălbui, consistent, fărâmicios (la 3,70 m: slab umezit)"
+    }
+   ],
+   "probe": [],
+   "fisa_foto": {
+    "src": "photos/Fr66/fisa.jpg",
+    "thumb": "photos/Fr66/t_fisa.jpg",
+    "original": "F66.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "poze": [
+    {
+     "src": "photos/Fr66/01.jpg",
+     "thumb": "photos/Fr66/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.36.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr66/02.jpg",
+     "thumb": "photos/Fr66/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.41.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:50"
+    },
+    {
+     "src": "photos/Fr66/03.jpg",
+     "thumb": "photos/Fr66/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-02 at 18.50.42.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-02 18:50"
     }
    ]
   },
@@ -9151,6 +10898,90 @@
    "wind_direction_10m_dominant": 18,
    "relative_humidity_2m_mean": 55,
    "sunshine_duration": 41803.15
+  },
+  "2026-10-01": {
+   "weather_code": 0,
+   "temperature_2m_max": 20.6,
+   "temperature_2m_min": 9.4,
+   "temperature_2m_mean": 14.6,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 23.0,
+   "wind_gusts_10m_max": 44.3,
+   "wind_direction_10m_dominant": 14,
+   "relative_humidity_2m_mean": 53,
+   "sunshine_duration": 41615.73
+  },
+  "2026-10-02": {
+   "weather_code": 3,
+   "temperature_2m_max": 20.3,
+   "temperature_2m_min": 9.5,
+   "temperature_2m_mean": 14.4,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 24.6,
+   "wind_gusts_10m_max": 46.8,
+   "wind_direction_10m_dominant": 16,
+   "relative_humidity_2m_mean": 51,
+   "sunshine_duration": 41428.67
+  },
+  "2026-10-03": {
+   "weather_code": 2,
+   "temperature_2m_max": 20.0,
+   "temperature_2m_min": 6.9,
+   "temperature_2m_mean": 12.9,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 12.1,
+   "wind_gusts_10m_max": 24.8,
+   "wind_direction_10m_dominant": 6,
+   "relative_humidity_2m_mean": 53,
+   "sunshine_duration": 41242.06
+  },
+  "2026-10-04": {
+   "weather_code": 0,
+   "temperature_2m_max": 22.1,
+   "temperature_2m_min": 5.4,
+   "temperature_2m_mean": 13.0,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 7.0,
+   "wind_gusts_10m_max": 12.6,
+   "wind_direction_10m_dominant": 229,
+   "relative_humidity_2m_mean": 58,
+   "sunshine_duration": 41056.01
+  },
+  "2026-10-05": {
+   "weather_code": 3,
+   "temperature_2m_max": 23.0,
+   "temperature_2m_min": 6.3,
+   "temperature_2m_mean": 13.9,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 7.4,
+   "wind_gusts_10m_max": 15.1,
+   "wind_direction_10m_dominant": 188,
+   "relative_humidity_2m_mean": 60,
+   "sunshine_duration": 40707.14
+  },
+  "2026-10-06": {
+   "weather_code": 3,
+   "temperature_2m_max": 23.0,
+   "temperature_2m_min": 7.1,
+   "temperature_2m_mean": 14.7,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 8.1,
+   "wind_gusts_10m_max": 16.9,
+   "wind_direction_10m_dominant": 80,
+   "relative_humidity_2m_mean": 60,
+   "sunshine_duration": 38258.1
+  },
+  "2026-10-07": {
+   "weather_code": 3,
+   "temperature_2m_max": 24.6,
+   "temperature_2m_min": 9.2,
+   "temperature_2m_mean": 15.9,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 11.0,
+   "wind_gusts_10m_max": 18.0,
+   "wind_direction_10m_dominant": 155,
+   "relative_humidity_2m_mean": 57,
+   "sunshine_duration": 38409.29
   },
   "_meta": {
    "sursa": "Open-Meteo (ERA5 / archive API)",
