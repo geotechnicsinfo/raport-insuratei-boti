@@ -1,0 +1,94 @@
+{
+ "_info": "Ajustări manuale pentru poze. rotiri: grade în sens trigonometric (90 = rotire la stânga, 180 = întoarcere, 270 = rotire la dreapta), aplicate după orientarea EXIF. fise: poza care este fișa de teren când are nume WhatsApp. excluse: poze ignorate (duplicate).",
+ "rotiri": {
+  "Dezvelire N58": {
+   "D58.jpeg": 90
+  },
+  "Dezvelire N63": {
+   "D63.jpeg": 180
+  },
+  "Dezvelire N67": {
+   "WhatsApp Image 2026-09-29 at 19.50.494.jpeg": 180
+  },
+  "Dezvelire N70": {
+   "WhatsApp Image 2026-09-30 at 19.10.25.jpeg": 180,
+   "WhatsApp Image 2026-09-30 at 19.10.251.jpeg": 180
+  },
+  "Dezvelire N72": {
+   "WhatsApp Image 2026-09-30 at 19.15.112.jpeg": 180,
+   "WhatsApp Image 2026-09-30 at 19.15.123.jpeg": 180,
+   "fisa D72.jpeg": 90
+  },
+  "Dezvelire N92": {
+   "WhatsApp Image 2026-09-24 at 19.56.022.jpeg": 180
+  },
+  "Dezvelire N94": {
+   "FISA D94.jpeg": 180
+  },
+  "Foraj N65": {
+   "WhatsApp Image 2026-10-02 at 18.47.13.jpeg": 180,
+   "F65.jpeg": 270
+  },
+  "Foraj N66": {
+   "WhatsApp Image 2026-10-02 at 18.50.41.jpeg": 180,
+   "WhatsApp Image 2026-10-02 at 18.50.42.jpeg": 180
+  },
+  "Foraj N67": {
+   "WhatsApp Image 2026-09-29 at 19.49.49.jpeg": 180,
+   "WhatsApp Image 2026-09-29 at 19.49.491.jpeg": 180
+  },
+  "Foraj N72": {
+   "fisa F72.jpeg": 270
+  },
+  "Foraj N86": {
+   "WhatsApp Image 2026-09-25 at 20.50.425.jpeg": 180
+  },
+  "Foraj N87": {
+   "WhatsApp Image 2026-09-30 at 14.53.16.jpeg": 180,
+   "WhatsApp Image 2026-09-30 at 14.53.161.jpeg": 180
+  },
+  "Foraj N88": {
+   "WhatsApp Image 2026-09-26 at 19.00.362.jpeg": 180,
+   "WhatsApp Image 2026-09-26 at 19.00.363.jpeg": 180,
+   "FISA F88.jpeg": 90
+  },
+  "Foraj N89": {
+   "WhatsApp Image 2026-09-26 at 19.03.102.jpeg": 180
+  },
+  "Foraj N90": {
+   "FISA F90.jpeg": 270
+  },
+  "Foraj N91": {
+   "WhatsApp Image 2026-09-29 at 19.48.28.jpeg": 180,
+   "WhatsApp Image 2026-09-29 at 19.48.281.jpeg": 180,
+   "WhatsApp Image 2026-09-29 at 19.48.282.jpeg": 180,
+   "fisa F91.jpeg": 90
+  },
+  "Foraj N93": {
+   "WhatsApp Image 2026-09-29 at 20.11.27.jpeg": 180,
+   "WhatsApp Image 2026-09-29 at 20.11.271.jpeg": 180,
+   "WhatsApp Image 2026-09-29 at 20.11.272.jpeg": 180,
+   "FISA F93.jpeg": 90
+  },
+  "Foraj N94": {
+   "WhatsApp Image 2026-09-24 at 19.47.374.jpeg": 180,
+   "WhatsApp Image 2026-09-24 at 19.47.384.jpeg": 180,
+   "FISA F94.jpeg": 180
+  },
+  "Dezvelire D24": {
+   "WhatsApp Image 2026-10-12 at 7.10.11 PM.jpeg": 180
+  },
+  "Foraj FR25": {
+   "WhatsApp Image 2026-10-12 at 3.46.14 PM (2).jpeg": 180
+  }
+ },
+ "fise": {
+  "Dezvelire D24": "WhatsApp Image 2026-10-12 at 6.54.20 PM.jpeg",
+  "Foraj FR25": "WhatsApp Image 2026-10-12 at 3.46.15 PM.jpeg"
+ },
+ "excluse": {
+  "Dezvelire D24": [
+   "WhatsApp Image 2026-10-12 at 6.54.20 PM (1).jpeg"
+  ]
+ }
+}

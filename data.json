@@ -3,7 +3,7 @@
   {
    "categorie": "Foraje drumuri (Fr)",
    "proiectate": 106,
-   "executate": 25,
+   "executate": 26,
    "neexecutate": [
     "Fr1",
     "Fr2",
@@ -29,7 +29,6 @@
     "Fr22",
     "Fr23",
     "Fr24",
-    "Fr25",
     "Fr26",
     "Fr27",
     "Fr28",
@@ -91,7 +90,7 @@
   {
    "categorie": "Sondaje deschise – dezveliri drumuri (D)",
    "proiectate": 104,
-   "executate": 22,
+   "executate": 23,
    "neexecutate": [
     "D1",
     "D2",
@@ -116,7 +115,6 @@
     "D21",
     "D22",
     "D23",
-    "D24",
     "D25",
     "D26",
     "D27",
@@ -412,11 +410,145 @@
   "tip_lucrari": "Foraje drumuri de acces/exploatare (Fr) și sondaje deschise – dezveliri drumuri (D), adâncime 4,00 m",
   "perioada": {
    "de_la": "2026-09-23",
-   "pana_la": "2026-10-03"
+   "pana_la": "2026-10-12"
   },
-  "generat": "2026-10-08"
+  "generat": "2026-10-16"
  },
  "investigatii": [
+  {
+   "id": "D24",
+   "id_fisa": "D24",
+   "tip": "dezvelire",
+   "nr": 24,
+   "categorie_kml": "Sondaje deschise – dezveliri drumuri (D)",
+   "eticheta": "Sondaj deschis (dezvelire) D24",
+   "data": "2026-10-12",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "fără GPS în fișă"
+   ],
+   "lat": 44.87833133,
+   "lon": 27.5619398,
+   "coord_sursa": "punct proiectat (fără GPS în fișă)",
+   "proiectat": {
+    "id": "D24",
+    "lat": 44.87833133,
+    "lon": 27.5619398,
+    "stereo70": {
+     "E": 702499.257,
+     "N": 378620.13
+    },
+    "obs": "sondaj deschis (dezvelire) drum",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.2,
+     "la": 1,
+     "descriere": "praf argilos cafeniu închis, tare"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, cu concrețiuni calcaroase (loess) (la 1,00 m: ștuț)"
+    },
+    {
+     "de": 2,
+     "la": 3,
+     "descriere": "praf argilos cafeniu-gălbui (interval prelevat cu ștuț)"
+    },
+    {
+     "de": 3,
+     "la": 3.7,
+     "descriere": "praf argilos cafeniu-gălbui, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 3.7,
+     "la": 4,
+     "descriere": "nisip fin"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    },
+    {
+     "adancime": 2,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/D24/fisa.jpg",
+    "thumb": "photos/D24/t_fisa.jpg",
+    "original": "WhatsApp Image 2026-10-12 at 6.54.20 PM.jpeg",
+    "w": 1530,
+    "h": 2040,
+    "timestamp": "2026-10-12 18:54"
+   },
+   "poze": [
+    {
+     "src": "photos/D24/01.jpg",
+     "thumb": "photos/D24/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 6.54.19 PM (1).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 18:54"
+    },
+    {
+     "src": "photos/D24/02.jpg",
+     "thumb": "photos/D24/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 6.54.19 PM (2).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 18:54"
+    },
+    {
+     "src": "photos/D24/03.jpg",
+     "thumb": "photos/D24/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 6.54.19 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 18:54"
+    },
+    {
+     "src": "photos/D24/04.jpg",
+     "thumb": "photos/D24/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 7.10.10 PM (1).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 19:10"
+    },
+    {
+     "src": "photos/D24/05.jpg",
+     "thumb": "photos/D24/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 7.10.10 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 19:10"
+    },
+    {
+     "src": "photos/D24/06.jpg",
+     "thumb": "photos/D24/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 7.10.11 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 19:10"
+    }
+   ]
+  },
   {
    "id": "D56",
    "id_fisa": "D56",
@@ -657,8 +789,8 @@
     "src": "photos/D58/fisa.jpg",
     "thumb": "photos/D58/t_fisa.jpg",
     "original": "D58.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -1687,8 +1819,8 @@
     "src": "photos/D72/fisa.jpg",
     "thumb": "photos/D72/t_fisa.jpg",
     "original": "fisa D72.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -2974,6 +3106,161 @@
    ]
   },
   {
+   "id": "Fr25",
+   "id_fisa": "F25",
+   "tip": "foraj",
+   "nr": 25,
+   "categorie_kml": "Foraje drumuri (Fr)",
+   "eticheta": "Foraj drum Fr25",
+   "data": "2026-10-12",
+   "nota_data": null,
+   "adancime": 4,
+   "apa": "fără apă",
+   "NH": null,
+   "IN": null,
+   "gps_dms": [
+    "fără GPS în fișă"
+   ],
+   "lat": 44.8776795,
+   "lon": 27.5642989,
+   "coord_sursa": "punct proiectat (fără GPS în fișă)",
+   "proiectat": {
+    "id": "Fr25",
+    "lat": 44.8776795,
+    "lon": 27.5642989,
+    "stereo70": {
+     "E": 702687.891,
+     "N": 378553.664
+    },
+    "obs": "foraj drum de acces / exploatare",
+    "adancime": "4 m"
+   },
+   "rt": null,
+   "straturi": [
+    {
+     "de": 0,
+     "la": 0.2,
+     "descriere": "sol vegetal tare"
+    },
+    {
+     "de": 0.2,
+     "la": 0.6,
+     "descriere": "praf argilos cafeniu închis"
+    },
+    {
+     "de": 0.6,
+     "la": 1,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, cu concrețiuni de calcar (la 1,00 m: ștuț, macroporic)"
+    },
+    {
+     "de": 1,
+     "la": 2,
+     "descriere": "praf argilos gălbui-cafeniu, consistent (loess)"
+    },
+    {
+     "de": 2,
+     "la": 3,
+     "descriere": "praf argilos gălbui-cafeniu, consistent (loess) (interval prelevat cu ștuț)"
+    },
+    {
+     "de": 3,
+     "la": 3.2,
+     "descriere": "nisip fin"
+    },
+    {
+     "de": 3.2,
+     "la": 4,
+     "descriere": "nisip fin"
+    }
+   ],
+   "probe": [
+    {
+     "adancime": 1.0,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": "strat macroporic"
+    },
+    {
+     "adancime": 2,
+     "tip": "ștuț (probă netulburată)",
+     "observatii": ""
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/Fr25/fisa.jpg",
+    "thumb": "photos/Fr25/t_fisa.jpg",
+    "original": "WhatsApp Image 2026-10-12 at 3.46.15 PM.jpeg",
+    "w": 1530,
+    "h": 2040,
+    "timestamp": "2026-10-12 15:46"
+   },
+   "poze": [
+    {
+     "src": "photos/Fr25/01.jpg",
+     "thumb": "photos/Fr25/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.09 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/02.jpg",
+     "thumb": "photos/Fr25/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.11 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/03.jpg",
+     "thumb": "photos/Fr25/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.13 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/04.jpg",
+     "thumb": "photos/Fr25/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.14 PM (1).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/05.jpg",
+     "thumb": "photos/Fr25/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.14 PM (2).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/06.jpg",
+     "thumb": "photos/Fr25/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.14 PM (3).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/07.jpg",
+     "thumb": "photos/Fr25/t_07.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.14 PM (4).jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    },
+    {
+     "src": "photos/Fr25/08.jpg",
+     "thumb": "photos/Fr25/t_08.jpg",
+     "original": "WhatsApp Image 2026-10-12 at 3.46.14 PM.jpeg",
+     "w": 1530,
+     "h": 2040,
+     "timestamp": "2026-10-12 15:46"
+    }
+   ]
+  },
+  {
    "id": "Fr57",
    "id_fisa": "F57",
    "tip": "foraj",
@@ -3765,8 +4052,8 @@
     "src": "photos/Fr65/fisa.jpg",
     "thumb": "photos/Fr65/t_fisa.jpg",
     "original": "F65.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -4558,8 +4845,8 @@
     "src": "photos/Fr72/fisa.jpg",
     "thumb": "photos/Fr72/t_fisa.jpg",
     "original": "fisa F72.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -4932,8 +5219,8 @@
     "src": "photos/Fr88/fisa.jpg",
     "thumb": "photos/Fr88/t_fisa.jpg",
     "original": "FISA F88.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -5181,8 +5468,8 @@
     "src": "photos/Fr90/fisa.jpg",
     "thumb": "photos/Fr90/t_fisa.jpg",
     "original": "FISA F90.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -5294,8 +5581,8 @@
     "src": "photos/Fr91/fisa.jpg",
     "thumb": "photos/Fr91/t_fisa.jpg",
     "original": "fisa F91.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -5568,8 +5855,8 @@
     "src": "photos/Fr93/fisa.jpg",
     "thumb": "photos/Fr93/t_fisa.jpg",
     "original": "FISA F93.jpeg",
-    "w": 1600,
-    "h": 1200
+    "w": 1200,
+    "h": 1600
    },
    "poze": [
     {
@@ -10806,9 +11093,9 @@
   "2026-09-23": {
    "weather_code": 51,
    "temperature_2m_max": 18.5,
-   "temperature_2m_min": 11.4,
+   "temperature_2m_min": 11.3,
    "temperature_2m_mean": 13.9,
-   "precipitation_sum": 0.8,
+   "precipitation_sum": 1.0,
    "wind_speed_10m_max": 18.3,
    "wind_gusts_10m_max": 40.0,
    "wind_direction_10m_dominant": 335,
@@ -10818,9 +11105,9 @@
   "2026-09-24": {
    "weather_code": 51,
    "temperature_2m_max": 20.3,
-   "temperature_2m_min": 10.6,
+   "temperature_2m_min": 10.5,
    "temperature_2m_mean": 15.3,
-   "precipitation_sum": 0.2,
+   "precipitation_sum": 0.0,
    "wind_speed_10m_max": 16.9,
    "wind_gusts_10m_max": 34.2,
    "wind_direction_10m_dominant": 264,
@@ -10830,7 +11117,7 @@
   "2026-09-25": {
    "weather_code": 3,
    "temperature_2m_max": 21.1,
-   "temperature_2m_min": 8.7,
+   "temperature_2m_min": 8.6,
    "temperature_2m_mean": 14.9,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 12.8,
@@ -10842,7 +11129,7 @@
   "2026-09-26": {
    "weather_code": 51,
    "temperature_2m_max": 20.0,
-   "temperature_2m_min": 11.2,
+   "temperature_2m_min": 11.1,
    "temperature_2m_mean": 15.6,
    "precipitation_sum": 0.3,
    "wind_speed_10m_max": 15.1,
@@ -10865,8 +11152,8 @@
   },
   "2026-09-28": {
    "weather_code": 3,
-   "temperature_2m_max": 20.2,
-   "temperature_2m_min": 12.1,
+   "temperature_2m_max": 20.3,
+   "temperature_2m_min": 12.0,
    "temperature_2m_mean": 16.4,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 32.9,
@@ -10914,7 +11201,7 @@
   "2026-10-02": {
    "weather_code": 3,
    "temperature_2m_max": 20.3,
-   "temperature_2m_min": 9.5,
+   "temperature_2m_min": 9.4,
    "temperature_2m_mean": 14.4,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 24.6,
@@ -10926,7 +11213,7 @@
   "2026-10-03": {
    "weather_code": 2,
    "temperature_2m_max": 20.0,
-   "temperature_2m_min": 6.9,
+   "temperature_2m_min": 6.8,
    "temperature_2m_mean": 12.9,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 12.1,
@@ -10937,7 +11224,7 @@
   },
   "2026-10-04": {
    "weather_code": 0,
-   "temperature_2m_max": 22.1,
+   "temperature_2m_max": 22.2,
    "temperature_2m_min": 5.4,
    "temperature_2m_mean": 13.0,
    "precipitation_sum": 0.0,
@@ -10949,8 +11236,8 @@
   },
   "2026-10-05": {
    "weather_code": 3,
-   "temperature_2m_max": 23.0,
-   "temperature_2m_min": 6.3,
+   "temperature_2m_max": 23.1,
+   "temperature_2m_min": 6.2,
    "temperature_2m_mean": 13.9,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 7.4,
@@ -10961,8 +11248,8 @@
   },
   "2026-10-06": {
    "weather_code": 3,
-   "temperature_2m_max": 23.0,
-   "temperature_2m_min": 7.1,
+   "temperature_2m_max": 23.1,
+   "temperature_2m_min": 7.0,
    "temperature_2m_mean": 14.7,
    "precipitation_sum": 0.0,
    "wind_speed_10m_max": 8.1,
@@ -10973,7 +11260,7 @@
   },
   "2026-10-07": {
    "weather_code": 3,
-   "temperature_2m_max": 24.6,
+   "temperature_2m_max": 24.7,
    "temperature_2m_min": 9.2,
    "temperature_2m_mean": 15.9,
    "precipitation_sum": 0.0,
@@ -10982,6 +11269,90 @@
    "wind_direction_10m_dominant": 155,
    "relative_humidity_2m_mean": 57,
    "sunshine_duration": 38409.29
+  },
+  "2026-10-08": {
+   "weather_code": 3,
+   "temperature_2m_max": 25.2,
+   "temperature_2m_min": 10.5,
+   "temperature_2m_mean": 16.7,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 14.8,
+   "wind_gusts_10m_max": 25.6,
+   "wind_direction_10m_dominant": 167,
+   "relative_humidity_2m_mean": 64,
+   "sunshine_duration": 37464.43
+  },
+  "2026-10-09": {
+   "weather_code": 3,
+   "temperature_2m_max": 27.5,
+   "temperature_2m_min": 11.6,
+   "temperature_2m_mean": 18.5,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 12.9,
+   "wind_gusts_10m_max": 26.6,
+   "wind_direction_10m_dominant": 202,
+   "relative_humidity_2m_mean": 66,
+   "sunshine_duration": 37504.4
+  },
+  "2026-10-10": {
+   "weather_code": 3,
+   "temperature_2m_max": 25.2,
+   "temperature_2m_min": 13.0,
+   "temperature_2m_mean": 18.5,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 15.7,
+   "wind_gusts_10m_max": 27.0,
+   "wind_direction_10m_dominant": 26,
+   "relative_humidity_2m_mean": 68,
+   "sunshine_duration": 37657.27
+  },
+  "2026-10-11": {
+   "weather_code": 3,
+   "temperature_2m_max": 27.2,
+   "temperature_2m_min": 14.9,
+   "temperature_2m_mean": 19.7,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 22.3,
+   "wind_gusts_10m_max": 41.4,
+   "wind_direction_10m_dominant": 139,
+   "relative_humidity_2m_mean": 72,
+   "sunshine_duration": 37423.5
+  },
+  "2026-10-12": {
+   "weather_code": 51,
+   "temperature_2m_max": 18.4,
+   "temperature_2m_min": 12.8,
+   "temperature_2m_mean": 15.7,
+   "precipitation_sum": 1.6,
+   "wind_speed_10m_max": 22.6,
+   "wind_gusts_10m_max": 42.1,
+   "wind_direction_10m_dominant": 5,
+   "relative_humidity_2m_mean": 82,
+   "sunshine_duration": 13039.0
+  },
+  "2026-10-13": {
+   "weather_code": 61,
+   "temperature_2m_max": 13.4,
+   "temperature_2m_min": 10.6,
+   "temperature_2m_mean": 11.9,
+   "precipitation_sum": 12.0,
+   "wind_speed_10m_max": 26.6,
+   "wind_gusts_10m_max": 51.1,
+   "wind_direction_10m_dominant": 7,
+   "relative_humidity_2m_mean": 83,
+   "sunshine_duration": 798.56
+  },
+  "2026-10-14": {
+   "weather_code": 3,
+   "temperature_2m_max": 14.1,
+   "temperature_2m_min": 7.8,
+   "temperature_2m_mean": 11.2,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 28.5,
+   "wind_gusts_10m_max": 55.1,
+   "wind_direction_10m_dominant": 1,
+   "relative_humidity_2m_mean": 65,
+   "sunshine_duration": 15013.05
   },
   "_meta": {
    "sursa": "Open-Meteo (ERA5 / archive API)",

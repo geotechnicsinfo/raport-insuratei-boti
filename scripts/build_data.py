@@ -142,38 +142,72 @@ def parse_kml(path):
     return pts
 
 
+def load_ajustari(path):
+    """scripts/ajustari.json: rotiri manuale, fișe cu nume WhatsApp, poze excluse."""
+    if path and os.path.exists(path):
+        return json.load(open(path, encoding='utf-8'))
+    return {}
+
+
+AJ = {}
+ROT = {90: Image.Transpose.ROTATE_90, 180: Image.Transpose.ROTATE_180, 270: Image.Transpose.ROTATE_270}
+
+
 def process_photos(folder, out_dir, rel):
-    """Redimensionează pozele; returnează (fisa, [poze])"""
+    """Redimensionează pozele; returnează (fisa, [poze]).
+    Rotirile din ajustari.json sunt în grade, sens trigonometric (90 = stânga, 270 = dreapta)."""
     os.makedirs(out_dir, exist_ok=True)
-    files = sorted(f for f in os.listdir(folder) if re.search(r'\.jpe?g$|\.png$', f, re.I))
+    fol = os.path.basename(folder)
+    rot = AJ.get('rotiri', {}).get(fol, {})
+    excl = set(AJ.get('excluse', {}).get(fol, []))
+    fisa_name = AJ.get('fise', {}).get(fol)
+    man_p = os.path.join(out_dir, 'sursa.json')
+    try:
+        man_old = json.load(open(man_p, encoding='utf-8'))
+    except Exception:
+        man_old = {}
+    man = {}
+    files = sorted(f for f in os.listdir(folder) if re.search(r'\.jpe?g$|\.png$', f, re.I) and f not in excl)
     fisa, pics = None, []
     n = 0
     for f in files:
         src = os.path.join(folder, f)
+        is_fisa = (f == fisa_name) or 'fisa' in f.lower() or bool(re.match(r'^(D|F|Fr)[\s_-]*\d+\.(jpe?g|png)$', f, re.I))
+        name = 'fisa' if is_fisa else f'{n + 1:02d}'
+        r = int(rot.get(f, 0)) % 360
+        sig = {'original': f, 'mtime': round(os.path.getmtime(src)), 'rot': r}
+        man[name] = sig
+        fresh = man_old.get(name) == sig and all(os.path.exists(os.path.join(out_dir, f'{x}{name}.jpg')) for x in ('', 't_'))
         try:
-            im = ImageOps.exif_transpose(Image.open(src)).convert('RGB')
+            if fresh:
+                with Image.open(os.path.join(out_dir, f'{name}.jpg')) as im0:
+                    W, Hh = im0.size
+            else:
+                im = ImageOps.exif_transpose(Image.open(src)).convert('RGB')
+                if r:
+                    im = im.transpose(ROT[r])
+                W, Hh = im.size
+                for w, suffix in ((MAX_W, ''), (THUMB_W, 't_')):
+                    img = im.copy()
+                    img.thumbnail((w, w))
+                    img.save(os.path.join(out_dir, f'{suffix}{name}.jpg'), 'JPEG', quality=QUALITY, optimize=True, progressive=True)
         except Exception as e:
             print('  ! poza ignorată', src, e)
+            man.pop(name, None)
             continue
-        is_fisa = 'fisa' in f.lower() or bool(re.match(r'^(D|F|Fr)[\s_-]*\d+\.(jpe?g|png)$', f, re.I))
-        name = 'fisa' if is_fisa else f'{n + 1:02d}'
-        for w, suffix in ((MAX_W, ''), (THUMB_W, 't_')):
-            img = im.copy()
-            img.thumbnail((w, w))
-            dst = os.path.join(out_dir, f'{suffix}{name}.jpg')
-            if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
-                continue   # deja procesată
-            img.save(dst, 'JPEG', quality=QUALITY, optimize=True, progressive=True)
-        entry = {'src': f'{rel}/{name}.jpg', 'thumb': f'{rel}/t_{name}.jpg',
-                 'original': f, 'w': im.width, 'h': im.height}
-        m = re.search(r'(\d{4}-\d{2}-\d{2}) at (\d{2})\.(\d{2})', f)
+        entry = {'src': f'{rel}/{name}.jpg', 'thumb': f'{rel}/t_{name}.jpg', 'original': f, 'w': W, 'h': Hh}
+        m = re.search(r'(\d{4}-\d{2}-\d{2}) at (\d{1,2})\.(\d{2})\.\d{2}\s*([AP]M)?', f)
         if m:
-            entry['timestamp'] = f'{m.group(1)} {m.group(2)}:{m.group(3)}'
+            hh = int(m.group(2))
+            if m.group(4) == 'PM' and hh < 12: hh += 12
+            if m.group(4) == 'AM' and hh == 12: hh = 0
+            entry['timestamp'] = f'{m.group(1)} {hh:02d}:{m.group(3)}'
         if is_fisa:
             fisa = entry
         else:
             pics.append(entry)
             n += 1
+    json.dump(man, open(man_p, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     return fisa, pics
 
 
@@ -185,7 +219,9 @@ def main():
     ap.add_argument('--poze', required=True)
     ap.add_argument('--meteo', default=None)
     ap.add_argument('--out', required=True)
+    ap.add_argument('--ajustari', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ajustari.json'))
     a = ap.parse_args()
+    AJ.update(load_ajustari(a.ajustari))
 
     fise = parse_fise(a.fise)
     facute = parse_facute(a.facute)
@@ -201,7 +237,9 @@ def main():
         f = fise.get(iid, {})
         fc = facute.get(iid, {})
         planned = kml_by_id.get(iid if tip == 'dezvelire' else f'Fr{nr}')
-        folder_name = ('Dezvelire' if tip == 'dezvelire' else 'Foraj') + f' N{nr}'
+        cand = ([f'Dezvelire N{nr}', f'Dezvelire D{nr}'] if tip == 'dezvelire'
+                else [f'Foraj N{nr}', f'Foraj FR{nr}', f'Foraj Fr{nr}', f'Foraj F{nr}'])
+        folder_name = next((c for c in cand if os.path.isdir(os.path.join(a.poze, c))), cand[0])
         folder = os.path.join(a.poze, folder_name)
         fisa_img, pics = (None, [])
         pid = planned['id'] if planned else iid
