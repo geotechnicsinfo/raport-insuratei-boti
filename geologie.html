@@ -66,7 +66,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line-2)}
 .help{position:absolute;left:12px;bottom:10px;z-index:3;font-size:12px;color:var(--ink-3);background:rgba(255,255,255,.85);padding:3px 8px;border-radius:4px}
 .unitbox{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(10,47,79,.92);color:#fff;border-radius:var(--r);padding:10px 12px;font-size:13px;max-width:340px;display:none}
 .unitbox b{font-family:var(--cond);font-size:16px;color:#FFD08A;display:block;margin-bottom:3px}
-@media(max-width:700px){.g3{height:480px}.leg{display:none}.unitbox{max-width:220px}}
+#b-leg{display:none}
+@media(max-width:1000px){.leg{display:none}.leg.open{display:block;max-height:70%;overflow:auto}#b-leg{display:inline-block}}
+@media(max-width:700px){.g3{height:480px}.unitbox{max-width:220px}}
 /* 2D */
 #map2{height:520px;border:1px solid var(--line);border-radius:var(--r)}
 .leaflet-container{font-family:var(--sans)}
@@ -133,7 +135,7 @@ footer{padding:22px 0 40px;color:var(--ink-3);font-size:13px}
     <p class="lead">Bloc de teren de ~28 × 18 km (EU‑DEM 25 m, exagerare verticală reglabilă) cu unitățile hărții geologice pe suprafață și o coloană stratigrafică schematică pe pereți (cote absolute orientative: baza loessului ≈ +22 m, baza nisipurilor freatice ≈ +2 m, baza complexului marnos ≈ −30 m – valori regionale, de verificat prin forajele FT). Trage pentru rotire, rotița pentru zoom, click pe un foraj executat pentru fișa lui.</p>
     <div class="g3" id="g3">
       <div class="hud">
-        <div class="row"><button class="btn on" data-mode="geo">Geologie</button><button class="btn" data-mode="relief">Relief</button><button class="btn" id="b-reset">Reset vedere</button></div>
+        <div class="row"><button class="btn on" data-mode="geo">Geologie</button><button class="btn" data-mode="relief">Relief</button><button class="btn" id="b-reset">Reset vedere</button><button class="btn" id="b-leg">Legendă</button></div>
         <div class="row">
           <label><input type="checkbox" id="c-inv" checked> investigații</label>
           <label><input type="checkbox" id="c-walls" checked> coloană (pereți)</label>
@@ -354,6 +356,7 @@ footer{padding:22px 0 40px;color:var(--ink-3);font-size:13px}
   const api = window.initGeo3D(document.getElementById('g3'), R, G, INV, PROJ, {ve:18, tip:document.getElementById('tip3'), onUnit:u=>{ if(u===lastU)return; lastU=u; if(u==='none'){ubox.style.display='none';return;} ubox.style.display='block'; ubox.innerHTML=`<b>${UL[u]}</b>${DESC[u]||''}`; }});
   document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('on',x===b));api.setMode(b.dataset.mode);});
   document.getElementById('b-reset').onclick=()=>api.reset();
+  document.getElementById('b-leg').onclick=()=>document.getElementById('leg3').classList.toggle('open');
   document.getElementById('c-inv').onchange=e=>api.toggle('inv',e.target.checked);
   document.getElementById('c-walls').onchange=e=>api.toggle('walls',e.target.checked);
   document.getElementById('c-lab').onchange=e=>api.toggle('labels',e.target.checked);
