@@ -555,7 +555,7 @@ function renderDetail(id){
     <div class="meta">
       <div class="kv"><span>Adâncime</span><b>${n2(i.adancime)} m</b></div>
       <div class="kv ${i.NH!=null||i.IN!=null?'water':''}"><span>Apă subterană</span><b>${esc(water)}</b>${i.NH!=null&&i.IN!=null?`<div class="sm">infiltrație la ${n2(i.IN)} m</div>`:''}</div>
-      <div class="kv"><span>GPS teren (WGS84)</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.gps_dms.join(' · ')||i.coord_sursa)}</div></div>
+      <div class="kv"><span>${i.coord_sursa && i.coord_sursa!=='GPS teren' ? 'Coordonate (punct proiectat)' : 'GPS teren (WGS84)'}</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.gps_dms.join(' · ')||i.coord_sursa)}</div></div>
       <div class="kv"><span>Punct proiectat · Stereo 70</span><b class="mono">${i.proiectat&&i.proiectat.stereo70?`E ${i.proiectat.stereo70.E.toFixed(2)} · N ${i.proiectat.stereo70.N.toFixed(2)}`:'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.id):''}</div></div>
       <div class="kv"><span>Teste asociate</span><b>${i.rt?esc(i.rt)+' – rezistivitate termică':'—'}</b><div class="sm">${i.proiectat?esc(i.proiectat.obs):''}</div></div>
       <div class="kv"><span>Fotografii</span><b>${i.poze.length}${i.fisa_foto?' + fișă':''}</b>${gmaps?`<div class="sm"><a href="${gmaps}" target="_blank" rel="noopener">Deschide în Google Maps ↗</a></div>`:''}</div>
