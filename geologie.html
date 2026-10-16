@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geologia zonei – Însurăței</title>
+<meta name="description" content="Capitol de geologie pentru investigațiile geotehnice Faza I de la Însurăței (jud. Brăila): hartă geologică interactivă 3D, hartă 2D, descriere geologică, hidrogeologie, seismicitate, bibliografie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--navy:#0A2F4F;--blue:#0069B4;--blue-l:#E6F0F8;--orange:#F28C00;--orange-l:#FDEBD3;--ink:#1B2430;--ink-2:#4A5560;--ink-3:#7B8794;--line:#D9DFE5;--line-2:#EDF0F3;--bg:#fff;--bg-2:#F6F8FA;--water:#1F8FD8;
+--sans:"Barlow",system-ui,Segoe UI,Arial,sans-serif;--cond:"Barlow Condensed","Barlow",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;--r:6px}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+a{color:var(--blue)} button{font-family:inherit}
+h1,h2,h3,h4{font-family:var(--cond);font-weight:600;margin:0;line-height:1.1;letter-spacing:.01em}
+.mono{font-family:var(--mono);font-size:.86em}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+@media(max-width:600px){.wrap{padding:0 16px}}
+.topbar{background:var(--navy);color:#fff;border-bottom:4px solid var(--orange)}
+.topbar .wrap{display:flex;align-items:center;gap:18px;height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.brand .mark{width:34px;height:34px;display:grid;place-items:center;background:var(--orange);border-radius:4px;font-family:var(--cond);font-weight:700;font-size:18px;color:var(--navy)}
+.brand b{font-family:var(--cond);font-size:21px;font-weight:600;letter-spacing:.02em}
+.brand small{display:block;font-size:11.5px;opacity:.75;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+.nav{margin-left:auto;display:flex;gap:4px}
+.nav a{color:#fff;opacity:.8;text-decoration:none;padding:8px 12px;border-radius:4px;font-weight:500;font-size:14px}
+.nav a.active,.nav a:hover{opacity:1;background:rgba(255,255,255,.12)}
+@media(max-width:700px){.brand small{display:none}.nav a{padding:8px 8px}}
+.hero{border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--bg-2))}
+.hero .wrap{padding:28px 20px 22px;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:end}
+.hero h1{font-size:40px;color:var(--navy)}
+.hero .sub{color:var(--ink-2);margin-top:6px;max-width:62ch}
+.kicker{font-family:var(--cond);text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:var(--orange);font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:10px 12px}
+.stat b{display:block;font-family:var(--cond);font-size:24px;color:var(--navy);line-height:1}
+.stat span{font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line-2)}
+.sec h2{font-size:28px;color:var(--navy);margin-bottom:6px}
+.sec .lead{color:var(--ink-2);max-width:80ch;margin:0 0 16px}
+.btn{border:1px solid var(--line);background:#fff;border-radius:var(--r);padding:6px 12px;font-size:13px;cursor:pointer;color:var(--navy);font-weight:600}
+.btn:hover{background:var(--bg-2)} .btn.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+/* 3D */
+.g3{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:radial-gradient(ellipse at 50% 20%,#fff 0%,#eef2f6 70%,#e3e8ee 100%);height:620px}
+.g3 canvas{display:block;cursor:grab}
+.hud{position:absolute;left:12px;top:12px;display:flex;flex-direction:column;gap:8px;z-index:3;pointer-events:none}
+.hud>*{pointer-events:auto}
+.hud .row{display:flex;gap:6px;flex-wrap:wrap}
+.hud label{font-size:12.5px;color:var(--ink-2);background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:var(--r);padding:4px 8px;display:inline-flex;align-items:center;gap:6px}
+.hud input[type=range]{width:110px}
+.leg{position:absolute;right:12px;top:12px;z-index:3;background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;font-size:12.5px;max-width:300px}
+.leg h4{font-size:14px;color:var(--navy);margin-bottom:6px}
+.leg .it{display:flex;align-items:center;gap:8px;padding:2px 0;cursor:pointer}
+.leg .it:hover{color:var(--blue)}
+.leg .sw{width:18px;height:12px;border:1px solid #6b5a3a;border-radius:2px;flex:none}
+.leg .sw.c{border-radius:50%;width:12px;height:12px;border-color:#fff;box-shadow:0 0 0 1px #999}
+.leg .sw.sq{width:12px;height:12px;border-color:#fff;box-shadow:0 0 0 1px #999}
+.leg hr{border:0;border-top:1px solid var(--line-2);margin:6px 0}
+.tip{position:absolute;z-index:4;display:none;background:var(--navy);color:#fff;font-size:12.5px;padding:7px 10px;border-radius:4px;pointer-events:none;max-width:280px;line-height:1.35}
+.tip b{font-family:var(--cond);font-size:15px;color:#FFD08A}
+.tip .u{opacity:.85}
+.help{position:absolute;left:12px;bottom:10px;z-index:3;font-size:12px;color:var(--ink-3);background:rgba(255,255,255,.85);padding:3px 8px;border-radius:4px}
+.unitbox{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(10,47,79,.92);color:#fff;border-radius:var(--r);padding:10px 12px;font-size:13px;max-width:340px;display:none}
+.unitbox b{font-family:var(--cond);font-size:16px;color:#FFD08A;display:block;margin-bottom:3px}
+@media(max-width:700px){.g3{height:480px}.leg{display:none}.unitbox{max-width:220px}}
+/* 2D */
+#map2{height:520px;border:1px solid var(--line);border-radius:var(--r)}
+.leaflet-container{font-family:var(--sans)}
+.legend2{background:#fff;padding:8px 10px;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.25);font-size:12px;line-height:1.5}
+.legend2 i{display:inline-block;width:14px;height:11px;border:1px solid #777;margin-right:6px;vertical-align:-1px}
+/* text */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.prose{max-width:78ch} .prose p{margin:0 0 12px} .prose h3{font-size:20px;color:var(--navy);margin:18px 0 8px}
+.prose ul{margin:0 0 12px;padding-left:20px}
+sup.r{font-size:.7em;color:var(--blue);font-weight:600}
+table.t{border-collapse:collapse;width:100%;font-size:13.5px;margin:8px 0 16px}
+.t th,.t td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+.t th{font-family:var(--cond);font-size:14px;color:var(--navy);background:var(--bg-2);letter-spacing:.03em}
+.t td.n{font-family:var(--mono);font-size:12.5px;white-space:nowrap}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.card h3{font-size:18px;color:var(--navy);margin-bottom:8px}
+.note{background:var(--orange-l);border-left:4px solid var(--orange);padding:10px 14px;border-radius:0 var(--r) var(--r) 0;font-size:13.5px;margin:12px 0}
+.figure{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.figure img{display:block;width:100%;height:auto}
+.figure figcaption{padding:8px 12px;font-size:13px;color:var(--ink-2);border-top:1px solid var(--line-2)}
+.col svg{width:100%;height:auto}
+.bib{font-size:13px;columns:2;column-gap:28px} .bib li{break-inside:avoid;margin-bottom:5px} @media(max-width:800px){.bib{columns:1}}
+footer{padding:22px 0 40px;color:var(--ink-3);font-size:13px}
+.chip{display:inline-block;background:var(--blue-l);color:var(--navy);border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:600;margin:2px 4px 2px 0}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html#/">
+      <span class="mark">IG</span>
+      <span><b>Investigații de teren</b><small>UAT Însurăței · jud. Brăila · Faza I</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html#/">Sinteză</a>
+      <a href="index.html#/harta">Hartă</a>
+      <a href="index.html#/tabel">Tabel</a>
+      <a href="geologie.html" class="active">Geologie</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <div class="kicker">Capitol separat · geologia zonei</div>
+      <h1>Geologia amplasamentului Însurăței</h1>
+      <p class="sub">Câmpia Brăilei (Bărăganul de Nord), malul stâng al Călmățuiului, pe Platforma Moesică. Extras din Harta geologică a României 1:200.000, foaia Brăila (IGR, 1967), drapat pe relieful EU‑DEM și corelat cu cele <span id="n-exec">49</span> de investigații executate și cele 400 de puncte proiectate.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>qh2</b><span>unitate dominantă · depozite loessoide</span></div>
+      <div class="stat"><b id="st-pct">93 %</b><span>din punctele proiectate pe qh2</span></div>
+      <div class="stat"><b>5–10 m</b><span>loess așteptat (regional)</span></div>
+      <div class="stat"><b>0,30 g</b><span>a<sub>g</sub> P100‑1/2013 (Brăila) · T<sub>c</sub> 1,0 s</span></div>
+    </div>
+  </div>
+</div>
+
+<section class="sec" id="h3d">
+  <div class="wrap">
+    <h2>Harta geologică 3D interactivă</h2>
+    <p class="lead">Bloc de teren de ~28 × 18 km (EU‑DEM 25 m, exagerare verticală reglabilă) cu unitățile hărții geologice pe suprafață și o coloană stratigrafică schematică pe pereți (cote absolute orientative: baza loessului ≈ +22 m, baza nisipurilor freatice ≈ +2 m, baza complexului marnos ≈ −30 m – valori regionale, de verificat prin forajele FT). Trage pentru rotire, rotița pentru zoom, click pe un foraj executat pentru fișa lui.</p>
+    <div class="g3" id="g3">
+      <div class="hud">
+        <div class="row"><button class="btn on" data-mode="geo">Geologie</button><button class="btn" data-mode="relief">Relief</button><button class="btn" id="b-reset">Reset vedere</button></div>
+        <div class="row">
+          <label><input type="checkbox" id="c-inv" checked> investigații</label>
+          <label><input type="checkbox" id="c-walls" checked> coloană (pereți)</label>
+          <label><input type="checkbox" id="c-lab" checked> etichete</label>
+          <label>exagerare verticală <input type="range" id="r-ve" min="2" max="30" value="18"> <span id="ve-v">×18</span></label>
+        </div>
+      </div>
+      <div class="leg" id="leg3"></div>
+      <div class="tip" id="tip3"></div>
+      <div class="unitbox" id="ubox"></div>
+      <div class="help">trage = rotire · rotiță = zoom · shift+trage = deplasare · hover = unitate / foraj</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2>Harta geologică 2D</h2>
+    <p class="lead">Aceleași poligoane, peste OpenStreetMap, cu punctele proiectate și cele executate. Click pe o unitate pentru descriere; click pe un punct executat deschide fișa.</p>
+    <div id="map2"></div>
+    <p style="font-size:13px;color:var(--ink-3);margin-top:8px">Date: <a href="geologie/geologie_insuratei.geojson">geologie_insuratei.geojson</a> (WGS84, decupaj 27,30–27,85 E / 44,70–45,03 N) · sursă: Harta geologică 1:200.000 foaia Brăila (Patrulius, Ghenea, Bandrabur, 1967), vectorizare publicată ca webmap ArcGIS Online.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap grid2">
+    <div>
+      <h2>Planșa QGIS</h2>
+      <p class="lead">Harta geologică a amplasamentului, A3, Stereo 70 (EPSG:3844), generată în QGIS din aceleași date (proiectul <span class="mono">gis/Insuratei_geologie.qgz</span>, script <span class="mono">gis/build_geo.py</span>).</p>
+      <figure class="figure" style="margin:0">
+        <a href="geologie/harta_geologica_insuratei.png"><img src="geologie/harta_geologica_insuratei.jpg" alt="Harta geologică Însurăței – planșă A3" loading="lazy"></a>
+        <figcaption>Click pentru PNG la 150 dpi (2480 × 1753 px).</figcaption>
+      </figure>
+    </div>
+    <div>
+      <h2>Unitățile geologice de pe amplasament</h2>
+      <p class="lead">Repartizarea punctelor pe unități (calcul punct‑în‑poligon pe coordonatele proiectate / GPS).</p>
+      <table class="t" id="t-units"><thead><tr><th>Unitate</th><th>Descriere (harta 1:200.000)</th><th>Puncte proiectate</th><th>Executate</th></tr></thead><tbody></tbody></table>
+      <div class="note">Codurile hărții din 1967 (<b>qp3</b> = Pleistocen superior; <b>qh1 / qh2</b> = Holocen inferior / superior) sunt păstrate ca în sursă. Atribuirea depozitelor loessoide de câmp la „qh2” este convenția foii; datările moderne plasează loessul din Bărăgan în Pleistocenul superior (L1, ~15–70 ka)<sup class="r">[41–45]</sup>.</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap grid2">
+    <div class="prose">
+      <h2>Descriere geologică</h2>
+      <h3>1. Cadrul geografic și geomorfologic</h3>
+      <p>Însurăței se află în <b>Câmpia Brăilei</b> („Bărăganul de Nord”), subunitate nord‑estică a Câmpiei Române delimitată de Siret, Dunăre, Călmățui și Buzău; relieful este jos și neted, cu altitudini ce scad de la ~50 m în NV la ~20 m în E<sup class="r">[24]</sup>. Amplasamentul ocupă extremitatea sudică a Câmpului Viziru – interfluvii plate la 20–45 m, văi seci de 4–6 m adâncime – și marginea stângă a <b>luncii Călmățuiului</b>, lată de 2–7 km; malul stâng se ridică doar 6–7 m deasupra luncii, dar este abrupt, iar malul drept depășește 25 m<sup class="r">[20][23]</sup>. Pe partea dreaptă a văii apar <b>nisipuri de dune</b> (corpul de apă ROIL09)<sup class="r">[13]</sup>; pe câmp, crovuri (microdepresiuni de tasare‑sufozie) și movile<sup class="r">[6][16]</sup>. Călmățuiul (152 km, bazin 1 668 km²) are debit mediu ~1,1 m³/s și se varsă în Dunăre la ~20 km în aval<sup class="r">[14][16]</sup>.</p>
+      <p>Climat temperat‑continental de stepă: 10,4–11,1 °C media anuală, precipitații sub 500 mm/an, adâncime de îngheț 0,85–0,90 m, crivăț 80–120 km/h<sup class="r">[16][20]</sup>. Soluri: cernoziomuri (70–75 % din județ), psamosoluri în Câmpia Călmățuiului, solonceacuri în luncă între Ulmu și Însurăței<sup class="r">[16]</sup>.</p>
+      <h3>2. Cadrul geologic regional</h3>
+      <p>Zona aparține <b>Platformei Moesice</b> – fundament cristalin precambrian și cuvertură sedimentară paleozoic‑mezozoică și neogenă<sup class="r">[18]</sup>. Însurăței se situează în blocul dintre <b>falia Intramoesică</b> (la SV) și <b>falia Peceneaga–Camena</b> (la NE, limita cu Orogenul Nord‑Dobrogean), în prelungirea Dobrogei Centrale sub Dunăre; aici depozitele Dacian–Cuaternar au ~2 km grosime, iar spre N–NV cuvertura se îngroașă rapid către <b>Depresiunea Focșani</b> (până la ~13 km de sedimente Badenian–Cuaternar)<sup class="r">[7][8][9]</sup>. Forajele geotermale de la Însurăței (1982–1983) au interceptat ape de până la 60 °C între ~550 și 1 550 m, în colectoare ale cuverturii<sup class="r">[26]</sup>; în județ, structurile petrolifere Ulmu și Jugureanu se află la 10–20 km<sup class="r">[16]</sup>.</p>
+      <h3>3. Depozitele cuaternare</h3>
+      <p>Succesiunea regională a Pleistocenului în Bărăgan: <b>Stratele de Frătești</b> (Pleistocen inferior; pietrișuri și nisipuri în trei niveluri, 50–150 m)<sup class="r">[3][4][27]</sup>, <b>Complexul marnos / Formațiunea de Coconi</b> (Pleistocen mediu; argile, silturi, nisipuri fine, 30–40 m)<sup class="r">[11][27]</sup>, <b>Nisipurile de Mostiștea</b> (Pleistocen superior; 10–30 m)<sup class="r">[11]</sup> și, la zi, <b>loessul și depozitele loessoide</b>. În Câmpia Brăilei grosimea loessului scade de la ~16 m (Constantinești) la 5 m la Cuza Vodă și 3–4 m la Mircea Vodă; forajele din Câmpul Viziru au traversat 5–10 m de loess galben macroporic<sup class="r">[5][20]</sup>. Pentru Însurăței este deci de așteptat o pătură loessoidă de <b>5–10 m</b> (valorile NP 125 de 10–35 m pentru Brăila–Galați sunt regionale)<sup class="r">[28]</sup>. Loessul local este nisipos (nisip fin 50–70 %, argilă 5–11 %), fără paleosoluri observate, atribuit ultimului stadial<sup class="r">[5]</sup>; prin corelare cu secțiunile datate Vlasca, Balta Albă Kurgan, Mircea Vodă și Urluia, el corespunde unității L1 (~15–70 ka)<sup class="r">[41–45]</sup>.</p>
+      <p>În Holocen s‑au depus aluviunile luncii Călmățuiului (nisipuri cu intercalații argiloase), nisipurile de dune de pe dreapta văii și depozitele de mlaștină/lacustre sărăturate din crovuri<sup class="r">[13][22]</sup>. Pe harta 1:200.000, 40 din cele 49 de investigații executate cad pe unitatea <b>qh2 – pietrișuri, nisipuri, depozite loessoide</b> (câmp), iar 9 (D56, D57, D62, D64, D65, Fr59, Fr62, Fr65, Fr66 – latura sudică) pe <b>qp3–qh – depozite deluvial‑proluviale</b> ale marginii văii.</p>
+      <h3>4. Hidrogeologie</h3>
+      <p>Amplasamentul este la contactul a trei corpuri de apă freatică (ANAR – ABA Buzău‑Ialomița)<sup class="r">[12][13]</sup>: <b>ROIL07 Câmpia Brăilei</b> – acvifer neconfinat la baza loessului (acoperiș 5–10 m), alimentare exclusiv din precipitații (30–50 mm/an), grosime medie ~8 m, ape clorurate‑sodice de 1–5 g/l, curgere V→E; <b>ROIL06 Lunca Călmățuiului</b> – nisipuri aluviale, nivel 1–5 m, acvifer suprafreatic sezonier la 1–1,5 m, înmlăștinire și salinizare, stare chimică slabă; <b>ROIL09 Călmățuiul de Sud</b> – nisipuri de dune, nivel 2–10 m, k = 1–3 m/zi, drenaj spre Călmățui. Nivel freatic de așteptat: <b>3–10 m pe interfluviu, 1–5 m în luncă</b>, cu oscilații anuale de 1–2 m, maxime în mai–iunie, influențate de irigații<sup class="r">[16][18][20][21]</sup>. Acviferul de adâncime din Stratele de Frătești (50–200 m) este sub presiune, cu ape slab mineralizate (&lt;0,7 g/l)<sup class="r">[10][21][27]</sup>.</p>
+      <h3>5. Caracterizare geotehnică (loess / PSU)</h3>
+      <p>Loessul este pământ sensibil la umezire (PSU, NP 125): coeziv, macroporic, nesaturat, cu tasări bruște la inundare; criteriu i<sub>m300</sub> ≥ 2 %, grupa A (I<sub>mg</sub> &lt; 5 cm) sau B (I<sub>mg</sub> ≥ 5 cm)<sup class="r">[28]</sup>. Valori orientative NP 125: γ 12–18 kN/m³, w 6–15 %, n 45–60 %, E<sub>oed</sub> 5–10 MPa, φ 5–25°, c 10–30 kPa, rezistență structurală σ<sub>0</sub> ≈ 30 kPa la Brăila–Galați, p<sub>conv</sub> 120–180 kPa<sup class="r">[28]</sup>. Documentele locale califică loessul din Câmpul Viziru drept „foarte compresibil, sensibil la umezire – teren slab, care necesită îmbunătățire înainte de fundarea directă”<sup class="r">[20][21]</sup>. Pentru turbine, precedentul Fântânele: radier pe incluziuni de beton și strat de transfer din loess stabilizat cu ciment<sup class="r">[37]</sup>; pentru drumuri: stabilizare cu nisip/ciment, coloane de loess compactat<sup class="r">[39][40]</sup>. Încadrare NP 074 așteptată pentru fundațiile turbinelor: categoria geotehnică 3 / risc major<sup class="r">[29]</sup>.</p>
+      <h3>6. Seismicitate</h3>
+      <p>Hazardul este dat de sursa subcrustală <b>Vrancea</b> (80–180 km adâncime, ~120 km de Brăila): 1940 M<sub>w</sub> 7,7; 1977 M<sub>w</sub> 7,4; 1986 M<sub>w</sub> 7,1; 1990 M<sub>w</sub> 6,9<sup class="r">[32]</sup>. Intensitate maximă probabilă VIII MSK<sup class="r">[19]</sup>. P100‑1/2013: pentru Brăila a<sub>g</sub> = 0,30 g, T<sub>c</sub> = 1,0 s (IMR 225 ani); Însurăței se află la limita zonelor 0,30/0,25 g – de confirmat în Anexa A<sup class="r">[30]</sup>. Lichefierea s‑a produs în 1977 la Făurei, iar la Ianca factorul de siguranță este sub 1 pentru T &lt; 100 ani<sup class="r">[35]</sup>: nisipurile saturate din luncă și dune (nivel 1–5 m) trebuie evaluate prin CPTu.</p>
+      <h3>7. Hazarde geologice</h3>
+      <ul>
+        <li>tasări și prăbușiri în loess, sufozie, crovuri – amplificate de irigații și pierderi din rețele<sup class="r">[6][18][20]</sup>;</li>
+        <li>eroziunea malului stâng abrupt al Călmățuiului; inundații cu depășirea cotelor de apărare în 2012 și 2014<sup class="r">[14][23]</sup>;</li>
+        <li>înmlăștinire și salinizare în luncă; ape freatice Cl‑Na de 1–5 g/l, potențial agresive pentru betoane (verificare SR EN 206)<sup class="r">[13][17]</sup>;</li>
+        <li>viscol (clasă maximă de vulnerabilitate), secetă<sup class="r">[16]</sup>.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card col">
+        <h3>Coloana stratigrafică schematică</h3>
+        <svg viewBox="0 0 360 560" xmlns="http://www.w3.org/2000/svg" font-family="Barlow,sans-serif" font-size="12">
+          <defs>
+            <pattern id="pl" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#E9D27F"/><circle cx="2" cy="2" r=".8" fill="#9c8a48"/><circle cx="6" cy="6" r=".8" fill="#9c8a48"/></pattern>
+            <pattern id="ps" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#D8AE5C"/><circle cx="4" cy="4" r="1" fill="#8d7a52"/></pattern>
+            <pattern id="pm" width="10" height="6" patternUnits="userSpaceOnUse"><rect width="10" height="6" fill="#8FA3A8"/><path d="M0 3h6" stroke="#5f6b58" stroke-width="1"/></pattern>
+            <pattern id="pg" width="10" height="8" patternUnits="userSpaceOnUse"><rect width="10" height="8" fill="#BE9468"/><ellipse cx="3" cy="4" rx="2.4" ry="1.6" fill="#8f7149"/><ellipse cx="8" cy="1" rx="1.6" ry="1.1" fill="#8f7149"/></pattern>
+            <pattern id="pa" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#BFD9AE"/><path d="M0 6h8M0 2h8" stroke="#7a9a6a" stroke-width=".8" stroke-dasharray="2 2"/></pattern>
+          </defs>
+          <text x="60" y="16" font-weight="600" fill="#0A2F4F">Câmp (interfluviu)</text><text x="230" y="16" font-weight="600" fill="#0A2F4F">Lunca Călmățuiului</text>
+          <!-- coloana câmp -->
+          <rect x="60" y="24" width="90" height="56" fill="url(#pl)" stroke="#555"/>
+          <rect x="60" y="80" width="90" height="100" fill="url(#ps)" stroke="#555"/>
+          <rect x="60" y="180" width="90" height="140" fill="url(#pm)" stroke="#555"/>
+          <rect x="60" y="320" width="90" height="200" fill="url(#pg)" stroke="#555"/>
+          <!-- coloana luncă -->
+          <rect x="230" y="60" width="90" height="34" fill="url(#pa)" stroke="#555"/>
+          <rect x="230" y="94" width="90" height="86" fill="url(#ps)" stroke="#555"/>
+          <rect x="230" y="180" width="90" height="140" fill="url(#pm)" stroke="#555"/>
+          <rect x="230" y="320" width="90" height="200" fill="url(#pg)" stroke="#555"/>
+          <!-- nivel apă -->
+          <path d="M60 110h90" stroke="#1F8FD8" stroke-width="2"/><text x="152" y="113" fill="#1F8FD8" font-size="11">▽ NH 3–10 m</text>
+          <path d="M230 72h90" stroke="#1F8FD8" stroke-width="2"/><text x="322" y="75" fill="#1F8FD8" font-size="11">▽ 1–5 m</text>
+          <!-- cote -->
+          <g fill="#4A5560" font-size="11" text-anchor="end">
+            <text x="54" y="28">+30…+45 m</text><text x="54" y="84">≈ +22 m</text><text x="54" y="184">≈ +2 m</text><text x="54" y="324">≈ −30 m</text><text x="54" y="520">≈ −90…−150 m</text>
+          </g>
+          <!-- etichete -->
+          <g font-size="11" fill="#1B2430">
+            <text x="160" y="40">loess, depozite loessoide – PSU</text><text x="160" y="54" fill="#7B8794">qp3 (L1, ~15–70 ka) · 5–10 m</text>
+            <text x="160" y="140">nisipuri fine, prăfoase – acvifer freatic</text><text x="160" y="154" fill="#7B8794">Nisipuri de Mostiștea · ROIL07/06</text>
+            <text x="160" y="245">complex marnos – argile, silturi</text><text x="160" y="259" fill="#7B8794">Form. de Coconi, Pleistocen mediu</text>
+            <text x="160" y="415">pietrișuri și nisipuri – acvifer de adâncime</text><text x="160" y="429" fill="#7B8794">Stratele de Frătești, Pleistocen inf.</text>
+            <text x="325" y="52" font-size="10" fill="#7B8794">aluviuni qp3–qh / qh</text>
+          </g>
+          <text x="10" y="548" font-size="10.5" fill="#7B8794">Schematic, pe baza surselor regionale [3][5][11][13][27][28]; cotele vor fi precizate prin forajele FT (45 m).</text>
+        </svg>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <h3>Parametri orientativi – loess (NP 125, regional)</h3>
+        <table class="t">
+          <tr><th>Parametru</th><th>Interval</th></tr>
+          <tr><td>Greutate volumică γ</td><td class="n">12–18 kN/m³</td></tr>
+          <tr><td>Umiditate naturală w</td><td class="n">6–15 %</td></tr>
+          <tr><td>Porozitate n</td><td class="n">45–60 %</td></tr>
+          <tr><td>Limite Atterberg w<sub>L</sub> / I<sub>p</sub></td><td class="n">12–25 % / 5–20 %</td></tr>
+          <tr><td>Modul edometric E<sub>oed 200–300</sub></td><td class="n">5 000–10 000 kPa</td></tr>
+          <tr><td>φ / c</td><td class="n">5–25° / 10–30 kPa</td></tr>
+          <tr><td>Rezistență structurală σ<sub>0</sub> (Brăila–Galați)</td><td class="n">≈ 30 kPa</td></tr>
+          <tr><td>Criteriu PSU / grupă</td><td class="n">i<sub>m300</sub> ≥ 2 % · A: I<sub>mg</sub> &lt; 5 cm · B: ≥ 5 cm</td></tr>
+          <tr><td>Adâncime de îngheț</td><td class="n">0,85–0,90 m</td></tr>
+        </table>
+        <div class="chip">a<sub>g</sub> 0,30 g (Brăila)</div><div class="chip">T<sub>c</sub> 1,0 s</div><div class="chip">VIII MSK</div><div class="chip">Vrancea 80–180 km</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2>Bibliografie</h2>
+    <p class="lead">Surse consultate în cercetarea documentară (16.10.2026). Raportul complet: <a href="geologie/cercetare_geologie_insuratei.md">cercetare_geologie_insuratei.md</a>.</p>
+    <ol class="bib">
+      <li>Patrulius D., Ghenea A., Bandrabur T. (1967) – <a href="https://search.worldcat.org/title/romania-harta-geologica-1200000-foaia-braila/oclc/756601537">Harta geologică a României 1:200.000, foaia Brăila</a>, Institutul Geologic.</li>
+      <li>geo‑spatial.org – <a href="https://geo-spatial.org/vechi/download/harta-geologica-a-romaniei-scara-1-200-000">Harta Geologică a României 1:200.000 (IGR, 1964–1968)</a>.</li>
+      <li>IGR – <a href="https://formatiunigeologice.igr.ro/formatiune/1347">Lexiconul litostratigrafic: Strate de Frătești</a>.</li>
+      <li>Stănoiu I. – <a href="https://www.litua.ro/wp-content/uploads/2022/07/24-STANOIU-Ion-Aspecte-ale-geologiei-si-geomorfologiei-cuaternarului-din-Muntenia-si-Oltenia.pdf">Aspecte ale geologiei și geomorfologiei Cuaternarului din Muntenia și Oltenia</a>.</li>
+      <li>Canciu C. (2004) – <a href="https://georeview.usv.ro/wp-content/uploads/2023/07/Article.9-Vol.13-1.pdf">Considerații asupra loessurilor din Câmpia Brăilei</a>, Analele Univ. Suceava, Geografie XIII.</li>
+      <li>Grecu F. et al. (2015) – <a href="https://www.geomorfologie.ro/wp-content/uploads/2020/02/The-loess-micro-depressions-within-the-Romanian-Plain.-Morphometric-and-morphodynamic-analysis.pdf">The loess micro‑depressions within the Romanian Plain</a>, Rev. de Geomorfologie 17.</li>
+      <li>Tărăpoancă M. et al. (2003) – <a href="https://www.researchgate.net/publication/242381604">Architecture of the Focșani Depression</a>, Tectonics 22(6).</li>
+      <li>Matenco L. et al. (2003) – <a href="https://www.researchgate.net/publication/222525756">Subsidence analysis and tectonic evolution of the external Carpathian–Moesian Platform</a>, Sed. Geol. 156.</li>
+      <li>Săndulescu M. (2009) – <a href="https://acad.ro/sectii2002/proceedingsChemistry/doc2009-23/art10Sandulescu.pdf">The geotectonic framework of the Vrancea Seismic Zone</a>, Proc. Rom. Acad. B.</li>
+      <li>Palcu M. et al. (2008) – <a href="https://geoecomar.ro/website/publicatii/supliment2008/1.pdf">Inventarierea structurilor acvifere din sudul României</a>, Geo‑Eco‑Marina 14 supl.</li>
+      <li>Macaleț R. et al. (2008) – <a href="https://geoecomar.ro/website/publicatii/supliment2008/2.pdf">Corpurile de apă subterană din sudul României</a>, Geo‑Eco‑Marina 14 supl.</li>
+      <li>ANAR – ABA Buzău‑Ialomița – <a href="https://buzau-ialomita.rowater.ro/wp-content/uploads/2021/06/Cap-4_draft-PM-III.pdf">PM III, cap. 4 – corpuri de apă subterană</a>.</li>
+      <li>ANAR – ABA Buzău‑Ialomița (2022) – <a href="https://buzau-ialomita.rowater.ro/wp-content/uploads/2022/03/ANEXE-VOL-I_PMB-III.pdf">PMB III – Anexe vol. I (ROIL04, 06, 07, 09)</a>.</li>
+      <li>ANAR / MMAP – <a href="https://www.mmediu.ro/app/webroot/uploads/files/PMRI_ciclul%20II_ABA%20Buzau%20Ialomita.pdf">PMRI ABA Buzău‑Ialomița, ciclul II</a>.</li>
+      <li>CJ Brăila – <a href="https://cjbraila.ro/dm_cj/portal.nsf/AllByUNID/Geografia-jude%C5%A3ului-00001272?OpenDocument=">Geografia județului</a>.</li>
+      <li>CJ Brăila – <a href="https://cjbraila.ro/dm/portal.nsf/657A78B4A87DAC35C22586EA00319853/$FILE/Partea%20I.%20Analiza%20socio%20economica.pdf">Strategia de dezvoltare, Partea I – analiza socio‑economică</a>.</li>
+      <li>CJ Brăila – <a href="https://cjbraila.ro/dm/portal.nsf/D19A1943CCF3EDFCC22580DF004C0209/$FILE/1.9.%20Mediu.pdf">Strategia 2014‑2020, cap. 1.9 Mediu</a>.</li>
+      <li>Danias SRL (2012) – <a href="https://www.primariabraila.ro/wp-content/uploads/2018/documentePDF/DIRECTII%20PROPRII/ARHITECT%20SEF/PUG/STUDIU%20MEDIU%202011/SF%20PUG%20Braila%20-%20mediu.pdf">PUG Brăila – studiu privind factorii de mediu</a>.</li>
+      <li>Primăria Brăila (2023) – <a href="https://www.primariabraila.ro/wp-content/uploads/2018/documentePDF/DIRECTII%20PROPRII/ARHITECT%20SEF/PUG/Propunere%20Actualizare%20P.U.G.%20versiune%20%202023/PUG_BRAILA_Memoriu%20general%20+%20Plan%20actiune_2023a.pdf">Actualizare PUG Brăila – memoriu general</a>.</li>
+      <li>Primăria Viziru – <a href="https://www.primaria-viziru.ro/despre-comuna/monografia-comunei/">Monografia comunei</a>.</li>
+      <li>Primăria Chiscani – <a href="https://www.primariachiscani.ro/despre-comuna/monografia-comunei/">Monografia comunei</a>.</li>
+      <li>Primăria Unirea – <a href="https://www.unirea-braila.ro/comuna/relieful-si-vegetatia/">Relieful și vegetația</a>.</li>
+      <li>Asociația „Bordeiul Verde” – <a href="https://www.bordeiulverde.ro/Acasa/Asezare">Așezare</a>.</li>
+      <li>România date geografice – <a href="https://romaniadategeografice.net/relief/campii/campii-b/">Câmpii (B)</a>.</li>
+      <li>Wikipedia – <a href="https://en.wikipedia.org/wiki/%C3%8Ensur%C4%83%C8%9Bei">Însurăței</a>; <a href="https://en.wikipedia.org/wiki/C%C4%83lm%C4%83%C8%9Bui_(Br%C4%83ila)">Călmățui (Brăila)</a>.</li>
+      <li>Adevărul (2014) – <a href="https://adevarul.ro/stiri-locale/braila/comoara-neexploatata-de-sub-judetul-braila-1537423.html">Zăcământul de ape geotermale din județul Brăila</a>.</li>
+      <li>Toping Company SRL (2022) – <a href="https://primariaboranesti.ro/z_Informatii%20Publice/Transparenta/2023-2025/02.02.2024%20-%20Studiu%20de%20fundamentare%20pt.%20PUG%20si%20RLU%20-%20conditii%20geotehnice.pdf">Studiu de fundamentare PUG Boranești – condiții geotehnice</a>.</li>
+      <li>MDLPL – <a href="http://www.mdlpl.ro/_documente/constructii/reglementari_tehnice/normativ_fundare.pdf">NP 125 – Normativ privind fundarea construcțiilor pe PSU</a>.</li>
+      <li>Geostru – <a href="https://blog.geostru.eu/ro/np-074-2022-ghid-privind-proiectarea-geotehnica-evaluarea-riscului-geotehnic/">NP 074‑2022 – evaluarea riscului geotehnic</a>.</li>
+      <li>MDRAP – <a href="https://sere-natura.ro/wp-content/uploads/2023/02/cod-de-proiectare-seismic-indicativ-P100-1-2013.pdf">P100‑1/2013</a>; Encipedia – <a href="https://www.encipedia.org/articole/proiectare/resurse-utile/harti-de-zonare/harta-de-zonare-seismica-din-p100-1-2013.html">harta PGA</a>.</li>
+      <li>MDLPA (2024) – <a href="https://technical-regulation-information-system.ec.europa.eu/ro/notification/26527/text/D/RO">P100‑1/2025, redactarea a II‑a</a>.</li>
+      <li>Lungu D., Văcăreanu R., Aldea A., Arion C. – <a href="https://iisee.kenken.go.jp/en/uploads/bltndb/28_D._Lungu,_R._Vacareanu,_A._Aldea,_C._Arion_2013.pdf">Earthquake hazard and risk in Romania</a>.</li>
+      <li>Georgescu E.‑S., Pomonis A. (2012) – <a href="https://wcee.nicee.org/wcee/article/WCEE2012_2123.pdf">Vrancea earthquakes of 1940 and 1977</a>, 15WCEE.</li>
+      <li>Pavel F. (2018) – <a href="https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2018.00050/pdf">Frontiers in Built Environment 4:50</a>.</li>
+      <li>Pavel F., Vlăduț R. (2023) – <a href="https://www.mdpi.com/2412-3811/8/9/133">Liquefaction hazard for sites in Romania</a>, Infrastructures 8(9).</li>
+      <li>Agerpres (2025) – <a href="https://agerpres.ro/documentare/2025/11/10/fragment-de-istorie-cutremurul-devastator-din-10-noiembrie-1940--1501175">Cutremurul din 10 noiembrie 1940</a>.</li>
+      <li>Ciortan R. – <a href="https://www.buletinulagir.agir.ro/articol.php?id=2393">Fundarea pe loess a turbinelor din parcul eolian Fântânele</a>, Buletinul AGIR.</li>
+      <li>Impact Sănătate SRL (2025) – <a href="https://dspbr.ro/wp-content/uploads/2020/07/CONSTRUIRE-PARC-EOLIAN-TUDOR-VLADIMIRESCU-ETAPA-II-Braila-rezumat_17-07-2025.pdf">EIA Parc eolian Tudor Vladimirescu II</a>.</li>
+      <li>Dumitru M. et al. (2014) – <a href="https://www.revistaconstructiilor.eu/index.php/2014/05/07/imbunatatirea-caracteristicilor-geotehnice-ale-pamanturilor-sensibile-la-umezire-prin-compactare-dinamica-intensiva/">Îmbunătățirea PSU prin compactare dinamică intensivă</a>.</li>
+      <li>Nguyen C.D., Burlacu C., Boti I. (2019) – <a href="https://doaj.org/article/6cbb9178fbdf42779e6e9ac3a1f715b8">Loessoid soils improvement</a>, RJTI 8(1).</li>
+      <li>Groza‑Săcaciu Ș.‑M. et al. (2020) – <a href="https://www.mdpi.com/2409-9279/3/1/19/htm">Mircea Vodă loess‑paleosol master section</a>, Methods and Protocols 3(1).</li>
+      <li>Pötter S. et al. (2019) – <a href="https://crc806db.uni-koeln.de/publication/show/last-glacial-loess-records-from-the-lower-danube-basin--a-comparative-study-of-the-key-s1587290286/">Last glacial loess records from the Lower Danube Basin</a>.</li>
+      <li>Pötter S. et al. (2020) – <a href="https://meetingorganizer.copernicus.org/EGU2020/EGU2020-4723.html">Lower Danube loess</a>, EGU 2020.</li>
+      <li>Scheidt S. et al. (2021) – <a href="https://doi.org/10.3389/feart.2020.598448">Balta Alba Kurgan loess‑paleosol section</a>, Front. Earth Sci. 8.</li>
+      <li>Bösken J.J. (2020) – <a href="https://egqsj.copernicus.org/articles/69/89/2020/">Luminescence dating in the Danube catchment</a>, E&amp;G QSJ 69.</li>
+    </ol>
+    <div class="note">Surse identificate, dar neaccesibile la data cercetării (de consultat): PUG Însurăței – memoriu general și RLU; SF Berteștii de Jos, cap. 7 „Parametrii de proiectare”; PAAR ISU Brăila; Anexa A din P100‑1/2013 (valoarea a<sub>g</sub> pentru Însurăței).</div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">Capitol geologie · SC BBCGEOTECHNIC SRL · date geologice: IGR 1967 (foaia Brăila) · relief: Copernicus EU‑DEM 25 m · fundal hărți: OpenStreetMap. Valorile marcate „regional” provin din literatură și se verifică prin investigațiile proiectului.</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="geo3d.js"></script>
+<script>
+(async function(){
+  const [R,G,D] = await Promise.all(['geologie/relief.json','geologie/geologie_insuratei.geojson','data.json'].map(u=>fetch(u).then(r=>r.json())));
+  const INV = D.investigatii, PROJ = D.puncte_proiectate;
+  document.getElementById('n-exec').textContent = INV.length;
+  const COL = window.GEO_COL, UL = window.GEO_UNIT_LABEL, uk = window.geoUnitKey;
+  const DESC = {
+    'qh2|loess':'Câmpul loessoid al Câmpiei Brăilei: pietrișuri și nisipuri fluvio‑lacustre pleistocene acoperite de loess și depozite loessoide (5–10 m local), macroporice, sensibile la umezire. Nivel freatic 3–10 m în nisipurile de la baza loessului (ROIL07).',
+    'qp3-qh':'Marginea văii Călmățuiului: depozite deluvial‑proluviale (Pleistocen superior–Holocen) – nisipuri prăfoase, prafuri nisipoase, loess remaniat, spălat de pe versant; tranziție spre aluviunile luncii; nivel freatic apropiat (1–5 m), posibilă salinizare.',
+    'qp3/3':'Terasa Pleistocen superior de pe dreapta Călmățuiului: depozite deluvial‑proluviale (nisipuri, prafuri) cu nisipuri de dune la suprafață (ROIL09).',
+    'qh1':'Holocen inferior: depozite deluvial‑proluviale / terasă joasă (nisipuri, pietrișuri, argile) – nord‑estul extrasului, spre Viziru.',
+    'qh2|aluv':'Holocen superior: depozite aluvial‑proluviale ale văilor secundare (Valea Ianca) – nisipuri și argile.',
+    'qh2|mlas':'Holocen superior: depozite de mlaștină – mâluri, argile organice, nisipuri fine – în Balta Brăilei.',
+    'riu':'Albia Dunării.', 'lac':'Lacuri (Balta Brăilei, lacuri de crov).'
+  };
+  // ---- tabel unități ----
+  function pip(x,y,r){let i=false;for(let a=0,b=r.length-1;a<r.length;b=a++){const xi=r[a][0],yi=r[a][1],xj=r[b][0],yj=r[b][1];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)i=!i;}return i;}
+  function unitAt(lon,lat){for(const f of G.features){const ps=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates;for(const p of ps)if(pip(lon,lat,p[0])&&!p.slice(1).some(h=>pip(lon,lat,h)))return uk(f);}return 'none';}
+  const cnt={}, cex={};
+  for(const p of PROJ){const u=unitAt(p.lon,p.lat);cnt[u]=(cnt[u]||0)+1;}
+  for(const i of INV){if(i.lon){const u=unitAt(i.lon,i.lat);cex[u]=(cex[u]||0)+1;}}
+  const tb=document.querySelector('#t-units tbody');
+  const order=['qh2|loess','qp3-qh','qp3/3','qh1','qh2|aluv','qh2|mlas','riu','lac'];
+  for(const u of order){ if(!(u in cnt)&&!(u in cex)&&!G.features.some(f=>uk(f)===u))continue;
+    tb.insertAdjacentHTML('beforeend',`<tr><td><span style="display:inline-block;width:14px;height:11px;background:${COL[u]};border:1px solid #6b5a3a;margin-right:6px;vertical-align:-1px"></span><b>${UL[u].split(' – ')[0]}</b></td><td>${UL[u].split(' – ').slice(1).join(' – ')}</td><td class="n">${cnt[u]||0}</td><td class="n">${cex[u]||0}</td></tr>`);}
+  document.getElementById('st-pct').textContent = Math.round(100*(cnt['qh2|loess']||0)/PROJ.length)+' %';
+  // ---- 3D ----
+  const ubox=document.getElementById('ubox'); let lastU=null;
+  const api = window.initGeo3D(document.getElementById('g3'), R, G, INV, PROJ, {ve:18, tip:document.getElementById('tip3'), onUnit:u=>{ if(u===lastU)return; lastU=u; if(u==='none'){ubox.style.display='none';return;} ubox.style.display='block'; ubox.innerHTML=`<b>${UL[u]}</b>${DESC[u]||''}`; }});
+  document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('on',x===b));api.setMode(b.dataset.mode);});
+  document.getElementById('b-reset').onclick=()=>api.reset();
+  document.getElementById('c-inv').onchange=e=>api.toggle('inv',e.target.checked);
+  document.getElementById('c-walls').onchange=e=>api.toggle('walls',e.target.checked);
+  document.getElementById('c-lab').onchange=e=>api.toggle('labels',e.target.checked);
+  const rv=document.getElementById('r-ve'); rv.oninput=()=>{document.getElementById('ve-v').textContent='×'+rv.value;}; rv.onchange=()=>api.setVE(+rv.value);
+  const leg=document.getElementById('leg3'); let h='<h4>Unități geologice (click = evidențiere)</h4>';
+  for(const u of order){ if(!G.features.some(f=>uk(f)===u))continue; h+=`<div class="it" data-u="${u}"><span class="sw" style="background:${COL[u]}"></span>${UL[u]}</div>`; }
+  h+='<hr><div class="it"><span class="sw c" style="background:#0069B4"></span>foraj drum executat (Fr)</div><div class="it"><span class="sw sq" style="background:#F28C00"></span>dezvelire executată (D)</div><div class="it"><span class="sw c" style="background:#8a8a8a"></span>Fr / D proiectate</div><div class="it"><span class="sw c" style="background:#0A2F4F"></span>FT, Fp, CPTu, DH, Rt, Fb proiectate</div>';
+  leg.innerHTML=h; leg.querySelectorAll('[data-u]').forEach(el=>el.onclick=()=>api.flash(el.dataset.u));
+  // ---- 2D ----
+  const map=L.map('map2',{scrollWheelZoom:false}).setView([44.88,27.57],11);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+  const gl=L.geoJSON(G,{style:f=>({color:'#6b5a3a',weight:1,fillColor:COL[uk(f)],fillOpacity:.55}),onEachFeature:(f,l)=>{const u=uk(f);l.bindPopup(`<b style="font-family:var(--cond);font-size:15px;color:#0A2F4F">${UL[u]}</b><br><span style="font-size:12.5px">${DESC[u]||''}</span><br><span class="mono" style="font-size:11px;color:#7B8794">COD ${f.properties.COD} · ${f.properties.OBS} · ${Math.round(f.properties.HECTARES)} ha (poligon întreg)</span>`);l.on('mouseover',()=>l.setStyle({fillOpacity:.8}));l.on('mouseout',()=>l.setStyle({fillOpacity:.55}));}}).addTo(map);
+  const ex=new Set(INV.map(i=>i.id));
+  for(const p of PROJ){ if(ex.has(p.id))continue; const alt=!(p.id.startsWith('Fr')||p.id.startsWith('D')); L.circleMarker([p.lat,p.lon],{radius:alt?3:2.5,color:'#fff',weight:.8,fillColor:alt?'#0A2F4F':'#8a8a8a',fillOpacity:.9}).bindTooltip(p.id+' · '+(p.tip||'')).addTo(map); }
+  for(const i of INV){ if(!i.lon)continue; const fr=i.id.startsWith('Fr'); L.circleMarker([i.lat,i.lon],{radius:5.5,color:'#fff',weight:1,fillColor:fr?'#0069B4':'#F28C00',fillOpacity:1}).bindPopup(`<b style="font-family:var(--cond);font-size:16px;color:#0A2F4F">${i.id}</b><br>${i.data||''} · ${i.adancime||''}<br>${UL[unitAt(i.lon,i.lat)]}<br><a href="index.html#/i/${i.id}">Fișa investigației →</a>`).addTo(map); }
+  const lg=L.control({position:'bottomright'}); lg.onAdd=()=>{const d=L.DomUtil.create('div','legend2'); let s='';for(const u of order){if(!G.features.some(f=>uk(f)===u))continue;s+=`<i style="background:${COL[u]}"></i>${UL[u].split(' – ')[0]} – ${UL[u].split(' – ').slice(1).join(' – ').slice(0,42)}<br>`;} d.innerHTML=s; return d;}; lg.addTo(map);
+  map.fitBounds(gl.getBounds().pad(-0.35));
+})();
+</script>
+</body>
+</html>

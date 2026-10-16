@@ -12,7 +12,8 @@ Conține, pentru fiecare investigație:
 - probele netulburate (ștuțuri) consemnate în fișă;
 - condițiile meteo din ziua execuției (Open-Meteo, reanaliză ERA5);
 - hartă interactivă (OpenStreetMap / satelit Esri) cu toate punctele proiectate din KML;
-- calendar de execuție, centralizator tabelar și export CSV.
+- calendar de execuție, centralizator tabelar și export CSV;
+- capitol separat de geologie (`geologie.html`): hartă geologică 3D interactivă (Three.js, EU-DEM + unitățile hărții 1:200.000 foaia Brăila), hartă 2D (Leaflet), planșa QGIS, descriere geologică, hidrogeologie, seismicitate, bibliografie.
 
 ## Structura
 
@@ -22,6 +23,10 @@ data.json             datele structurate (generat)
 photos/<ID>/          poze optimizate (1200 px) + miniaturi t_*.jpg (generat)
 scripts/build_data.py generatorul de date
 scripts/meteo.json    răspunsul Open-Meteo pentru perioada de execuție
+geologie.html         capitolul de geologie (pagină separată)
+geo3d.js              blocul 3D geologic (Three.js)
+geologie/             geologie_insuratei.geojson (extras foaia Brăila), relief.json (EU-DEM 48×36),
+                      harta_geologica_insuratei.png/.jpg (planșa QGIS), cercetare_geologie_insuratei.md (raportul documentar)
 ```
 
 ## Regenerarea datelor
